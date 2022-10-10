@@ -1,0 +1,26 @@
+CONOPT 3.17A: workfactor=8
+outlev=2
+
+    The model has 249998 variables and 166665 constraints
+    with 916654 Jacobian elements, 666656 of which are nonlinear.
+    The Hessian of the Lagrangian has 249998 elements on the diagonal,
+    166664 elements below the diagonal, and 249998 nonlinear variables.
+
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  2
+                   Definitional equations:     1
+
+
+ ** Optimal solution. Reduced gradient less than tolerance.
+
+
+ CONOPT time Total                         2420.731 seconds
+   of which: Function evaluations            24.770 =  1.0%
+             1st Derivative evaluations    1985.817 = 82.0%
+             2nd Derivative evaluations       0.673 =  0.0%
+             Directional 2nd Derivative       1.591 =  0.1%
+
+CONOPT 3.17A: Locally optimal; objective 2009215.589
+63 iterations; evals: nf = 165, ng = 118, nc = 1153, nJ = 121, nH = 12, nHv = 130
+2422.52user 0.15system 40:21.94elapsed 100%CPU (0avgtext+0avgdata 579164maxresident)k
+8inputs+65456outputs (0major+132049minor)pagefaults 0swaps

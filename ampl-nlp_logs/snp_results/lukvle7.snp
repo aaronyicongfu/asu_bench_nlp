@@ -1,0 +1,263 @@
+SNOPT 7.7.0 : superbasics_limit=2500
+meminc=24000000
+outlev=3
+1
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+1
+ 
+ Parameters
+ ==========
+
+ Files
+ -----
+ Solution file..........         0       Old basis file ........         0       Standard input.........         5
+ Insert file............         0       New basis file ........         0       (Printer)..............         6
+ Punch file.............         0       Backup basis file......         0       (Specs file)...........         0
+ Load file..............         0       Dump file..............         0       Standard output........         6
+
+ Frequencies
+ -----------
+ Print frequency........       100       Check frequency........        60       Save new basis map.....       100
+ Summary frequency......       100       Factorization frequency        50       Expand frequency.......     10000
+
+ QP subproblems
+ --------------
+ QPsolver Cholesky......
+ Scale tolerance........     0.900       Minor feasibility tol..  1.00E-06       Iteration limit........  99999999
+ Scale option...........         1       Minor optimality  tol..  1.00E-06       Minor print level......         1
+ Crash tolerance........     0.100       Pivot tolerance........  3.25E-11       New superbasics........        99
+ Crash option...........         3       Elastic weight.........  1.00E+05
+
+ Partial pricing
+ ---------------
+ LP Partial price.......         1       Prtl price section ( A)    250000       Prtl price section (-I)         5
+ QP Partial price.......         1       Prtl price section ( A)    250000       Prtl price section (-I)         5
+
+ Conjugate-gradient QP solver
+ ----------------------------
+ Subspace tolerance.....   0.10000       CG tolerance...........  1.00E-02       CG Iterations..........       100
+                                                                                 CG preconditioning.....         0
+
+ The SQP Method
+ --------------
+ Minimize...............                 Cold start.............                 Proximal Point method..         1
+ Nonlinear objectiv vars    250000       Major optimality tol...  2.00E-06       Function precision.....  3.00E-13
+ Unbounded step size....  Infinity       Superbasics limit......      2500       Difference interval....  5.48E-07
+ Unbounded objective....  1.00E+10       Reduced Hessian dim....      2000       Central difference int.  6.70E-05
+ Major step limit.......  2.00E+00       Derivative linesearch..                 Derivative level.......         3
+ Major iterations limit.    750000       Linesearch tolerance...   0.90000       Verify level...........         0
+ Minor iterations limit.       500       Penalty parameter......  0.00E+00       Major Print Level......         1
+ Time limit (secs)...... 9999999.0
+
+ Hessian Approximation
+ ---------------------
+ Hessian limited-memory.                 Hessian updates........        10       Hessian frequency......  99999999
+                                                                                 Hessian flush..........  99999999
+
+ Nonlinear constraints
+ ---------------------
+ Nonlinear constraints..         4       Major feasibility tol..  1.00E-06       Violation limit........  1.00E+01
+ Nonlinear Jacobian vars         7
+
+ Miscellaneous
+ -------------
+ LU factor tolerance....      3.99       LU singularity tol.....  3.25E-11       Timing level...........         3
+ LU update tolerance....      3.99       LU swap tolerance......  1.22E-04       Debug level............         0
+ LU partial  pivoting...                 eps (machine precision)  2.22E-16       System information.....        No
+                                                                                 Sticky parameters......       Yes
+1
+ 
+
+ 
+
+ Matrix statistics
+ -----------------
+               Total      Normal        Free       Fixed     Bounded
+ Rows              5           0           1           4           0
+ Columns      250000           0      250000           0           0
+
+ No. of matrix elements               250014     Density      20.001
+ Biggest  constant element        0.0000E+00  (excluding fixed columns,
+ Smallest constant element        0.0000E+00   free rows, and RHS)
+
+ No. of objective coefficients             0
+
+ Nonlinear constraints       4     Linear constraints       1
+ Nonlinear variables    250000     Linear variables         0
+ Jacobian  variables         7     Objective variables 250000
+ Total constraints           5     Total variables     250000
+1
+ 
+
+ 
+ The user has defined      13   out of      13   constraint gradients.
+ The user has defined  250000   out of  250000   objective  gradients.
+
+ Cheap test of user-supplied problem derivatives...
+
+ The constraint gradients seem to be OK.
+
+ -->  The largest discrepancy was    7.23E-11  in constraint250004
+ 
+
+ The objective  gradients seem to be OK.
+
+ Gradient projected in one direction   2.66605708415E-01
+ Difference approximation              2.67069915731E-01
+1
+ 
+
+    Itn     QP mult  QP step   rgNorm          NonOpt   QP Objective   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+    100     2.1E+05  1.0E+00  1.1E-08                 -7.7082816E+09 249903                              8        99 3.9E+01
+ 
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS condZHZ Penalty
+    100     0    100              1 (8.9E-16) 4.8E-03  1.4365821E+10       8           99 3.9E+01         _  r  T
+
+    Itn     QP mult  QP step   rgNorm          NonOpt   QP Objective   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+    200     2.1E+05  1.0E+00  7.3E-12                 -8.4254004E+09 249804                              8       198 1.8E+01
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS condZHZ Penalty
+    200     1    100 3.9E-04      2  9.8E-01  4.0E-03  1.4354720E+10       8          198 1.8E+01         _  rl T
+
+    Itn     QP mult  QP step   rgNorm          NonOpt   QP Objective   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+    300     2.1E+05  1.0E+00  1.5E-11          249701  1.4332753E+10 249706                              8       296 1.5E+01
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS condZHZ Penalty
+    301     2    101 4.8E-04      3  1.0E+00  4.0E-03  1.4342998E+10       8          297 1.5E+01         _s  l T
+
+    Itn     QP mult  QP step   rgNorm          NonOpt   QP Objective   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+    401     2.1E+05  1.0E+00  0.0E+00                  1.4321292E+10 249606                              8       396 1.4E+00
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS condZHZ Penalty
+    401     3    100 1.0E+00      4  9.9E-02  4.0E-03  1.4331609E+10       8     1    396 1.4E+00         _     T
+
+    Itn     QP mult  QP step   rgNorm          NonOpt   QP Objective   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+    501     2.1E+05  1.0E+00  2.9E-11                  1.4309938E+10 249507                              8       495 1.4E+00
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS condZHZ Penalty
+    501     4    100 1.0E+00      5  2.2E-03  4.0E-03  1.4320247E+10       8          495 1.4E+00         _     T
+
+    Itn     QP mult  QP step   rgNorm          NonOpt   QP Objective   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+    601     2.1E+05  1.0E+00  2.9E-11                  1.4298589E+10 249408                              8       594 1.4E+00
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS condZHZ Penalty
+    601     5    100 1.0E+00      6  7.2E-06  4.0E-03  1.4308890E+10       8          594 1.4E+00         _     T
+
+    Itn     QP mult  QP step   rgNorm          NonOpt   QP Objective   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+    701     2.1E+05  1.0E+00  0.0E+00                  1.4287244E+10 249309                              8       693 1.4E+00
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS condZHZ Penalty
+    701     6    100 1.0E+00      7 (6.1E-07) 4.0E-03  1.4297537E+10       8          693 1.4E+00         _     T
+
+    Itn     QP mult  QP step   rgNorm          NonOpt   QP Objective   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+    801     2.1E+05  1.0E+00  0.0E+00                  1.4275904E+10 249210                              8       792 1.4E+00
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS condZHZ Penalty
+    801     7    100 1.0E+00      8 (6.1E-08) 4.0E-03  1.4286189E+10       8          792 1.4E+00         _     T
+
+    Itn     QP mult  QP step   rgNorm          NonOpt   QP Objective   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+    901     2.1E+05  1.0E+00  0.0E+00                  1.4264569E+10 249111                              8       891 1.4E+00
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS condZHZ Penalty
+    901     8    100 1.0E+00      9 (6.3E-09) 4.0E-03  1.4274845E+10       8          891 1.4E+00         _     T
+
+    Itn     QP mult  QP step   rgNorm          NonOpt   QP Objective   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+   1001     2.1E+05  1.0E+00  0.0E+00                  1.4253237E+10 249012                              8       990 1.4E+00
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS condZHZ Penalty
+   1001     9    100 1.0E+00     10 (6.6E-10) 4.0E-03  1.4263506E+10       8          990 1.4E+00         _     T
+
+    Itn     QP mult  QP step   rgNorm          NonOpt   QP Objective   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+   1101     2.1E+05  1.0E+00  0.0E+00                  1.4241911E+10 248913                              8      1089 1.4E+00
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS condZHZ Penalty
+   1101    10    100 1.0E+00     11 (6.9E-11) 4.0E-03  1.4252171E+10       8         1089 1.4E+00         _     T
+
+    Itn     QP mult  QP step   rgNorm          NonOpt   QP Objective   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+   1201     2.1E+05  1.0E+00  0.0E+00                  1.4230589E+10 248814                              8      1188 1.4E+00
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS condZHZ Penalty
+   1201    11    100 1.0E+00     12 (7.4E-12) 4.0E-03  1.4240841E+10       8         1188 1.4E+00         _     T
+
+    Itn     QP mult  QP step   rgNorm          NonOpt   QP Objective   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+   1301     2.1E+05  1.0E+00  0.0E+00                  1.4219271E+10 248715                              8      1287 4.8E+00
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS condZHZ Penalty
+   1301    12    100 1.0E+00     13 (8.0E-13) 4.0E-03  1.4229515E+10       8     1   1287 4.8E+00         _  R  T
+
+    Itn     QP mult  QP step   rgNorm          NonOpt   QP Objective   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+   1401     2.1E+05  1.0E+00  2.9E-11                  1.4207816E+10 248616                              8      1386 4.8E+00
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS condZHZ Penalty
+   1401    13    100 1.0E+00     14 (8.1E-14) 4.0E-03  1.4218194E+10       8         1386 4.8E+00         _s    T
+
+    Itn     QP mult  QP step   rgNorm          NonOpt   QP Objective   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+   1501     2.1E+05  1.0E+00  1.5E-11                  1.4196508E+10 248517                              8      1485 4.8E+00
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS condZHZ Penalty
+   1501    14    100 1.0E+00     15 (8.8E-14) 4.0E-03  1.4206876E+10       8         1485 4.8E+00         _     T
+
+    Itn     QP mult  QP step   rgNorm          NonOpt   QP Objective   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+   1601     2.1E+05  1.0E+00  2.9E-11                  1.4185204E+10 248418                              8      1584 4.8E+00
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS condZHZ Penalty
+   1601    15    100 1.0E+00     16 (8.8E-14) 4.0E-03  1.4195563E+10       8         1584 4.8E+00         _     T
+
+    Itn     QP mult  QP step   rgNorm          NonOpt   QP Objective   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+   1701     2.1E+05  1.0E+00  1.5E-11                  1.4173904E+10 248319                              8      1683 4.8E+00
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS condZHZ Penalty
+   1701    16    100 1.0E+00     17 (8.8E-14) 4.0E-03  1.4184256E+10       8         1683 4.8E+00         _     T
+
+    Itn     QP mult  QP step   rgNorm          NonOpt   QP Objective   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+   1801     2.1E+05  1.0E+00  3.2E-27                  1.4162609E+10 248220                              8      1782 4.8E+00
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS condZHZ Penalty
+   1801    17    100 1.0E+00     18 (8.8E-14) 4.0E-03  1.4172952E+10       8         1782 4.8E+00         _     T
+
+    Itn     QP mult  QP step   rgNorm          NonOpt   QP Objective   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+   1901     2.1E+05  1.0E+00  1.5E-11                  1.4151319E+10 248121                              8      1881 4.8E+00
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS condZHZ Penalty
+   1901    18    100 1.0E+00     19 (8.8E-14) 4.0E-03  1.4161653E+10       8         1881 4.8E+00         _     T
+
+    Itn     QP mult  QP step   rgNorm          NonOpt   QP Objective   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+   2001     2.1E+05  1.0E+00  1.5E-11                  1.4140033E+10 248022                              8      1980 4.8E+00
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS condZHZ Penalty
+   2001    19    100 1.0E+00     20 (8.8E-14) 4.0E-03  1.4150359E+10       8         1980 4.8E+00         _     T
+
+    Itn     QP mult  QP step   rgNorm          NonOpt   QP Objective   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ cgItns
+   2101     2.1E+05  4.8E-06  0.0E+00          247918  1.4128751E+10 247923                              8      2079 1.0E+00
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS condZHZ Penalty
+   2121    20    120 1.0E+00     21 (8.7E-14) 4.0E-03  1.4139069E+10       8         2099                 _     T
+
+    Itn     QP mult  QP step   rgNorm          NonOpt   QP Objective   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ cgItns
+   2221     2.1E+05  4.8E-06  2.9E-11                  1.4115197E+10 247804                              8      2198 1.0E+00
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS condZHZ Penalty
+   2221    21    100 1.0E+00     22 (8.7E-14) 4.0E-03  1.4125505E+10       8         2198                 _     T
+
+    Itn     QP mult  QP step   rgNorm          NonOpt   QP Objective   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ cgItns
+   2321     2.1E+05  4.8E-06  2.9E-11                  1.4103925E+10 247705                              8      2297 1.0E+00
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS condZHZ Penalty
+   2321    22    100 1.0E+00     23 (1.5E-13) 4.0E-03  1.4114225E+10       8     1   2297                 _     T
+
+    Itn     QP mult  QP step   rgNorm          NonOpt   QP Objective   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ cgItns
+   2421     2.1E+05  4.8E-06  0.0E+00                  1.4092658E+10 247606                              8      2396 1.0E+00
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS condZHZ Penalty
+   2421    23    100 1.0E+00     24 (8.3E-13) 4.0E-03  1.4102950E+10       8         2396                 _  R  T
+
+    Itn     QP mult  QP step   rgNorm          NonOpt   QP Objective   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ cgItns
+   2521     2.1E+05  4.8E-06  2.9E-11                  1.4081367E+10 247507                              8      2495 1.0E+00
+error running snopt:
+	termination code 9
+<BREAK>
+7200.83user 0.17system 2:00:00elapsed 100%CPU (0avgtext+0avgdata 327144maxresident)k
+8inputs+43144outputs (0major+121217minor)pagefaults 0swaps

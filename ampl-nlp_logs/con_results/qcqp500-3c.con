@@ -1,0 +1,37 @@
+workfactor=8
+outlev=2
+
+    The model has 500 variables and 121 constraints
+    with 6185 Jacobian elements, 5500 of which are nonlinear.
+    The Hessian of the Lagrangian has 500 elements on the diagonal,
+    124586 elements below the diagonal, and 500 nonlinear variables.
+
+ ** Warning **  The number of nonlinear derivatives equal to zero
+                in the initial point is large (= 79 percent).
+                A better initial point will probably help the
+                optimization.
+
+
+ ** Warning **  The variance of the derivatives in the initial
+                point is large (= 6.3 ). A better initial
+                point, a better scaling, or better bounds on the
+                variables will probably help the optimization.
+
+
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  1
+
+
+ ** Optimal solution. Reduced gradient less than tolerance.
+
+CONOPT 3.17A: Locally optimal; objective -11733616.614435332
+117 iterations; evals: nf = 190, ng = 122, nc = 1698, nJ = 147, nH = 21, nHv = 73
+
+ CONOPT time Total                          625.891 seconds
+   of which: Function evaluations           568.143 = 90.8%
+             1st Derivative evaluations      28.294 =  4.5%
+             2nd Derivative evaluations      23.613 =  3.8%
+             Directional 2nd Derivative       5.178 =  0.8%
+
+629.77user 0.40system 10:30.41elapsed 99%CPU (0avgtext+0avgdata 1547308maxresident)k
+195328inputs+16outputs (0major+362690minor)pagefaults 0swaps

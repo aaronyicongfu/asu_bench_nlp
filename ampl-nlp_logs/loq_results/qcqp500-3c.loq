@@ -1,0 +1,49 @@
+timing=1
+outlev=2
+variables: non-neg      0,  free      500,  bdd          0,  total      500
+constraints: eq        10,  ineq      110,  ranged       0,  total      120
+nonzeros:    A       5685,  Q      249672
+-----------------------------------------------------------------------------
+     |         Primal          |           Dual          | Sig               
+Iter |  Obj Value     Infeas   |   Obj Value     Infeas  | Fig  Status  P   M
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  1    0.000000e+00   7.5e-06    -3.783672e+06   1.5e-01                   
+nonzeros:    L     130435,  arith_ops           44438566
+  2   -3.009953e+06   7.4e-06    -6.318077e+06   1.5e-01                   
+  3   -3.023152e+06   7.4e-06    -6.330840e+06   1.5e-01                   
+  4   -3.040878e+06   7.4e-06    -6.347951e+06   1.5e-01                   
+  5   -3.115419e+06   7.4e-06    -6.419688e+06   1.5e-01                   
+  6   -3.311349e+06   7.4e-06    -6.607159e+06   1.5e-01                   
+  7   -3.887442e+06   7.4e-06    -7.152525e+06   1.5e-01                   
+  8   -5.313648e+06   7.2e-06    -8.474627e+06   1.4e-01                   
+  9   -9.498311e+06   6.2e-06    -1.197506e+07   1.2e-01    1              
+ 10   -1.173219e+07   1.9e-02    -1.362240e+07   9.3e-02    1              
+ 11   -1.276490e+07   6.1e-02    -1.440238e+07   6.3e-02    1              
+ 12   -1.254193e+07   4.1e-02    -1.378715e+07   3.9e-02    1              
+ 13   -1.207227e+07   1.8e-02    -1.269891e+07   1.5e-02    1              
+ 14   -1.184170e+07   6.6e-03    -1.208949e+07   5.2e-03    2              
+ 15   -1.174111e+07   1.0e-03    -1.178716e+07   8.0e-04    2              
+ 16   -1.173360e+07   2.0e-04    -1.174134e+07   1.1e-04    3              
+ 17   -1.173354e+07   2.2e-05    -1.173439e+07   1.0e-05    4              
+ 18   -1.173361e+07   1.5e-06    -1.173367e+07   5.5e-07    5      DF      
+ 19   -1.173362e+07   9.0e-08    -1.173362e+07   2.9e-08    7   PF DF      
+----------------------
+OPTIMAL SOLUTION FOUND
+LOQO 7.03: optimal solution (19 iterations, 19 evaluations)
+primal objective -11733616.470827159
+  dual objective -11733619.786685415
+
+Times (seconds):
+Input =  9.33965
+Solve =  36.6679
+Output = 1.7e-05
+
+nn nonlinear evaluations = t seconds:
+	  19   functions = 3.51095
+	  19   gradients = 0.014319
+	  19 constraints = 0.385918
+	  37   Jacobians = 3.68822
+	  19    Hessians = 20.7298
+Total nonlinear evaluation seconds = 28.3293
+45.57user 0.48system 0:46.11elapsed 99%CPU (0avgtext+0avgdata 1546600maxresident)k
+195328inputs+16outputs (0major+362439minor)pagefaults 0swaps

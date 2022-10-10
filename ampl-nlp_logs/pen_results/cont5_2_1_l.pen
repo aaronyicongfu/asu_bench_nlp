@@ -1,0 +1,80 @@
+PENNON 0.9: outlev=2
+
+Number of Variables                     90600
+   - bounded above                      90600
+   - bounded below                      90600
+   - free                                   0
+Number of Matrix variables                  0
+   - degrees of freedom                     0
+   - bounded below                          0
+   - bounded above                          0
+Number of Nonlinear Equalities              0
+Number of Nonlinear Inequalities            0
+Number of Linear Equalities             90300
+Number of Linear Inequalities               0
+
+********************************************* 
+PENNON 0.9
+---------------------------------------------
+*********************************************
+
+Max./Min. Box-Mult.: 0.000100 / 0.000100
+Max./Min. Lin-Mult.: 0.000000 / 0.000000
+*******************************************************************************
+* it |     obj      | (U,G(x)) |  ||dF||  |   feas   |   pmin   | Nwt  | Fact |
+*******************************************************************************
+|   0|  6.33833e-02 |  5.3e+02 |  3.1e-02 |  1.9e+00 |  1.0e+00 |    0 |    0 |
+Warning: precision of KKT-system:       6.949909069700E-04
+Warning: precision of KKT-system:       3.003659428601E+01
+|   1|  4.51763e-03 |  8.4e-03 |  3.2e-03 |  8.7e+00 |  1.0e+00 |    4 |   13 |
+|   2|  1.39446e-03 |  2.3e-03 |  2.9e-03 |  1.4e+00 |  2.0e-01 |    1 |    1 |
+|   3|  7.22195e-04 |  3.2e-04 |  1.9e-03 |  7.0e-01 |  4.0e-02 |    1 |    1 |
+|   4|  6.94572e-04 |  9.2e-06 |  1.4e-04 |  7.3e-02 |  8.0e-03 |    3 |    4 |
+|   5|  6.67206e-04 |  2.3e-06 |  4.3e-04 |  2.4e-02 |  1.6e-03 |    2 |    2 |
+|   6|  6.55135e-04 |  2.4e-07 |  9.1e-05 |  4.8e-03 |  3.2e-04 |    2 |    2 |
+Warning: precision of KKT-system:       8.229091989578E+10
+|   7|  6.53755e-04 |  1.4e-09 |  1.5e-05 |  9.5e-07 |  6.4e-05 |    3 |    3 |
+|   8|  6.53565e-04 |  2.7e-10 |  1.9e-06 |  2.7e-07 |  1.3e-05 |    2 |    2 |
+|   9|  6.53560e-04 |  5.6e-11 |  6.7e-06 |  4.4e-06 |  2.6e-06 |    2 |    2 |
+|  10|  6.53560e-04 |  1.1e-11 |  3.1e-07 |  5.4e-10 |  5.1e-07 |    2 |    2 |
+*******************************************************************************
+Objective                         6.5356005471904741e-04
+Relative Precision                9.0816183639236270E-08
+Gradient Augm. Lagrangian         3.1324028724707337E-07
+Complementary Slackness           1.1234089245582592E-11
+Feasibility                       5.4042259556297267E-10
+Outer Iterations                                      10
+Inner Iterations                                      22
+Linesearch steps                                      37
+Start time                      Fri Nov 16 17:10:12 2012
+End time                        Fri Nov 16 17:13:25 2012
+Process time                           0 h  3 min 13 sec
+Unconstrained minimization                   192.096 sec
+      - feval                               0.760047 sec
+      - feval (sparse chol)                        0 sec
+      - geval                               0.352019 sec
+      - heval                               0.396026 sec
+      - heval (sparse chol)                        0 sec
+      - dense chol                                 0 sec
+      - sparse chol                          190.568 sec
+      - eigenvalue                                 0 sec
+Multiplier update                           0.016002 sec
+Penalty update                                 0.008 sec
+Feasibility check                                  0 sec
+      - dense chol                                 0 sec
+      - sparse chol                                0 sec
+CG                                                 0 sec
+CG (prec)                                          0 sec
+CG (H*v)                                           0 sec
+*******************************************************************************
+
+PENNON VERSION 0.9 (November, 2007), ASL(20090429):
+converged: optimal solution, 10/22 iterations.
+primal objective 0.0006535600547
+
+"option abs_boundtol 1.8764212711136405e-10;"
+or "option rel_boundtol 1.2861723908130784e-09;"
+will change deduced dual values.
+
+192.66user 0.21system 3:13.47elapsed 99%CPU (0avgtext+0avgdata 2490400maxresident)k
+0inputs+23856outputs (0major+194627minor)pagefaults 0swaps

@@ -1,0 +1,47 @@
+timing=1
+outlev=2
+variables: non-neg      0,  free     1000,  bdd          0,  total     1000
+constraints: eq       100,  ineq       54,  ranged       0,  total      154
+nonzeros:    A       5588,  Q      193456
+-----------------------------------------------------------------------------
+     |         Primal          |           Dual          | Sig               
+Iter |  Obj Value     Infeas   |   Obj Value     Infeas  | Fig  Status  P   M
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  1    0.000000e+00   7.4e-05    -3.359950e+05   1.5e-01                   
+nonzeros:    L     505088,  arith_ops          338368174
+  2   -1.360878e+05   7.5e-05    -4.620113e+05   1.5e-01                   
+  3   -1.730064e+05   7.5e-05    -4.962820e+05   1.5e-01                   
+  4   -2.176232e+05   7.5e-05    -5.374399e+05   1.5e-01                   
+  5   -3.899602e+05   7.2e-05    -6.933709e+05   1.4e-01                   
+  6   -7.010675e+05   6.4e-05    -9.621025e+05   1.3e-01                   
+  7   -1.042382e+06   5.4e-05    -1.218394e+06   1.1e-01    1              
+  8   -1.184309e+06   8.4e-02    -1.346785e+06   7.0e-02    1              
+  9   -1.176600e+06   5.9e-02    -1.298788e+06   4.5e-02    1              
+ 10   -1.159457e+06   3.9e-02    -1.249507e+06   3.0e-02    1              
+ 11   -1.149619e+06   2.2e-02    -1.204933e+06   1.7e-02    1              
+ 12   -1.140787e+06   5.2e-03    -1.157397e+06   3.8e-03    2              
+ 13   -1.142093e+06   1.4e-03    -1.147305e+06   9.8e-04    2              
+ 14   -1.143275e+06   2.0e-04    -1.144081e+06   1.1e-04    3              
+ 15   -1.143558e+06   1.6e-05    -1.143625e+06   7.9e-06    4              
+ 16   -1.143583e+06   9.2e-07    -1.143587e+06   4.3e-07    5   PF DF      
+ 17   -1.143584e+06   5.9e-08    -1.143585e+06   2.3e-08    7   PF DF      
+----------------------
+OPTIMAL SOLUTION FOUND
+LOQO 7.03: optimal solution (17 iterations, 17 evaluations)
+primal objective -1143584.4596191014
+  dual objective -1143584.748781548
+
+Times (seconds):
+Input =  0.91135
+Solve =  4.39156
+Output = 1.6e-05
+
+nn nonlinear evaluations = t seconds:
+	  17   functions = 0.345048
+	  17   gradients = 0.106835
+	  17 constraints = 0.026815
+	  33   Jacobians = 0.240289
+	  17    Hessians = 1.81735
+Total nonlinear evaluation seconds = 2.53633
+5.26user 0.04system 0:05.32elapsed 99%CPU (0avgtext+0avgdata 177216maxresident)k
+18616inputs+8outputs (0major+44686minor)pagefaults 0swaps

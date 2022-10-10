@@ -1,0 +1,120 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       8     Linear constraints   10501
+ Nonlinear variables      1500     Linear variables         0
+ Jacobian  variables      1500     Objective variables   1500
+ Total constraints       10509     Total variables       1500
+ 
+
+        Minor NumInf  FP mult  FP Step                  SumInf
+          100    400 -1.0E+01  2.0E-01           1.6213724E+03
+          200    300  7.2E+00  2.3E-01           1.2401093E+03
+          300    200  2.0E+01  1.1E-01           8.7924723E+02
+          400    100 -5.1E+00  1.3E+00           4.7618384E+02
+
+        Minor NumInf  FP mult  FP Step                  SumInf
+          500   5023                             1.7456435E+05
+          600   4937  2.7E+04  9.1E-03           1.4462794E+05
+          700   4877  1.6E+04  1.1E-03           1.2515443E+05
+          800   4800 -1.4E+04  2.4E-02           1.0953311E+05
+          900   4737  1.6E+04  1.6E-03           1.0003880E+05
+         1000   4676  1.7E+04  4.0E-03           9.1304325E+04
+         1100   4610  3.5E+04  2.2E-03           8.1882127E+04
+         1200   4539  2.5E+04  2.7E-03           7.0379041E+04
+         1300   4487 -9.6E+03  9.0E-03           6.1083444E+04
+         1400   4434 -1.1E+04  3.8E-03           5.0008912E+04
+
+                                Current    Recommended
+ Total integer workspace        2899493        4432253
+ Total real    workspace        2810671        3577051
+ 
+ SNOPTB EXIT  80 -- insufficient storage allocated
+ SNOPTB INFO  84 -- not enough real storage
+
+ Problem name                 qcqp1500
+ No. of infeasibilities           4405   Sum of infeas        3.8335387613E+04
+ No. of iterations                1480
+ Max x                     516 2.6E+01   Max pi                   8096 7.0E+04
+ Max Primal infeas        7111 1.1E+02   Max Dual infeas          9596 7.0E+04
+
+ Solution not printed
+ 
+ Time for MPS input                             0.00 seconds
+ Time for solving problem                       9.38 seconds
+ Time for solution output                       0.00 seconds
+ Time for constraint functions                  0.00 seconds
+ Time for objective function                    0.00 seconds
+ 
+
+ Nonlinear constraints       8     Linear constraints   10501
+ Nonlinear variables      1500     Linear variables         0
+ Jacobian  variables      1500     Objective variables   1500
+ Total constraints       10509     Total variables       1500
+ 
+
+        Minor NumInf  FP mult  FP Step                  SumInf
+          100   4971  7.2E+04  4.2E-01           2.1981447E+06
+          200   4893  3.6E+04  5.0E-02           1.8330153E+06
+          300   4828 -1.0E+05  2.7E-02           1.5514632E+06
+          400   4758  1.9E+05  4.8E-03           1.2434896E+06
+          500   4690 -1.2E+05  2.3E-02           1.0589316E+06
+          600   4645  9.1E+04  3.1E-02           8.7149198E+05
+          700   4600  5.9E+04  8.7E-03           7.4235219E+05
+          800   4550 -1.1E+05  3.0E-03           5.6669963E+05
+          900   4491  1.5E+05  1.2E-02           3.6871408E+05
+         1000   4435  1.5E+05  9.6E-09           2.2737827E+05
+
+        Minor NumInf  FP mult  FP Step                  SumInf
+         1100   4394  6.1E+05  9.7E-11           3.5026711E+04
+
+        Minor NumInf  FP mult  FP Step                  SumInf
+         1200   1500  1.4E+01  1.2E-11           1.5972615E+03
+         1300   1500  7.4E+00  2.3E-11           1.5972615E+03
+
+ 
+ The user has defined   12000   out of   12000   constraint gradients.
+ The user has defined    1500   out of    1500   objective  gradients.
+ 
+
+                                Current    Recommended
+ Total integer workspace        2899493        4442627
+ Total real    workspace        2810671        3582238
+ 
+ SNOPTB EXIT  80 -- insufficient storage allocated
+ SNOPTB INFO  84 -- not enough real storage
+
+ Problem name                 qcqp1500
+ No. of iterations                1365   Objective            3.8829795021E+06
+ No. of major iterations             0   Linear    obj. term  0.0000000000E+00
+
+ lu1fac  error...  insufficient storage
+
+ Increase  lena  from   1339160  to at least   2105540
+
+ lu1fac  error...  insufficient storage
+
+ Increase  lena  from   1339160  to at least   2110727
+ Penalty parameter           0.000E+00   Nonlinear obj. term  3.8829795021E+06
+ No. of calls to funobj              2   No. of calls to funcon              2
+ No. of degenerate steps           160   Percentage                      11.72
+ Max x                     173 3.3E+00   Max pi                    308 1.2E+01
+ Max Primal infeas           0 0.0E+00   Max Dual infeas          1469 2.3E+04
+ Nonlinear constraint violn    0.0E+00
+
+ Solution not printed
+ 
+ Time for MPS input                             0.00 seconds
+ Time for solving problem                      17.19 seconds
+ Time for solution output                       0.00 seconds
+ Time for constraint functions                  0.12 seconds
+ Time for objective function                    0.00 seconds
+SNOPT 7.7.0 : Not enough real storage.
+1365 iterations
+Nonlin evals: obj = 2, grad = 1, constrs = 2, Jac = 1.
+Assumed meminc = 1006550.
+27.09user 0.13system 0:27.22elapsed 100%CPU (0avgtext+0avgdata 440820maxresident)k
+0inputs+16outputs (0major+101631minor)pagefaults 0swaps

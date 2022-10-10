@@ -1,0 +1,5 @@
+linear_solver=ma57
+timeout: the monitored command dumped core
+Command terminated by signal 11
+9.95user 1.43system 0:10.96elapsed 103%CPU (0avgtext+0avgdata 4573380maxresident)k
+0inputs+8outputs (0major+1141877minor)pagefaults 0swaps

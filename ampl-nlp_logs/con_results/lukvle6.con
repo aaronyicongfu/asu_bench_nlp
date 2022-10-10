@@ -1,0 +1,20 @@
+CONOPT 3.17A: workfactor=8
+outlev=2
+
+ ** An initial function value is too large (larger than 1.0E+10).
+    Scale the variables and/or equations or add bounds.
+
+    The allowable range can be changed with option:
+
+    Rtmaxv=x.xxe+xx
+
+objective _sobj[1]: Initial function value too large = 7.8E+10
+
+ CONOPT time Total                            0.265 seconds
+   of which: Function evaluations             0.168 = 63.4%
+             1st Derivative evaluations       0.000 =  0.0%
+
+CONOPT 3.17A: Evaluation error limit; objective 0
+0 iterations; evals: nf = 1, ng = 0, nc = 1, nJ = 0, nH = 0, nHv = 0
+4.60user 0.72system 0:05.33elapsed 99%CPU (0avgtext+0avgdata 1688244maxresident)k
+8inputs+166520outputs (0major+669571minor)pagefaults 0swaps

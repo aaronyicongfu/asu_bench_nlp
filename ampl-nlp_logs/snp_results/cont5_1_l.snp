@@ -1,0 +1,8 @@
+SNOPT 7.7.0 : superbasics_limit=2500
+meminc=24000000
+outlev=2
+error running snopt:
+	termination code 9
+<BREAK>
+7199.80user 0.28system 2:00:00elapsed 99%CPU (0avgtext+0avgdata 534360maxresident)k
+8inputs+21040outputs (0major+159579minor)pagefaults 0swaps

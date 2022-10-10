@@ -1,0 +1,69 @@
+PENNON 0.9: outlev=2
+
+Number of Variables                     16001
+   - bounded above                          0
+   - bounded below                          3
+   - free                               15998
+Number of Matrix variables                  0
+   - degrees of freedom                     0
+   - bounded below                          0
+   - bounded above                          0
+Number of Nonlinear Equalities          12800
+Number of Nonlinear Inequalities            0
+Number of Linear Equalities              3198
+Number of Linear Inequalities               0
+
+********************************************* 
+PENNON 0.9
+---------------------------------------------
+*********************************************
+
+Max./Min. Box-Mult.: 0.000100 / 0.000100
+Max./Min. Lin-Mult.: 0.000000 / 0.000000
+Max./Min. Nl -Mult.: 0.000000 / 0.000000
+
+*******************************************************************************
+* it |     obj      | (U,G(x)) |  ||dF||  |   feas   |   pmin   | Nwt  | Fact |
+*******************************************************************************
+|   0|  0.00000e+00 |  1.1e-01 |  1.7e-04 |  1.9e-01 |  1.0e+00 |    0 |    0 |
+|   1|  5.23669e-03 |  2.5e-05 |  2.7e-09 |  1.4e-07 |  1.0e+00 |   65 |   65 |
+|   2|  5.23666e-03 |  2.5e-06 |  1.7e-05 |  1.3e-07 |  2.0e-01 |    1 |    1 |
+|   3|  5.23663e-03 |  2.5e-07 |  1.4e-05 |  1.1e-07 |  4.0e-02 |    1 |    1 |
+|   4|  5.23660e-03 |  2.5e-08 |  7.3e-06 |  9.2e-08 |  8.0e-03 |    1 |    1 |
+|   5|  5.23660e-03 |  2.5e-09 |  5.6e-09 |  5.1e-08 |  1.6e-03 |    1 |    1 |
+*******************************************************************************
+Objective                         5.2365958293418410e-03
+Relative Precision                7.2611709085561305E-08
+Gradient Augm. Lagrangian         5.6306696220937351E-09
+Complementary Slackness           2.5000000000000013E-09
+Feasibility                       5.0606542531643410E-08
+Outer Iterations                                       5
+Inner Iterations                                      69
+Linesearch steps                                     406
+Start time                      Sat Nov 17 00:58:43 2012
+End time                        Sat Nov 17 00:58:49 2012
+Process time                           0 h  0 min  6 sec
+Unconstrained minimization                   5.22433 sec
+      - feval                                1.52009 sec
+      - feval (sparse chol)                        0 sec
+      - geval                               0.352023 sec
+      - heval                                1.13207 sec
+      - heval (sparse chol)                        0 sec
+      - dense chol                                 0 sec
+      - sparse chol                          2.46415 sec
+      - eigenvalue                                 0 sec
+Multiplier update                                  0 sec
+Penalty update                              0.004001 sec
+Feasibility check                                  0 sec
+      - dense chol                                 0 sec
+      - sparse chol                                0 sec
+CG                                                 0 sec
+CG (prec)                                          0 sec
+CG (H*v)                                           0 sec
+*******************************************************************************
+
+PENNON VERSION 0.9 (November, 2007), ASL(20090429):
+converged: optimal solution, 5/69 iterations.
+primal objective 0.005236595829
+5.96user 0.03system 0:06.02elapsed 99%CPU (0avgtext+0avgdata 275200maxresident)k
+0inputs+7952outputs (0major+32515minor)pagefaults 0swaps

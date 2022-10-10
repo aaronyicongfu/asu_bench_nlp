@@ -1,0 +1,42 @@
+CONOPT 3.17A: workfactor=8
+outlev=2
+
+    The model has 1001 variables and 52014 constraints
+    with 197782 Jacobian elements, 181644 of which are nonlinear.
+    The Hessian of the Lagrangian has 1001 elements on the diagonal,
+    2997 elements below the diagonal, and 1001 nonlinear variables.
+
+ ** 144 linear coefficients less than Rtmina = 1.00E-20
+    have been set to zero.
+
+
+ ** Warning **  The variance of the derivatives in the initial
+                point is large (= 11. ). A better initial
+                point, a better scaling, or better bounds on the
+                variables will probably help the optimization.
+
+
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  1
+
+
+ ** Overflow or Nan (Not A Number) has been encountered indicating
+    numerical difficulties. Trying to repair by increasing the
+    absolute and relative pivot tolerances (Rtpiva and Rvpivr)
+    and allowing small values to be scaled up by decreasing
+    the minimum scale factor, Rtmins.
+
+
+ ** Feasible solution. The tolerances are minimal and
+    there is no change in objective although the reduced
+    gradient is greater than the tolerance.
+
+
+ CONOPT time Total                           29.686 seconds
+   of which: Function evaluations            13.539 = 45.6%
+             1st Derivative evaluations       3.497 = 11.8%
+
+CONOPT 3.17A: Bogus "Termination by solver" (CONOPT bug); objective 3.26571718
+103 iterations; evals: nf = 175, ng = 0, nc = 881, nJ = 99, nH = 0, nHv = 0
+33.21user 0.14system 0:33.37elapsed 99%CPU (0avgtext+0avgdata 447440maxresident)k
+0inputs+18016outputs (0major+100667minor)pagefaults 0swaps

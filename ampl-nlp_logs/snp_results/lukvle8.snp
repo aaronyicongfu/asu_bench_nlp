@@ -1,0 +1,153 @@
+SNOPT 7.7.0 : superbasics_limit=2500
+meminc=24000000
+outlev=3
+1
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+1
+ 
+ Parameters
+ ==========
+
+ Files
+ -----
+ Solution file..........         0       Old basis file ........         0       Standard input.........         5
+ Insert file............         0       New basis file ........         0       (Printer)..............         6
+ Punch file.............         0       Backup basis file......         0       (Specs file)...........         0
+ Load file..............         0       Dump file..............         0       Standard output........         6
+
+ Frequencies
+ -----------
+ Print frequency........       100       Check frequency........        60       Save new basis map.....       100
+ Summary frequency......       100       Factorization frequency        50       Expand frequency.......     10000
+
+ QP subproblems
+ --------------
+ QPsolver Cholesky......
+ Scale tolerance........     0.900       Minor feasibility tol..  1.00E-06       Iteration limit........  99999999
+ Scale option...........         1       Minor optimality  tol..  1.00E-06       Minor print level......         1
+ Crash tolerance........     0.100       Pivot tolerance........  3.25E-11       New superbasics........        99
+ Crash option...........         3       Elastic weight.........  1.00E+05
+
+ Partial pricing
+ ---------------
+ LP Partial price.......         1       Prtl price section ( A)    250000       Prtl price section (-I)    249999
+ QP Partial price.......         1       Prtl price section ( A)    250000       Prtl price section (-I)    249999
+
+ Conjugate-gradient QP solver
+ ----------------------------
+ Subspace tolerance.....   0.10000       CG tolerance...........  1.00E-02       CG Iterations..........       100
+                                                                                 CG preconditioning.....         0
+
+ The SQP Method
+ --------------
+ Minimize...............                 Cold start.............                 Proximal Point method..         1
+ Nonlinear objectiv vars    250000       Major optimality tol...  2.00E-06       Function precision.....  3.00E-13
+ Unbounded step size....  Infinity       Superbasics limit......      2500       Difference interval....  5.48E-07
+ Unbounded objective....  1.00E+10       Reduced Hessian dim....      2000       Central difference int.  6.70E-05
+ Major step limit.......  2.00E+00       Derivative linesearch..                 Derivative level.......         3
+ Major iterations limit.    750000       Linesearch tolerance...   0.90000       Verify level...........         0
+ Minor iterations limit.       500       Penalty parameter......  0.00E+00       Major Print Level......         1
+ Time limit (secs)...... 9999999.0
+
+ Hessian Approximation
+ ---------------------
+ Hessian limited-memory.                 Hessian updates........        10       Hessian frequency......  99999999
+                                                                                 Hessian flush..........  99999999
+
+ Nonlinear constraints
+ ---------------------
+ Nonlinear constraints..    249998       Major feasibility tol..  1.00E-06       Violation limit........  1.00E+01
+ Nonlinear Jacobian vars    249998
+
+ Miscellaneous
+ -------------
+ LU factor tolerance....      3.99       LU singularity tol.....  3.25E-11       Timing level...........         3
+ LU update tolerance....      3.99       LU swap tolerance......  1.22E-04       Debug level............         0
+ LU partial  pivoting...                 eps (machine precision)  2.22E-16       System information.....        No
+                                                                                 Sticky parameters......       Yes
+1
+ 
+
+ 
+
+ Matrix statistics
+ -----------------
+               Total      Normal        Free       Fixed     Bounded
+ Rows         249999           0           1      249998           0
+ Columns      250000           0      250000           0           0
+
+ No. of matrix elements               999994     Density       0.002
+ Biggest  constant element        0.0000E+00  (excluding fixed columns,
+ Smallest constant element        0.0000E+00   free rows, and RHS)
+
+ No. of objective coefficients             0
+
+ Nonlinear constraints  249998     Linear constraints       1
+ Nonlinear variables    250000     Linear variables         0
+ Jacobian  variables    249998     Objective variables 250000
+ Total constraints      249999     Total variables     250000
+1
+ 
+
+ 
+ The user has defined  749992   out of  749992   constraint gradients.
+ The user has defined  250000   out of  250000   objective  gradients.
+
+ Cheap test of user-supplied problem derivatives...
+
+ The constraint gradients seem to be OK.
+
+ -->  The largest discrepancy was    1.03E-14  in constraint488498
+ 
+
+ The objective  gradients seem to be OK.
+
+ Gradient projected in one direction   3.36865386391E+03
+ Difference approximation              3.36867421729E+03
+1
+ 
+ 
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS condZHZ Penalty
+      9     0      9              1  3.0E+00  2.0E+00  1.4279672E+08  749993            4 1.4E+09         _  r i
+     12     1      3 7.9E-02      2  2.0E+00  2.1E+00 -9.1573115E+07  749993            2 1.2E+00         _  rl
+     32     2     20 3.7E-02      3  2.6E+00  2.0E+00 -1.9626807E+08  749993            4 1.4E+09         _s  li
+     84     3     52 7.5E-01      6  6.9E-01  2.0E+00  2.8025443E+08  749993           35 1.6E+09 1.4E+05 _    i
+
+    Itn     QP mult  QP step   rgNorm  SumInfE NonOpt Elastic QP obj   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+    184    -5.8E+06  4.1E-02  5.5E+06  5.3E-03   6372 -7.2991622E+09 467928 467858         2.1E-02  749993        15 8.2E+08
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS condZHZ Penalty
+    245     4    161 1.0E+00      7  2.8E-05  5.0E-06  3.4228342E+08  749993            5 4.3E+08 8.4E+03 _    i
+    249     5      4 1.2E-03     11  2.8E-05  3.3E-05  3.3396493E+08  749993            2 1.2E+02 8.4E+03 _
+    260     6     11 1.0E+00     12 (4.3E-11)(2.0E-07) 6.2002796E+07  749989            2 2.2E+09 8.4E+03 _
+1
+ 
+ SNOPTB EXIT   0 -- finished successfully
+ SNOPTB INFO   1 -- optimality conditions satisfied
+
+ Problem name                 at373583
+ No. of iterations                 260   Objective            5.1541903646E+07
+ No. of major iterations             6   Linear    obj. term  0.0000000000E+00
+ Penalty parameter           8.351E+03   Nonlinear obj. term  5.1541903646E+07
+ No. of calls to funobj             13   No. of calls to funcon             13
+ No. of superbasics                  2   No. of basic nonlinears        249998
+ No. of degenerate steps             8   Percentage                       3.08
+ Max x       (scaled)   249999 1.6E+00   Max pi      (scaled)   118026 6.4E+11
+ Max x                  249999 1.6E+00   Max pi                 118026 6.4E+11
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)   249999 1.3E+05
+ Max Primal infeas           0 0.0E+00   Max Dual infeas        249999 1.3E+05
+ Nonlinear constraint violn    6.9E-11
+ 
+ Time for MPS input                             0.00 seconds
+ Time for solving problem                       9.75 seconds
+ Time for solution output                       0.00 seconds
+ Time for constraint functions                  0.12 seconds
+ Time for objective function                    0.88 seconds
+SNOPT 7.7.0 : Optimal solution found.
+260 iterations, objective 51541903.65
+Nonlin evals: obj = 13, grad = 12, constrs = 13, Jac = 12.
+11.42user 0.30system 0:11.74elapsed 99%CPU (0avgtext+0avgdata 611584maxresident)k
+8inputs+106672outputs (0major+209168minor)pagefaults 0swaps

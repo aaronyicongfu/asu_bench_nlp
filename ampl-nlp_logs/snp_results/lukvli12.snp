@@ -1,0 +1,180 @@
+SNOPT 7.7.0 : superbasics_limit=2500
+meminc=24000000
+outlev=3
+1
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+1
+ 
+ Parameters
+ ==========
+
+ Files
+ -----
+ Solution file..........         0       Old basis file ........         0       Standard input.........         5
+ Insert file............         0       New basis file ........         0       (Printer)..............         6
+ Punch file.............         0       Backup basis file......         0       (Specs file)...........         0
+ Load file..............         0       Dump file..............         0       Standard output........         6
+
+ Frequencies
+ -----------
+ Print frequency........       100       Check frequency........        60       Save new basis map.....       100
+ Summary frequency......       100       Factorization frequency        50       Expand frequency.......     10000
+
+ QP subproblems
+ --------------
+ QPsolver Cholesky......
+ Scale tolerance........     0.900       Minor feasibility tol..  1.00E-06       Iteration limit........  99999999
+ Scale option...........         1       Minor optimality  tol..  1.00E-06       Minor print level......         1
+ Crash tolerance........     0.100       Pivot tolerance........  3.25E-11       New superbasics........        99
+ Crash option...........         3       Elastic weight.........  1.00E+05
+
+ Partial pricing
+ ---------------
+ LP Partial price.......         1       Prtl price section ( A)    249997       Prtl price section (-I)    187498
+ QP Partial price.......         1       Prtl price section ( A)    249997       Prtl price section (-I)    187498
+
+ Conjugate-gradient QP solver
+ ----------------------------
+ Subspace tolerance.....   0.10000       CG tolerance...........  1.00E-02       CG Iterations..........       100
+                                                                                 CG preconditioning.....         0
+
+ The SQP Method
+ --------------
+ Minimize...............                 Cold start.............                 Proximal Point method..         1
+ Nonlinear objectiv vars    249997       Major optimality tol...  2.00E-06       Function precision.....  3.00E-13
+ Unbounded step size....  Infinity       Superbasics limit......      2500       Difference interval....  5.48E-07
+ Unbounded objective....  1.00E+10       Reduced Hessian dim....      2000       Central difference int.  6.70E-05
+ Major step limit.......  2.00E+00       Derivative linesearch..                 Derivative level.......         3
+ Major iterations limit.    749991       Linesearch tolerance...   0.90000       Verify level...........         0
+ Minor iterations limit.       500       Penalty parameter......  0.00E+00       Major Print Level......         1
+ Time limit (secs)...... 9999999.0
+
+ Hessian Approximation
+ ---------------------
+ Hessian limited-memory.                 Hessian updates........        10       Hessian frequency......  99999999
+                                                                                 Hessian flush..........  99999999
+
+ Nonlinear constraints
+ ---------------------
+ Nonlinear constraints..    187497       Major feasibility tol..  1.00E-06       Violation limit........  1.00E+01
+ Nonlinear Jacobian vars    187498
+
+ Miscellaneous
+ -------------
+ LU factor tolerance....      3.99       LU singularity tol.....  3.25E-11       Timing level...........         3
+ LU update tolerance....      3.99       LU swap tolerance......  1.22E-04       Debug level............         0
+ LU partial  pivoting...                 eps (machine precision)  2.22E-16       System information.....        No
+                                                                                 Sticky parameters......       Yes
+1
+ 
+
+ 
+
+ Matrix statistics
+ -----------------
+               Total      Normal        Free       Fixed     Bounded
+ Rows         187498      187497           1           0           0
+ Columns      249997           0      249997           0           0
+
+ No. of matrix elements               749989     Density       0.002
+ Biggest  constant element        0.0000E+00  (excluding fixed columns,
+ Smallest constant element        0.0000E+00   free rows, and RHS)
+
+ No. of objective coefficients             0
+
+ Nonlinear constraints  187497     Linear constraints       1
+ Nonlinear variables    249997     Linear variables         0
+ Jacobian  variables    187498     Objective variables 249997
+ Total constraints      187498     Total variables     249997
+1
+ 
+
+ 
+ The user has defined  437493   out of  437493   constraint gradients.
+ The user has defined  249997   out of  249997   objective  gradients.
+
+ Cheap test of user-supplied problem derivatives...
+
+ The constraint gradients seem to be OK.
+
+ -->  The largest discrepancy was    5.48E-12  in constraint250007
+ 
+
+ The objective  gradients seem to be OK.
+
+ Gradient projected in one direction  -8.07353689569E-05
+ Difference approximation             -7.90539783867E-05
+1
+ 
+
+    Itn     QP mult  QP step   rgNorm          NonOpt   QP Objective   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+    100              1.0E+00  5.5E-10          218699  2.1171683E+06                                374994        25 1.1E+05
+    200              1.0E+00  5.5E-10          218649  2.1171508E+06                                374994        50 1.1E+05
+    300              1.0E+00  5.5E-10          218599  2.1171332E+06                                374994        75 1.1E+05
+ 
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS condZHZ Penalty
+    397     0    397              1  1.5E+00  1.6E-02  1.0390459E+06  374994           99 1.1E+05         _  r  T
+
+    Itn     QP mult  QP step   rgNorm          NonOpt   QP Objective   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+    497              1.0E+00  3.9E-11          188066  7.5192272E+05                                374994       123 1.5E+05
+    597              1.0E+00  3.9E-11          188016  7.5183323E+05                                374994       148 1.5E+05
+    697              1.0E+00  3.9E-11          187966  7.5174374E+05                                374994       173 1.5E+05
+    797              1.0E+00  3.9E-11            3404  7.5165425E+05                                374994       198 1.5E+05
+    897              1.0E+00  3.9E-11            3379  7.5163869E+05                                374994       223 6.9E+05
+    997              1.0E+00  3.9E-11            3354  7.5162314E+05                                374994       248 6.9E+05
+   1097              1.0E+00  3.9E-11            3329  7.5160759E+05                                374994       273 6.9E+05
+   1197              1.0E+00  3.9E-11            3304  7.5159203E+05                                374994       298 6.9E+05
+   1297              1.0E+00  3.9E-11            3279  7.5157648E+05                                374994       323 6.9E+05
+   1397              1.0E+00  3.9E-11            3254  7.5156093E+05                                374994       348 6.9E+05
+   1497              1.0E+00  3.9E-11            3229  7.5154537E+05                                374994       373 6.9E+05
+   1597              1.0E+00  3.9E-11            3204  7.5152982E+05                                374994       398 6.9E+05
+   1697              1.0E+00  3.9E-11            3179  7.5151427E+05                                374994       423 6.9E+05
+   1797              1.0E+00  3.9E-11            3154  7.5149871E+05                                374994       448 6.9E+05
+   1897              1.0E+00  3.9E-11            3129  7.5148316E+05                                374994       473 6.9E+05
+   1997              1.0E+00  3.9E-11            3104  7.5146760E+05                                374994       498 6.9E+05
+   2097              1.0E+00  3.9E-11            3079  7.5145205E+05                                374994       523 6.9E+05
+   2197              1.0E+00  3.9E-11            3054  7.5143650E+05                                374994       548 6.9E+05
+   2297              1.0E+00  3.9E-11            3029  7.5142094E+05                                374994       573 6.9E+05
+   2397              1.0E+00  3.9E-11            3004  7.5140539E+05                                374994       598 6.9E+05
+   2497              1.0E+00  3.9E-11            2979  7.5138984E+05                                374994       623 6.9E+05
+   2597              1.0E+00  3.9E-11            2954  7.5137428E+05                                374994       648 6.9E+05
+   2697              1.0E+00  3.9E-11            2929  7.5135873E+05                                374994       673 6.9E+05
+   2797              1.0E+00  3.9E-11            2904  7.5134318E+05                                374994       698 6.9E+05
+   2897              1.0E+00  3.9E-11            2879  7.5132762E+05                                374994       723 6.9E+05
+   2997              1.0E+00  3.9E-11            2854  7.5131207E+05                                374994       748 6.9E+05
+   3097              1.0E+00  3.9E-11            2829  7.5129652E+05                                374994       773 6.9E+05
+   3197              1.0E+00  3.9E-11            2804  7.5128096E+05                                374994       798 6.9E+05
+   3297              1.0E+00  3.9E-11            2779  7.5126541E+05                                374994       823 6.9E+05
+   3397              1.0E+00  3.9E-11            2754  7.5124986E+05                                374994       848 6.9E+05
+   3497              1.0E+00  3.9E-11            2729  7.5123430E+05                                374994       873 6.9E+05
+   3597              1.0E+00  3.9E-11            2704  7.5121875E+05                                374994       898 6.9E+05
+   3697              1.0E+00  3.9E-11            2679  7.5120320E+05                                374994       923 6.9E+05
+   3797              1.0E+00  3.9E-11            2654  7.5118764E+05                                374994       948 6.9E+05
+   3897              1.0E+00  3.9E-11            2629  7.5117209E+05                                374994       973 6.9E+05
+   3997              1.0E+00  3.9E-11            2604  7.5115654E+05                                374994       998 6.9E+05
+   4097              1.0E+00  3.9E-11            2579  7.5114098E+05                                374994      1023 6.9E+05
+   4197              1.0E+00  3.9E-11            2554  7.5112543E+05                                374994      1048 6.9E+05
+   4297              1.0E+00  3.9E-11            2529  7.5110988E+05                                374994      1073 6.9E+05
+   4397              1.0E+00  3.9E-11            2504  7.5109432E+05                                374994      1098 6.9E+05
+
+    Itn     QP mult  QP step   rgNorm          NonOpt   QP Objective   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+   4497              1.0E+00  3.9E-11            2479  7.5107877E+05                                374994      1123 6.9E+05
+   4597              1.0E+00  3.9E-11            2454  7.5106322E+05                                374994      1148 6.9E+05
+   4697              1.0E+00  3.9E-11            2429  7.5104766E+05                                374994      1173 6.9E+05
+   4797              1.0E+00  3.9E-11            2404  7.5103211E+05                                374994      1198 6.9E+05
+   4897              1.0E+00  3.9E-11            2379  7.5101656E+05                                374994      1223 6.9E+05
+   4997              1.0E+00  3.9E-11            2354  7.5100100E+05                                374994      1248 6.9E+05
+   5097              1.0E+00  3.9E-11            2329  7.5098545E+05                                374994      1273 6.9E+05
+   5197              1.0E+00  3.9E-11            2304  7.5096989E+05                                374994      1298 6.9E+05
+   5297              1.0E+00  3.9E-11            2279  7.5095434E+05                                374994      1323 6.9E+05
+   5397              1.0E+00  3.9E-11            2254  7.5093879E+05                                374994      1348 6.9E+05
+   5497              1.0E+00  3.9E-11            2229  7.5092323E+05                                374994      1373 6.9E+05
+   5597              1.0E+00  3.9E-11            2204  7.5090768E+05                                374994      1398 6.9E+05
+error running snopt:
+	termination code 9
+<BREAK>
+7200.89user 0.22system 2:00:00elapsed 100%CPU (0avgtext+0avgdata 341480maxresident)k
+8inputs+53400outputs (0major+99157minor)pagefaults 0swaps

@@ -1,0 +1,41 @@
+CONOPT 3.17A: workfactor=8
+outlev=2
+
+    The model has 38415 variables and 38393 constraints
+    with 265752 Jacobian elements, 214584 of which are nonlinear.
+    The Hessian of the Lagrangian has 184 elements on the diagonal,
+    72024 elements below the diagonal, and 38415 nonlinear variables.
+
+ ** Warning **  The number of nonlinear derivatives equal to zero
+                in the initial point is large (= 34 percent).
+                A better initial point will probably help the
+                optimization.
+
+
+ ** Warning **  The variance of the derivatives in the initial
+                point is large (= 5.5 ). A better initial
+                point, a better scaling, or better bounds on the
+                variables will probably help the optimization.
+
+
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  1
+
+objective _sobj[1]: Free slack becomes too large
+
+ ** Infeasible solution. A free variable exceeds the allowable range.
+    Current value is -1.51E+10 and current upper bound (Rtmaxv) is 1.00E+10
+
+    The allowable range can be changed with option:
+
+    Rtmaxv=x.xxe+xx
+
+
+ CONOPT time Total                            0.440 seconds
+   of which: Function evaluations             0.018 =  4.1%
+             1st Derivative evaluations       0.350 = 79.5%
+
+CONOPT 3.17A: Locally infeasible; objective 4895642376
+3 iterations; evals: nf = 2, ng = 1, nc = 2, nJ = 1, nH = 0, nHv = 0
+0.75user 0.07system 0:00.83elapsed 100%CPU (0avgtext+0avgdata 162292maxresident)k
+0inputs+16392outputs (0major+45585minor)pagefaults 0swaps

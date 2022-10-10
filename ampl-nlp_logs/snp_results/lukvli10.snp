@@ -1,0 +1,792 @@
+SNOPT 7.7.0 : superbasics_limit=2500
+meminc=24000000
+outlev=3
+1
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+1
+ 
+ Parameters
+ ==========
+
+ Files
+ -----
+ Solution file..........         0       Old basis file ........         0       Standard input.........         5
+ Insert file............         0       New basis file ........         0       (Printer)..............         6
+ Punch file.............         0       Backup basis file......         0       (Specs file)...........         0
+ Load file..............         0       Dump file..............         0       Standard output........         6
+
+ Frequencies
+ -----------
+ Print frequency........       100       Check frequency........        60       Save new basis map.....       100
+ Summary frequency......       100       Factorization frequency        50       Expand frequency.......     10000
+
+ QP subproblems
+ --------------
+ QPsolver Cholesky......
+ Scale tolerance........     0.900       Minor feasibility tol..  1.00E-06       Iteration limit........  99999999
+ Scale option...........         1       Minor optimality  tol..  1.00E-06       Minor print level......         1
+ Crash tolerance........     0.100       Pivot tolerance........  3.25E-11       New superbasics........        99
+ Crash option...........         3       Elastic weight.........  1.00E+05
+
+ Partial pricing
+ ---------------
+ LP Partial price.......         1       Prtl price section ( A)    250000       Prtl price section (-I)    249999
+ QP Partial price.......         1       Prtl price section ( A)    250000       Prtl price section (-I)    249999
+
+ Conjugate-gradient QP solver
+ ----------------------------
+ Subspace tolerance.....   0.10000       CG tolerance...........  1.00E-02       CG Iterations..........       100
+                                                                                 CG preconditioning.....         0
+
+ The SQP Method
+ --------------
+ Minimize...............                 Cold start.............                 Proximal Point method..         1
+ Nonlinear objectiv vars    250000       Major optimality tol...  2.00E-06       Function precision.....  3.00E-13
+ Unbounded step size....  Infinity       Superbasics limit......      2500       Difference interval....  5.48E-07
+ Unbounded objective....  1.00E+10       Reduced Hessian dim....      2000       Central difference int.  6.70E-05
+ Major step limit.......  2.00E+00       Derivative linesearch..                 Derivative level.......         3
+ Major iterations limit.    750000       Linesearch tolerance...   0.90000       Verify level...........         0
+ Minor iterations limit.       500       Penalty parameter......  0.00E+00       Major Print Level......         1
+ Time limit (secs)...... 9999999.0
+
+ Hessian Approximation
+ ---------------------
+ Hessian limited-memory.                 Hessian updates........        10       Hessian frequency......  99999999
+                                                                                 Hessian flush..........  99999999
+
+ Nonlinear constraints
+ ---------------------
+ Nonlinear constraints..    249998       Major feasibility tol..  1.00E-06       Violation limit........  1.00E+01
+ Nonlinear Jacobian vars    249998
+
+ Miscellaneous
+ -------------
+ LU factor tolerance....      3.99       LU singularity tol.....  3.25E-11       Timing level...........         3
+ LU update tolerance....      3.99       LU swap tolerance......  1.22E-04       Debug level............         0
+ LU partial  pivoting...                 eps (machine precision)  2.22E-16       System information.....        No
+                                                                                 Sticky parameters......       Yes
+1
+ 
+
+ 
+
+ Matrix statistics
+ -----------------
+               Total      Normal        Free       Fixed     Bounded
+ Rows         249999      249998           1           0           0
+ Columns      250000           0      250000           0           0
+
+ No. of matrix elements               999994     Density       0.002
+ Biggest  constant element        0.0000E+00  (excluding fixed columns,
+ Smallest constant element        0.0000E+00   free rows, and RHS)
+
+ No. of objective coefficients             0
+
+ Nonlinear constraints  249998     Linear constraints       1
+ Nonlinear variables    250000     Linear variables         0
+ Jacobian  variables    249998     Objective variables 250000
+ Total constraints      249999     Total variables     250000
+1
+ 
+
+ 
+ The user has defined  749992   out of  749992   constraint gradients.
+ The user has defined  250000   out of  250000   objective  gradients.
+
+ Cheap test of user-supplied problem derivatives...
+
+ The constraint gradients seem to be OK.
+
+ -->  The largest discrepancy was    4.39E-12  in constraint250044
+ 
+
+ The objective  gradients seem to be OK.
+
+ Gradient projected in one direction   1.46866039045E+00
+ Difference approximation              1.46866147009E+00
+1
+ 
+ Singular(m=n)  rank   249998  n-rank       1  nsing        1
+
+    Itn     FP mult  FP step   rgNorm          NumInf         SumInf   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+    100    -6.5E+00  2.3E+00                   124806  5.8244110E+05 249613 249613 499612           500373
+    200    -6.5E+00  2.3E+00                   124610  5.8152203E+05 249221 249221 499220           500771
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+    300    -6.5E+00  2.3E+00                   124416  5.8061454E+05 248833 248833 498832           500925
+    400    -6.5E+00  2.3E+00                   124220  5.7969988E+05 248441 248441 498440           501321
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+    500    -6.5E+00  2.3E+00                   124025  5.7878988E+05 248051 248051 498050           501483
+    600    -6.5E+00  2.3E+00                   123829  5.7787521E+05 247659 247659 497658           501991
+    700    -6.5E+00  2.3E+00                   123630  5.7694654E+05 247261 247261 497260           502290
+    800    -6.5E+00  2.3E+00                   123436  5.7604121E+05 246873 246873 496872           502791
+    900    -6.5E+00  2.3E+00                   123240  5.7512654E+05 246481 246481 496480           503184
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249998  n-rank       1  nsing        2
+   1000    -6.5E+00  2.3E+00                   123048  5.7423054E+05 246097 246097 496096           503095
+   1100    -6.5E+00  2.3E+00                   122852  5.7331588E+05 245705 245705 495704           503489
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   1200    -6.5E+00  2.3E+00                   122657  5.7240588E+05 245315 245315 495314           503622
+   1300    -6.5E+00  2.3E+00                   122457  5.7147254E+05 244915 244915 494914           503932
+   1400    -6.5E+00  5.3E-01                   122260  5.7054979E+05 244517 244517 494548           504290
+   1500    -6.5E+00  2.3E+00                   122064  5.6963854E+05 244129 244129 494128           504639
+   1600    -6.5E+00  1.7E-01                   121870  5.6873209E+05 243737 243737 494568           505013
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249998  n-rank       1  nsing        1
+   1700    -6.5E+00  2.3E+00                   121676  5.6782788E+05 243353 243353 493352           505204
+   1800    -6.5E+00  2.3E+00                   121480  5.6691321E+05 242961 242961 492960           505709
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   1900    -6.5E+00  2.3E+00                   121285  5.6600321E+05 242571 242571 492570           505548
+   2000    -6.5E+00  2.3E+00                   121085  5.6506988E+05 242171 242171 492170           505842
+   2100    -6.5E+00  5.3E-01                   120888  5.6414713E+05 241773 241773 491804           506132
+   2200    -6.5E+00  2.3E+00                   120692  5.6323588E+05 241385 241385 491384           506297
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   2300    -6.5E+00  1.7E-01                   120498  5.6232943E+05 240993 240993 491824           514171
+   2400    -6.5E+00  2.3E+00                   120302  5.6141588E+05 240605 240605 490604           514889
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   2500    -6.5E+00  2.3E+00                   120106  5.6050121E+05 240213 240213 490212           515432
+   2600    -6.5E+00  2.3E+00                   119912  5.5959588E+05 239825 239825 489824           516062
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   2700    -6.5E+00  2.3E+00                   119716  5.5868121E+05 239433 239433 489432           516308
+   2800    -6.5E+00  2.3E+00                   119522  5.5777588E+05 239045 239045 489044           516987
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   2900    -6.5E+00  2.3E+00                   119326  5.5686121E+05 238653 238653 488652           516546
+   3000    -6.5E+00  2.3E+00                   119132  5.5595588E+05 238265 238265 488264           517156
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   3100    -6.5E+00  2.3E+00                   118936  5.5504121E+05 237873 237873 487872           517741
+   3200    -6.5E+00  2.3E+00                   118742  5.5413588E+05 237485 237485 487484           518324
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   3300    -6.5E+00  2.3E+00                   118546  5.5322121E+05 237093 237093 487092           518934
+   3400    -6.5E+00  2.3E+00                   118352  5.5231588E+05 236705 236705 486704           519497
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   3500    -6.5E+00  2.3E+00                   118156  5.5140121E+05 236313 236313 486312           520060
+   3600    -6.5E+00  2.3E+00                   117962  5.5049588E+05 235925 235925 485924           520663
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   3700    -6.5E+00  2.3E+00                   117766  5.4958121E+05 235533 235533 485532           521203
+   3800    -6.5E+00  2.3E+00                   117572  5.4867588E+05 235145 235145 485144           521797
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   3900    -6.5E+00  2.3E+00                   117376  5.4776121E+05 234753 234753 484752           522400
+   4000    -6.5E+00  2.3E+00                   117182  5.4685588E+05 234365 234365 484364           522983
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+
+    Itn     FP mult  FP step   rgNorm          NumInf         SumInf   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+   4100    -6.5E+00  2.3E+00                   116986  5.4594121E+05 233973 233973 483972           523542
+   4200    -6.5E+00  2.3E+00                   116792  5.4503588E+05 233585 233585 483584           524176
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   4300    -6.5E+00  2.3E+00                   116596  5.4412121E+05 233193 233193 483192           524701
+   4400    -6.5E+00  2.3E+00                   116402  5.4321588E+05 232805 232805 482804           525338
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   4500    -6.5E+00  2.3E+00                   116206  5.4230121E+05 232413 232413 482412           525889
+   4600    -6.5E+00  2.3E+00                   116012  5.4139588E+05 232025 232025 482024           526531
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   4700    -6.5E+00  2.3E+00                   115816  5.4048121E+05 231633 231633 481632           527029
+   4800    -6.5E+00  2.3E+00                   115622  5.3957588E+05 231245 231245 481244           527646
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   4900    -6.5E+00  2.3E+00                   115426  5.3866121E+05 230853 230853 480852           528217
+   5000    -6.5E+00  2.3E+00                   115232  5.3775588E+05 230465 230465 480464           528815
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   5100    -6.5E+00  2.3E+00                   115036  5.3684121E+05 230073 230073 480072           529389
+   5200    -6.5E+00  2.3E+00                   114842  5.3593588E+05 229685 229685 479684           529981
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   5300    -6.5E+00  2.3E+00                   114646  5.3502121E+05 229293 229293 479292           530600
+   5400    -6.5E+00  2.3E+00                   114452  5.3411588E+05 228905 228905 478904           531140
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   5500    -6.5E+00  2.3E+00                   114256  5.3320121E+05 228513 228513 478512           531725
+   5600    -6.5E+00  2.3E+00                   114062  5.3229588E+05 228125 228125 478124           532341
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   5700    -6.5E+00  2.3E+00                   113866  5.3138121E+05 227733 227733 477732           532930
+   5800    -6.5E+00  2.3E+00                   113672  5.3047588E+05 227345 227345 477344           533499
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   5900    -6.5E+00  2.3E+00                   113476  5.2956121E+05 226953 226953 476952           534076
+   6000    -6.5E+00  2.3E+00                   113282  5.2865588E+05 226565 226565 476564           534643
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   6100    -6.5E+00  2.3E+00                   113086  5.2774121E+05 226173 226173 476172           535232
+   6200    -6.5E+00  2.3E+00                   112892  5.2683588E+05 225785 225785 475784           535807
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   6300    -6.5E+00  2.3E+00                   112696  5.2592121E+05 225393 225393 475392           536376
+   6400    -6.5E+00  2.3E+00                   112502  5.2501588E+05 225005 225005 475004           536930
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   6500    -6.5E+00  2.3E+00                   112306  5.2410121E+05 224613 224613 474612           537615
+   6600    -6.5E+00  2.3E+00                   112112  5.2319588E+05 224225 224225 474224           538157
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   6700    -6.5E+00  2.3E+00                   111916  5.2228121E+05 223833 223833 473832           538744
+   6800    -6.5E+00  2.3E+00                   111722  5.2137588E+05 223445 223445 473444           539293
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   6900    -6.5E+00  2.3E+00                   111526  5.2046121E+05 223053 223053 473052           539870
+   7000    -6.5E+00  2.3E+00                   111332  5.1955588E+05 222665 222665 472664           540484
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   7100    -6.5E+00  2.3E+00                   111136  5.1864121E+05 222273 222273 472272           541031
+   7200    -6.5E+00  2.3E+00                   110942  5.1773588E+05 221885 221885 471884           541693
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   7300    -6.5E+00  2.3E+00                   110746  5.1682121E+05 221493 221493 471492           542219
+   7400    -6.5E+00  2.3E+00                   110552  5.1591588E+05 221105 221105 471104           542847
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   7500    -6.5E+00  2.3E+00                   110356  5.1500121E+05 220713 220713 470712           543380
+   7600    -6.5E+00  2.3E+00                   110162  5.1409588E+05 220325 220325 470324           543978
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   7700    -6.5E+00  2.3E+00                   109966  5.1318121E+05 219933 219933 469932           544539
+   7800    -6.5E+00  2.3E+00                   109772  5.1227588E+05 219545 219545 469544           545178
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   7900    -6.5E+00  2.3E+00                   109576  5.1136121E+05 219153 219153 469152           545722
+   8000    -6.5E+00  2.3E+00                   109382  5.1045588E+05 218765 218765 468764           546312
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+
+    Itn     FP mult  FP step   rgNorm          NumInf         SumInf   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+   8100    -6.5E+00  2.3E+00                   109186  5.0954121E+05 218373 218373 468372           546867
+   8200    -6.5E+00  2.3E+00                   108992  5.0863588E+05 217985 217985 467984           547518
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   8300    -6.5E+00  2.3E+00                   108796  5.0772121E+05 217593 217593 467592           548004
+   8400    -6.5E+00  2.3E+00                   108602  5.0681588E+05 217205 217205 467204           548646
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   8500    -6.5E+00  2.3E+00                   108406  5.0590121E+05 216813 216813 466812           549212
+   8600    -6.5E+00  2.3E+00                   108212  5.0499588E+05 216425 216425 466424           549795
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   8700    -6.5E+00  2.3E+00                   108016  5.0408121E+05 216033 216033 466032           550355
+   8800    -6.5E+00  2.3E+00                   107822  5.0317588E+05 215645 215645 465644           551017
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   8900    -6.5E+00  2.3E+00                   107626  5.0226121E+05 215253 215253 465252           551591
+   9000    -6.5E+00  2.3E+00                   107432  5.0135588E+05 214865 214865 464864           552182
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   9100    -6.5E+00  2.3E+00                   107236  5.0044121E+05 214473 214473 464472           552682
+   9200    -6.5E+00  2.3E+00                   107042  4.9953588E+05 214085 214085 464084           553324
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   9300    -6.5E+00  2.3E+00                   106846  4.9862121E+05 213693 213693 463692           553855
+   9400    -6.5E+00  2.3E+00                   106652  4.9771588E+05 213305 213305 463304           554455
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   9500    -6.5E+00  2.3E+00                   106456  4.9680121E+05 212913 212913 462912           555055
+   9600    -6.5E+00  2.3E+00                   106262  4.9589588E+05 212525 212525 462524           555634
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   9700    -6.5E+00  2.3E+00                   106066  4.9498121E+05 212133 212133 462132           556182
+   9800    -6.5E+00  2.3E+00                   105872  4.9407588E+05 211745 211745 461744           556788
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+   9900    -6.5E+00  2.3E+00                   105676  4.9316121E+05 211353 211353 461352           557354
+  10000    -6.5E+00  2.3E+00                   105482  4.9225588E+05 210965 210965 460964           557955
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  10100    -6.5E+00  2.3E+00                   105286  4.9134121E+05 210573 210573 460572           558592
+  10200    -6.5E+00  2.3E+00                   105092  4.9043588E+05 210185 210185 460184           559188
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  10300    -6.5E+00  2.3E+00                   104896  4.8952121E+05 209793 209793 459792           559670
+  10400    -6.5E+00  2.3E+00                   104702  4.8861588E+05 209405 209405 459404           560278
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  10500    -6.5E+00  2.3E+00                   104506  4.8770121E+05 209013 209013 459012           560892
+  10600    -6.5E+00  2.3E+00                   104312  4.8679588E+05 208625 208625 458624           561458
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  10700    -6.5E+00  2.3E+00                   104116  4.8588121E+05 208233 208233 458232           562080
+  10800    -6.5E+00  2.3E+00                   103922  4.8497588E+05 207845 207845 457844           562679
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  10900    -6.5E+00  2.3E+00                   103726  4.8406121E+05 207453 207453 457452           563183
+  11000    -6.5E+00  2.3E+00                   103532  4.8315588E+05 207065 207065 457064           563777
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  11100    -6.5E+00  2.3E+00                   103336  4.8224121E+05 206673 206673 456672           564378
+  11200    -6.5E+00  2.3E+00                   103142  4.8133588E+05 206285 206285 456284           564973
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  11300    -6.5E+00  2.3E+00                   102946  4.8042121E+05 205893 205893 455892           565556
+  11400    -6.5E+00  2.3E+00                   102752  4.7951588E+05 205505 205505 455504           566148
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  11500    -6.5E+00  2.3E+00                   102556  4.7860121E+05 205113 205113 455112           566697
+  11600    -6.5E+00  2.3E+00                   102362  4.7769588E+05 204725 204725 454724           567379
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  11700    -6.5E+00  2.3E+00                   102166  4.7678121E+05 204333 204333 454332           567923
+  11800    -6.5E+00  2.3E+00                   101972  4.7587588E+05 203945 203945 453944           568430
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  11900    -6.5E+00  2.3E+00                   101776  4.7496121E+05 203553 203553 453552           568966
+  12000    -6.5E+00  2.3E+00                   101582  4.7405588E+05 203165 203165 453164           569656
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+
+    Itn     FP mult  FP step   rgNorm          NumInf         SumInf   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+  12100    -6.5E+00  2.3E+00                   101386  4.7314121E+05 202773 202773 452772           570174
+  12200    -6.5E+00  2.3E+00                   101192  4.7223588E+05 202385 202385 452384           570766
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  12300    -6.5E+00  2.3E+00                   100996  4.7132121E+05 201993 201993 451992           571346
+  12400    -6.5E+00  2.3E+00                   100802  4.7041588E+05 201605 201605 451604           571996
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  12500    -6.5E+00  2.3E+00                   100606  4.6950121E+05 201213 201213 451212           572609
+  12600    -6.5E+00  2.3E+00                   100412  4.6859588E+05 200825 200825 450824           573140
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  12700    -6.5E+00  2.3E+00                   100216  4.6768121E+05 200433 200433 450432           573757
+  12800    -6.5E+00  2.3E+00                   100022  4.6677588E+05 200045 200045 450044           574298
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  12900    -6.5E+00  2.3E+00                    99826  4.6586121E+05 199653 199653 449652           574871
+  13000    -6.5E+00  2.3E+00                    99632  4.6495588E+05 199265 199265 449264           575524
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  13100    -6.5E+00  2.3E+00                    99436  4.6404121E+05 198873 198873 448872           576026
+  13200    -6.5E+00  2.3E+00                    99242  4.6313588E+05 198485 198485 448484           576625
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  13300    -6.5E+00  2.3E+00                    99046  4.6222121E+05 198093 198093 448092           577072
+  13400    -6.5E+00  2.3E+00                    98852  4.6131588E+05 197705 197705 447704           577860
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  13500    -6.5E+00  2.3E+00                    98656  4.6040121E+05 197313 197313 447312           578366
+  13600    -6.5E+00  2.3E+00                    98462  4.5949588E+05 196925 196925 446924           578985
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  13700    -6.5E+00  2.3E+00                    98266  4.5858121E+05 196533 196533 446532           579453
+  13800    -6.5E+00  2.3E+00                    98072  4.5767588E+05 196145 196145 446144           580107
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  13900    -6.5E+00  2.3E+00                    97876  4.5676121E+05 195753 195753 445752           580685
+  14000    -6.5E+00  2.3E+00                    97682  4.5585588E+05 195365 195365 445364           581268
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  14100    -6.5E+00  2.3E+00                    97486  4.5494121E+05 194973 194973 444972           581754
+  14200    -6.5E+00  2.3E+00                    97292  4.5403588E+05 194585 194585 444584           582476
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  14300    -6.5E+00  2.3E+00                    97096  4.5312121E+05 194193 194193 444192           582982
+  14400    -6.5E+00  2.3E+00                    96902  4.5221588E+05 193805 193805 443804           583644
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  14500    -6.5E+00  2.3E+00                    96706  4.5130121E+05 193413 193413 443412           584111
+  14600    -6.5E+00  2.3E+00                    96512  4.5039588E+05 193025 193025 443024           584809
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  14700    -6.5E+00  2.3E+00                    96316  4.4948121E+05 192633 192633 442632           585283
+  14800    -6.5E+00  2.3E+00                    96122  4.4857588E+05 192245 192245 442244           586021
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  14900    -6.5E+00  2.3E+00                    95926  4.4766121E+05 191853 191853 441852           586438
+  15000    -6.5E+00  2.3E+00                    95732  4.4675588E+05 191465 191465 441464           587190
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  15100    -6.5E+00  2.3E+00                    95536  4.4584121E+05 191073 191073 441072           587709
+  15200    -6.5E+00  2.3E+00                    95342  4.4493588E+05 190685 190685 440684           588240
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  15300    -6.5E+00  2.3E+00                    95146  4.4402121E+05 190293 190293 440292           588824
+  15400    -6.5E+00  2.3E+00                    94952  4.4311588E+05 189905 189905 439904           589520
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  15500    -6.5E+00  2.3E+00                    94756  4.4220121E+05 189513 189513 439512           590013
+  15600    -6.5E+00  2.3E+00                    94562  4.4129588E+05 189125 189125 439124           590628
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  15700    -6.5E+00  2.3E+00                    94366  4.4038121E+05 188733 188733 438732           591159
+  15800    -6.5E+00  2.3E+00                    94172  4.3947588E+05 188345 188345 438344           591779
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  15900    -6.5E+00  2.3E+00                    93976  4.3856121E+05 187953 187953 437952           592314
+  16000    -6.5E+00  2.3E+00                    93782  4.3765588E+05 187565 187565 437564           593032
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+
+    Itn     FP mult  FP step   rgNorm          NumInf         SumInf   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+  16100    -6.5E+00  2.3E+00                    93586  4.3674121E+05 187173 187173 437172           593525
+  16200    -6.5E+00  2.3E+00                    93392  4.3583588E+05 186785 186785 436784           594182
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  16300    -6.5E+00  2.3E+00                    93196  4.3492121E+05 186393 186393 436392           594604
+  16400    -6.5E+00  2.3E+00                    93002  4.3401588E+05 186005 186005 436004           595329
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  16500    -6.5E+00  2.3E+00                    92806  4.3310121E+05 185613 185613 435612           595734
+  16600    -6.5E+00  2.3E+00                    92612  4.3219588E+05 185225 185225 435224           596355
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  16700    -6.5E+00  2.3E+00                    92416  4.3128121E+05 184833 184833 434832           596951
+  16800    -6.5E+00  2.3E+00                    92222  4.3037588E+05 184445 184445 434444           597654
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  16900    -6.5E+00  2.3E+00                    92026  4.2946121E+05 184053 184053 434052           598178
+  17000    -6.5E+00  2.3E+00                    91832  4.2855588E+05 183665 183665 433664           598831
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  17100    -6.5E+00  2.3E+00                    91636  4.2764121E+05 183273 183273 433272           599332
+  17200    -6.5E+00  2.3E+00                    91442  4.2673588E+05 182885 182885 432884           599945
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  17300    -6.5E+00  2.3E+00                    91246  4.2582121E+05 182493 182493 432492           600515
+  17400    -6.5E+00  2.3E+00                    91052  4.2491588E+05 182105 182105 432104           601205
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  17500    -6.5E+00  2.3E+00                    90856  4.2400121E+05 181713 181713 431712           601721
+  17600    -6.5E+00  2.3E+00                    90662  4.2309588E+05 181325 181325 431324           602260
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  17700    -6.5E+00  2.3E+00                    90466  4.2218121E+05 180933 180933 430932           602837
+  17800    -6.5E+00  2.3E+00                    90272  4.2127588E+05 180545 180545 430544           603529
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  17900    -6.5E+00  2.3E+00                    90076  4.2036121E+05 180153 180153 430152           603895
+  18000    -6.5E+00  2.3E+00                    89882  4.1945588E+05 179765 179765 429764           604658
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  18100    -6.5E+00  2.3E+00                    89686  4.1854121E+05 179373 179373 429372           605143
+  18200    -6.5E+00  2.3E+00                    89492  4.1763588E+05 178985 178985 428984           605750
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  18300    -6.5E+00  2.3E+00                    89296  4.1672121E+05 178593 178593 428592           606345
+  18400    -6.5E+00  2.3E+00                    89102  4.1581588E+05 178205 178205 428204           606969
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  18500    -6.5E+00  2.3E+00                    88906  4.1490121E+05 177813 177813 427812           607501
+  18600    -6.5E+00  2.3E+00                    88712  4.1399588E+05 177425 177425 427424           608219
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  18700    -6.5E+00  2.3E+00                    88516  4.1308121E+05 177033 177033 427032           608625
+  18800    -6.5E+00  2.3E+00                    88322  4.1217588E+05 176645 176645 426644           609283
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  18900    -6.5E+00  2.3E+00                    88126  4.1126121E+05 176253 176253 426252           609797
+  19000    -6.5E+00  2.3E+00                    87932  4.1035588E+05 175865 175865 425864           610488
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  19100    -6.5E+00  2.3E+00                    87736  4.0944121E+05 175473 175473 425472           611084
+  19200    -6.5E+00  2.3E+00                    87542  4.0853588E+05 175085 175085 425084           611631
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  19300    -6.5E+00  2.3E+00                    87346  4.0762121E+05 174693 174693 424692           612148
+  19400    -6.5E+00  2.3E+00                    87152  4.0671588E+05 174305 174305 424304           612788
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  19500    -6.5E+00  2.3E+00                    86956  4.0580121E+05 173913 173913 423912           613251
+  19600    -6.5E+00  2.3E+00                    86762  4.0489588E+05 173525 173525 423524           614021
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  19700    -6.5E+00  2.3E+00                    86566  4.0398121E+05 173133 173133 423132           614433
+  19800    -6.5E+00  2.3E+00                    86372  4.0307588E+05 172745 172745 422744           615208
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  19900    -6.5E+00  2.3E+00                    86176  4.0216121E+05 172353 172353 422352           615687
+  20000    -6.5E+00  2.3E+00                    85982  4.0125588E+05 171965 171965 421964           616305
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+
+    Itn     FP mult  FP step   rgNorm          NumInf         SumInf   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+  20100    -6.5E+00  2.3E+00                    85786  4.0034121E+05 171573 171573 421572           616881
+  20200    -6.5E+00  2.3E+00                    85592  3.9943588E+05 171185 171185 421184           617517
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  20300    -6.5E+00  2.3E+00                    85396  3.9852121E+05 170793 170793 420792           618014
+  20400    -6.5E+00  2.3E+00                    85202  3.9761588E+05 170405 170405 420404           618661
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  20500    -6.5E+00  2.3E+00                    85006  3.9670121E+05 170013 170013 420012           619091
+  20600    -6.5E+00  2.3E+00                    84812  3.9579588E+05 169625 169625 419624           619809
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  20700    -6.5E+00  2.3E+00                    84616  3.9488121E+05 169233 169233 419232           620260
+  20800    -6.5E+00  2.3E+00                    84422  3.9397588E+05 168845 168845 418844           620968
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  20900    -6.5E+00  2.3E+00                    84226  3.9306121E+05 168453 168453 418452           621430
+  21000    -6.5E+00  2.3E+00                    84032  3.9215588E+05 168065 168065 418064           622196
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  21100    -6.5E+00  2.3E+00                    83836  3.9124121E+05 167673 167673 417672           622586
+  21200    -6.5E+00  2.3E+00                    83642  3.9033588E+05 167285 167285 417284           623379
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  21300    -6.5E+00  2.3E+00                    83446  3.8942121E+05 166893 166893 416892           623746
+  21400    -6.5E+00  2.3E+00                    83252  3.8851588E+05 166505 166505 416504           624495
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  21500    -6.5E+00  2.3E+00                    83056  3.8760121E+05 166113 166113 416112           624894
+  21600    -6.5E+00  2.3E+00                    82862  3.8669588E+05 165725 165725 415724           625565
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  21700    -6.5E+00  2.3E+00                    82666  3.8578121E+05 165333 165333 415332           626112
+  21800    -6.5E+00  2.3E+00                    82472  3.8487588E+05 164945 164945 414944           626805
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  21900    -6.5E+00  2.3E+00                    82276  3.8396121E+05 164553 164553 414552           627196
+  22000    -6.5E+00  2.3E+00                    82082  3.8305588E+05 164165 164165 414164           627986
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  22100    -6.5E+00  2.3E+00                    81886  3.8214121E+05 163773 163773 413772           628388
+  22200    -6.5E+00  2.3E+00                    81692  3.8123588E+05 163385 163385 413384           629182
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  22300    -6.5E+00  2.3E+00                    81496  3.8032121E+05 162993 162993 412992           629470
+  22400    -6.5E+00  2.3E+00                    81302  3.7941588E+05 162605 162605 412604           630348
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  22500    -6.5E+00  2.3E+00                    81106  3.7850121E+05 162213 162213 412212           630600
+  22600    -6.5E+00  2.3E+00                    80912  3.7759588E+05 161825 161825 411824           631466
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  22700    -6.5E+00  2.3E+00                    80716  3.7668121E+05 161433 161433 411432           631506
+  22800    -6.5E+00  2.3E+00                    80522  3.7577588E+05 161045 161045 411044           632685
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  22900    -6.5E+00  2.3E+00                    80326  3.7486121E+05 160653 160653 410652           632688
+  23000    -6.5E+00  2.3E+00                    80132  3.7395588E+05 160265 160265 410264           633830
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  23100    -6.5E+00  2.3E+00                    79936  3.7304121E+05 159873 159873 409872           633433
+  23200    -6.5E+00  2.3E+00                    79742  3.7213588E+05 159485 159485 409484           634978
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  23300    -6.5E+00  2.3E+00                    79546  3.7122121E+05 159093 159093 409092           634275
+  23400    -6.5E+00  2.3E+00                    79352  3.7031588E+05 158705 158705 408704           636192
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  23500    -6.5E+00  2.3E+00                    79156  3.6940121E+05 158313 158313 408312           635713
+  23600    -6.5E+00  2.3E+00                    78962  3.6849588E+05 157925 157925 407924           637404
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  23700    -6.5E+00  2.3E+00                    78766  3.6758121E+05 157533 157533 407532           636751
+  23800    -6.5E+00  2.3E+00                    78572  3.6667588E+05 157145 157145 407144           638562
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  23900    -6.5E+00  2.3E+00                    78376  3.6576121E+05 156753 156753 406752           637522
+  24000    -6.5E+00  2.3E+00                    78182  3.6485588E+05 156365 156365 406364           639629
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+
+    Itn     FP mult  FP step   rgNorm          NumInf         SumInf   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+  24100    -6.5E+00  2.3E+00                    77986  3.6394121E+05 155973 155973 405972           638514
+  24200    -6.5E+00  2.3E+00                    77792  3.6303588E+05 155585 155585 405584           640775
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  24300    -6.5E+00  2.3E+00                    77596  3.6212121E+05 155193 155193 405192           639731
+  24400    -6.5E+00  2.3E+00                    77402  3.6121588E+05 154805 154805 404804           642047
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  24500    -6.5E+00  2.3E+00                    77206  3.6030121E+05 154413 154413 404412           640573
+  24600    -6.5E+00  2.3E+00                    77012  3.5939588E+05 154025 154025 404024           643175
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  24700    -6.5E+00  2.3E+00                    76816  3.5848121E+05 153633 153633 403632           641804
+  24800    -6.5E+00  2.3E+00                    76622  3.5757588E+05 153245 153245 403244           644383
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  24900    -6.5E+00  2.3E+00                    76426  3.5666121E+05 152853 152853 402852           642748
+  25000    -6.5E+00  2.3E+00                    76232  3.5575588E+05 152465 152465 402464           645506
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  25100    -6.5E+00  2.3E+00                    76036  3.5484121E+05 152073 152073 402072           643424
+  25200    -6.5E+00  2.3E+00                    75842  3.5393588E+05 151685 151685 401684           646642
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  25300    -6.5E+00  2.3E+00                    75646  3.5302121E+05 151293 151293 401292           644857
+  25400    -6.5E+00  2.3E+00                    75452  3.5211588E+05 150905 150905 400904           647859
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  25500    -6.5E+00  2.3E+00                    75256  3.5120121E+05 150513 150513 400512           645152
+  25600    -6.5E+00  2.3E+00                    75062  3.5029588E+05 150125 150125 400124           649016
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  25700    -6.5E+00  2.3E+00                    74866  3.4938121E+05 149733 149733 399732           646388
+  25800    -6.5E+00  2.3E+00                    74672  3.4847588E+05 149345 149345 399344           650168
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  25900    -6.5E+00  2.3E+00                    74476  3.4756121E+05 148953 148953 398952           647585
+  26000    -6.5E+00  2.3E+00                    74282  3.4665588E+05 148565 148565 398564           651433
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  26100    -6.5E+00  2.3E+00                    74086  3.4574121E+05 148173 148173 398172           647797
+  26200    -6.5E+00  2.3E+00                    73892  3.4483588E+05 147785 147785 397784           652482
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  26300    -6.5E+00  2.3E+00                    73696  3.4392121E+05 147393 147393 397392           649556
+  26400    -6.5E+00  2.3E+00                    73502  3.4301588E+05 147005 147005 397004           653719
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  26500    -6.5E+00  2.3E+00                    73306  3.4210121E+05 146613 146613 396612           649708
+  26600    -6.5E+00  2.3E+00                    73112  3.4119588E+05 146225 146225 396224           654840
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  26700    -6.5E+00  2.3E+00                    72916  3.4028121E+05 145833 145833 395832           652250
+  26800    -6.5E+00  2.3E+00                    72722  3.3937588E+05 145445 145445 395444           656059
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  26900    -6.5E+00  2.3E+00                    72526  3.3846121E+05 145053 145053 395052           653622
+  27000    -6.5E+00  2.3E+00                    72332  3.3755588E+05 144665 144665 394664           657188
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  27100    -6.5E+00  2.3E+00                    72136  3.3664121E+05 144273 144273 394272           653011
+  27200    -6.5E+00  2.3E+00                    71942  3.3573588E+05 143885 143885 393884           658372
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  27300    -6.5E+00  2.3E+00                    71746  3.3482121E+05 143493 143493 393492           654982
+  27400    -6.5E+00  2.3E+00                    71552  3.3391588E+05 143105 143105 393104           659624
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  27500    -6.5E+00  2.3E+00                    71356  3.3300121E+05 142713 142713 392712           655507
+  27600    -6.5E+00  2.3E+00                    71162  3.3209588E+05 142325 142325 392324           660766
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  27700    -6.5E+00  2.3E+00                    70966  3.3118121E+05 141933 141933 391932           657109
+  27800    -6.5E+00  2.3E+00                    70772  3.3027588E+05 141545 141545 391544           661936
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  27900    -6.5E+00  2.3E+00                    70576  3.2936121E+05 141153 141153 391152           657707
+  28000    -6.5E+00  2.3E+00                    70382  3.2845588E+05 140765 140765 390764           663068
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+
+    Itn     FP mult  FP step   rgNorm          NumInf         SumInf   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+  28100    -6.5E+00  2.3E+00                    70186  3.2754121E+05 140373 140373 390372           658794
+  28200    -6.5E+00  2.3E+00                    69992  3.2663588E+05 139985 139985 389984           664270
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  28300    -6.5E+00  2.3E+00                    69796  3.2572121E+05 139593 139593 389592           660092
+  28400    -6.5E+00  2.3E+00                    69602  3.2481588E+05 139205 139205 389204           665536
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  28500    -6.5E+00  2.3E+00                    69406  3.2390121E+05 138813 138813 388812           661435
+  28600    -6.5E+00  2.3E+00                    69212  3.2299588E+05 138425 138425 388424           666632
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  28700    -6.5E+00  2.3E+00                    69016  3.2208121E+05 138033 138033 388032           662702
+  28800    -6.5E+00  2.3E+00                    68822  3.2117588E+05 137645 137645 387644           667783
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  28900    -6.5E+00  2.3E+00                    68626  3.2026121E+05 137253 137253 387252           663438
+  29000    -6.5E+00  2.3E+00                    68432  3.1935588E+05 136865 136865 386864           668993
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  29100    -6.5E+00  2.3E+00                    68236  3.1844121E+05 136473 136473 386472           665467
+  29200    -6.5E+00  2.3E+00                    68042  3.1753588E+05 136085 136085 386084           670139
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  29300    -6.5E+00  2.3E+00                    67846  3.1662121E+05 135693 135693 385692           666801
+  29400    -6.5E+00  2.3E+00                    67652  3.1571588E+05 135305 135305 385304           671220
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  29500    -6.5E+00  2.3E+00                    67456  3.1480121E+05 134913 134913 384912           667564
+  29600    -6.5E+00  2.3E+00                    67262  3.1389588E+05 134525 134525 384524           672581
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  29700    -6.5E+00  2.3E+00                    67066  3.1298121E+05 134133 134133 384132           667528
+  29800    -6.5E+00  2.3E+00                    66872  3.1207588E+05 133745 133745 383744           673678
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  29900    -6.5E+00  2.3E+00                    66676  3.1116121E+05 133353 133353 383352           669792
+  30000    -6.5E+00  2.3E+00                    66482  3.1025588E+05 132965 132965 382964           674782
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  30100    -6.5E+00  2.3E+00                    66286  3.0934121E+05 132573 132573 382572           669290
+  30200    -6.5E+00  2.3E+00                    66092  3.0843588E+05 132185 132185 382184           675908
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  30300    -6.5E+00  2.3E+00                    65896  3.0752121E+05 131793 131793 381792           671750
+  30400    -6.5E+00  2.3E+00                    65702  3.0661588E+05 131405 131405 381404           677272
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  30500    -6.5E+00  2.3E+00                    65506  3.0570121E+05 131013 131013 381012           672127
+  30600    -6.5E+00  2.3E+00                    65312  3.0479588E+05 130625 130625 380624           678349
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  30700    -6.5E+00  2.3E+00                    65116  3.0388121E+05 130233 130233 380232           672842
+  30800    -6.5E+00  2.3E+00                    64922  3.0297588E+05 129845 129845 379844           679617
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  30900    -6.5E+00  2.3E+00                    64726  3.0206121E+05 129453 129453 379452           674455
+  31000    -6.5E+00  2.3E+00                    64532  3.0115588E+05 129065 129065 379064           680726
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  31100    -6.5E+00  2.3E+00                    64336  3.0024121E+05 128673 128673 378672           676146
+  31200    -6.5E+00  2.3E+00                    64142  2.9933588E+05 128285 128285 378284           681913
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  31300    -6.5E+00  2.3E+00                    63946  2.9842121E+05 127893 127893 377892           678023
+  31400    -6.5E+00  2.3E+00                    63752  2.9751588E+05 127505 127505 377504           683067
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  31500    -6.5E+00  2.3E+00                    63556  2.9660121E+05 127113 127113 377112           678416
+  31600    -6.5E+00  2.3E+00                    63362  2.9569588E+05 126725 126725 376724           684297
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  31700    -6.5E+00  2.3E+00                    63166  2.9478121E+05 126333 126333 376332           678920
+  31800    -6.5E+00  2.3E+00                    62972  2.9387588E+05 125945 125945 375944           685525
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  31900    -6.5E+00  2.3E+00                    62776  2.9296121E+05 125553 125553 375552           680062
+  32000    -6.5E+00  2.3E+00                    62582  2.9205588E+05 125165 125165 375164           686679
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+
+    Itn     FP mult  FP step   rgNorm          NumInf         SumInf   +SBS   -SBS    -BS    Pivot     L+U ncp    nS condZHZ
+  32100    -6.5E+00  2.3E+00                    62386  2.9114121E+05 124773 124773 374772           680272
+  32200    -6.5E+00  2.3E+00                    62192  2.9023588E+05 124385 124385 374384           687876
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  32300    -6.5E+00  2.3E+00                    61996  2.8932121E+05 123993 123993 373992           682236
+  32400    -6.5E+00  2.3E+00                    61802  2.8841588E+05 123605 123605 373604           689017
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  32500    -6.5E+00  2.3E+00                    61606  2.8750121E+05 123213 123213 373212           681878
+  32600    -6.5E+00  2.3E+00                    61412  2.8659588E+05 122825 122825 372824           690269
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  32700    -6.5E+00  2.3E+00                    61216  2.8568121E+05 122433 122433 372432           684530
+  32800    -6.5E+00  2.3E+00                    61022  2.8477588E+05 122045 122045 372044           691406
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  32900    -6.5E+00  2.3E+00                    60826  2.8386121E+05 121653 121653 371652           684582
+  33000    -6.5E+00  2.3E+00                    60632  2.8295588E+05 121265 121265 371264           692519
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  33100    -6.5E+00  2.3E+00                    60436  2.8204121E+05 120873 120873 370872           686430
+  33200    -6.5E+00  2.3E+00                    60242  2.8113588E+05 120485 120485 370484           693731
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+ Singular(m=n)  rank   249999  n-rank       0  nsing        1
+  33300    -6.5E+00  2.3E+00                    60046  2.8022121E+05 120093 120093 370092           686363
+  33400    -6.5E+00  2.3E+00                    59852  2.7931588E+05 119705 119705 369704           694843
+error running snopt:
+	termination code 9
+<BREAK>
+7201.24user 0.27system 2:00:01elapsed 100%CPU (0avgtext+0avgdata 480772maxresident)k
+16inputs+77400outputs (0major+166022minor)pagefaults 0swaps

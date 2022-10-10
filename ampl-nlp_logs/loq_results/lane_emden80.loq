@@ -1,0 +1,56 @@
+The license for this AMPL processor will expire in 11.7 days.
+LOQO 7.03: verbose=2
+timing=1
+variables: non-neg      0,  free    38481,  bdd          0,  total    38481
+constraints: eq         0,  ineq      161,  ranged       0,  total      161
+nonzeros:    A     115520,  Q      258478
+-----------------------------------------------------------------------------
+     |         Primal          |           Dual          | Sig               
+Iter |  Obj Value     Infeas   |   Obj Value     Infeas  | Fig  Status  P   M
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  1    1.605352e+01   1.2e-15    -6.562184e+02   4.0e+01        PF         
+nonzeros:    L   27666719,  arith_ops        20753299594
+  2    1.588902e+01   0.0e+00    -7.829989e+01   5.2e+00        PF         
+  3    1.531765e+01   0.0e+00    -2.796383e+01   2.3e+00        PF         
+  4    1.543366e+01   2.6e-03    -2.460160e+01   2.0e+00                   
+  5    1.447653e+01   1.2e-03    -9.060400e+00   1.0e+00                   
+  6    1.272722e+01   6.2e-04    -8.954510e-01   5.6e-01                   
+  7    1.177875e+01   5.9e-04     3.816770e-02   4.7e-01                   
+  8    9.394629e+00   9.3e-04     4.487795e+00   1.7e-01                   
+  9    9.054777e+00   1.2e-03     5.510952e+00   1.1e-01                   
+ 10    9.075404e+00   9.7e-04     6.162012e+00   9.0e-02    1              
+ 11    9.129527e+00   8.8e-04     6.305471e+00   8.3e-02    1              
+ 12    9.155682e+00   6.8e-04     7.016291e+00   6.1e-02    1              
+ 13    9.207725e+00   7.1e-04     7.258337e+00   5.0e-02    1              
+ 14    9.237917e+00   3.9e-04     7.963557e+00   3.1e-02    1              
+ 15    9.327193e+00   6.1e-05     8.973265e+00   3.6e-03    1              
+ 16    9.341238e+00   1.3e-05     9.269093e+00   6.1e-04    2              
+ 17    9.338482e+00   7.6e-06     9.277803e+00   5.5e-04    2              
+ 18    9.338050e+00   5.2e-06     9.294895e+00   3.9e-04    2              
+ 19    9.338732e+00   1.6e-06     9.318022e+00   1.4e-04    3              
+ 20    9.337327e+00   7.3e-07     9.327188e+00   6.6e-05    3   PF         
+ 21    9.336641e+00   5.5e-07     9.332973e+00   2.3e-05    3   PF         
+ 22    9.336326e+00   1.4e-06     9.335912e+00   3.4e-06    4              
+ 23    9.336308e+00   4.7e-07     9.336261e+00   7.5e-07    5   PF DF      
+ 24    9.336311e+00   6.4e-08     9.336307e+00   1.1e-07    6   PF DF      
+ 25    9.336312e+00   4.1e-09     9.336312e+00   7.1e-09    8   PF DF      
+----------------------
+OPTIMAL SOLUTION FOUND
+
+Times (seconds):
+Input =  3.84074
+Solve =  120.283
+Output = 0.000214
+
+nn nonlinear evaluations = t seconds:
+	  25   functions = 0.463007
+	  25   gradients = 0.010484
+	  25 constraints = 0.061235
+	  49   Jacobians = 0.480627
+	  25    Hessians = 3.54122
+Total nonlinear evaluation seconds = 4.55657
+LOQO 7.03: optimal solution (25 iterations, 25 evaluations)
+primal objective 9.336312007
+  dual objective 9.336311777
+136.35user 0.44system 2:16.79elapsed 100%CPU (0avgtext+0avgdata 1229524maxresident)k
+136inputs+44888outputs (0major+350805minor)pagefaults 0swaps

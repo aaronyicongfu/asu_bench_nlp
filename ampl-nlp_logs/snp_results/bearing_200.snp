@@ -1,0 +1,76 @@
+SNOPT 7.7.0 : superbasics_limit=2500
+meminc=24000000
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       0     Linear constraints       1
+ Nonlinear variables     40000     Linear variables         0
+ Jacobian  variables         0     Objective variables  40000
+ Total constraints           1     Total variables      40000
+ 
+
+ Itn      0: Feasible linear constraints
+
+    Itn  QP mult  NonOpt   QP objective    nS    rgNorm
+    100  1.0E+00   20100  2.7765353E+01   100   1.1E-16
+    200  6.0E-01   20000  2.4216973E+01   200   2.2E-16
+    300  5.5E-01   19900  2.2185094E+01   300   1.7E-16
+    400  4.1E-01   19800  2.1033974E+01   400   1.6E-16
+    500  3.6E-01   19700  2.0036997E+01   500   1.6E-16
+    600  3.0E-01   19600  1.9436847E+01   600   2.1E-16
+    700  2.6E-01   19500  1.8851932E+01   700   1.0E-16
+    800  2.4E-01   19400  1.8466975E+01   800   1.8E-16
+    900  2.0E-01   19300  1.8053643E+01   900   1.8E-16
+   1000  1.9E-01   19200  1.7766883E+01  1000   6.9E-17
+
+    Itn  QP mult  NonOpt   QP objective    nS    rgNorm
+   1100  1.6E-01   19100  1.7467982E+01  1100   9.0E-17
+   1200  1.6E-01   19000  1.7243089E+01  1200   4.9E-17
+   1300  1.3E-01   18900  1.7005231E+01  1300   4.9E-17
+   1400  1.3E-01   18800  1.6816643E+01  1400   3.8E-17
+   1500  1.1E-01   18700  1.6623370E+01  1500   3.1E-17
+   1600  1.0E-01   18600  1.6459405E+01  1600   6.9E-17
+   1700  7.8E-02   18500  1.6293433E+01  1700   5.6E-17
+   1800  8.6E-02   18400  1.6149746E+01  1800   2.8E-17
+   1900  6.4E-02   18300  1.6004459E+01  1900   2.8E-17
+   2000  6.2E-02   18200  1.5873675E+01  2000   1.5E-17
+
+ Itn   2000: Feasible linear constraints
+
+    Itn  QP mult  NonOpt   QP objective    nS    rgNorm
+   2000            18200  1.5873675E+01  2000   1.8E-14
+   2100  6.0E-02   18100  1.5743455E+01  2100   7.9E-06     56
+   2200  6.0E-02   18000  1.5623179E+01  2200   6.4E-06     59
+   2300  5.6E-02   17900  1.5502931E+01  2300   4.3E-06     77
+   2400  5.3E-02   17800  1.5390773E+01  2400   5.9E-06     62
+   2500  5.2E-02   17700  1.5278670E+01  2500   3.2E-06     82
+ 
+ SQOPT  EXIT  30 -- resource limit error
+ SQOPT  INFO  33 -- the superbasics limit is too small
+
+ Problem name                 at5872
+ No. of iterations                2501   Objective            1.5278669544E+01
+ No. of Hessian products         35845   Linear    objective -2.9001033482E+00
+                                         Quadratic objective  1.8178772892E+01
+ No. of superbasics               2500   No. of basic nonlinears             0
+ No. of CG iterations            30841
+ No. of degenerate steps             0   Percentage                       0.00
+ Max x       (scaled)     9814 1.0E+00   Max pi      (scaled)        1 3.1E-04
+ Max x                    9814 1.0E+00   Max pi                      1 1.0E+00
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)    18411 5.0E-02
+ Max Primal infeas           0 0.0E+00   Max Dual infeas         18411 5.0E-02
+
+ Solution not printed
+ 
+ Time for MPS input                             0.00 seconds
+ Time for solving problem                      19.27 seconds
+ Time for solution output                       0.00 seconds
+ Time for constraint functions                  0.00 seconds
+ Time for objective function                    0.00 seconds
+SNOPT 7.7.0 : The superbasics limit is too small.
+2501 iterations, objective 15.27866954
+19.74user 0.10system 0:19.90elapsed 99%CPU (0avgtext+0avgdata 136480maxresident)k
+8inputs+20168outputs (0major+66641minor)pagefaults 0swaps

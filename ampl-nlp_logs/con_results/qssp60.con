@@ -1,0 +1,37 @@
+workfactor=8
+outlev=2
+
+    The model has 22144 variables and 14582 constraints
+    with 164053 Jacobian elements, 22143 of which are nonlinear.
+    The Hessian of the Lagrangian has 22143 elements on the diagonal,
+    0 elements below the diagonal, and 22143 nonlinear variables.
+
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  2
+                   Definitional equations:     1
+
+
+ ** Overflow or Nan (Not A Number) has been encountered indicating
+    numerical difficulties. Trying to repair by increasing the
+    absolute and relative pivot tolerances (Rtpiva and Rvpivr)
+    and allowing small values to be scaled up by decreasing
+    the minimum scale factor, Rtmins.
+
+
+ ** Overflow or Nan (Not A Number) continues to be encountered
+    after multiple attempt to repair by changed tolerances.
+    CONOPT will give up.
+
+
+ ** Feasible solution. The solution process has been terminated
+    because intermediate results have become NaN (Not A Number).
+
+CONOPT 3.17A: Bogus "Termination by solver" (CONOPT bug); objective 0
+2 iterations; evals: nf = 1, ng = 0, nc = 13, nJ = 6, nH = 0, nHv = 0
+
+ CONOPT time Total                            1.091 seconds
+   of which: Function evaluations             0.046 =  4.2%
+             1st Derivative evaluations       0.408 = 37.4%
+
+1.12user 0.01system 0:01.17elapsed 96%CPU (0avgtext+0avgdata 76616maxresident)k
+5456inputs+8outputs (0major+10542minor)pagefaults 0swaps

@@ -1,0 +1,75 @@
+ ReadParams: Used parameter file worhp.xml
+ * Read 286/286 parameters.
+timeout=7200
+ WORHP: Using data file /tmp/at27242.
+ Opened license file worhp.lic
+ This module 'worhp' is licensed for versions <= 2.0 to:
+    Hans Mittelmann
+    Arizona State University
+    on host 'square3' until 22.05.2018
+ 
+ LICENSED FOR NON-PROFIT, ACADEMIC OR INSTRUCTIONAL USE.
+ YOU ARE NOT PERMITTED TO EXPLOIT THIS LICENSE COMMERCIALLY.
+
+Not enough parameter variations available to fill all threads.
+timeout=7200
+timeout=7200
+#########################################################################
+# This is the WORHP multi core interface in First-Across-The-Line mode. #
+#########################################################################
+
+ ------------------------------------------------------
+   This code is using WORHP 1.11-4484360 the European NLP-solver.
+    Use of WORHP is subject to terms and conditions.
+     Visit http://www.worhp.de for more information.
+ ------------------------------------------------------
+
+ Total number of variables ........................  160000
+                    variables with lower bound only  160000
+               variables with lower and upper bound       0
+                    variables with upper bound only       0
+ Total number of box constraints ..................  160000
+ Total number of other constraints ................       0
+ Total number of other constraints ................       0
+                              equality constraints        0
+       inequality constraints with lower bound only       0
+  inequality constraints with lower and upper bound       0
+       inequality constraints with upper bound only       0
+
+ THREAD      ITER           OBJ             CON           OPTI/COMPL     FLAGS   ALPHA       |DX|   BAR/REL PEN   REG     TIME
+ {   1} [    0|   0]  +5.25407499E+01  0.00000000E+00  7.29370140E-02 so  Ufn  0.000E+00   0.00E+00    -     -     -    0.00E+00
+ {   2} [    0|   0]  +5.26195134E+01  0.00000000E+00  3.75544133E-01 c   Ufn  0.00E+00--  0.00E+00  -1.00  0.00   -    0.00E+00
+ {   2} [    1|   1]  +3.28333818E+01  0.00000000E+00  1.03233189E-01 c   Ufn  1.00E+00gm  5.68E+00  -3.00  0.00   -    1.00E+00
+ {   2} [    2|   1]  +2.45815172E+01  0.00000000E+00  5.53080463E-02 o   Ufn  1.00E+00lm  1.32E+01  -3.00  0.00   -    2.00E+00
+ {   2} [    3|   1]  +2.28238837E+01  0.00000000E+00  2.91666106E-02 o   Ufn  1.00E+00lm  2.07E+01  -3.00  0.00   -    2.00E+00
+ {   2} [    4|   1]  +2.50853508E+01  0.00000000E+00  2.29157193E-02 o   Ufn  1.00E+00lm  5.70E+01  -3.00  0.00   -    3.00E+00
+ {   2} [    5|   1]  +3.19829992E+01  0.00000000E+00  7.99044060E-03 o   Ufn  1.00E+00lm  1.06E+02  -3.00  0.00   -    3.00E+00
+ {   2} [    6|   1]  +1.45178840E+01  0.00000000E+00  8.09207574E-04 c   Ufa  1.00E+00lm  7.08E+01  -4.50  0.00   -    4.00E+00
+ {   2} [    7|   1]  +4.84457863E+00  0.00000000E+00  2.18069979E-04 c   Ufa  1.00E+00lm  1.00E+02  -4.50  0.00   -    4.00E+00
+ {   2} [    8|   1]  +1.03766878E+00  0.00000000E+00  5.44455723E-05 c   Ufa  1.00E+00lm  7.94E+01  -8.00  0.00   -    5.00E+00
+ THREAD      ITER           OBJ             CON           OPTI/COMPL     FLAGS   ALPHA       |DX|   BAR/REL PEN   REG     TIME
+ {   1} [    1|  10]  +1.02715620E+01  0.00000000E+00  3.70871273E-04 so  Ufa  1.000E+00   4.36E+01    -     -   -3.0   5.00E+00
+ {   2} [    9|   1]  +1.05683648E-01  0.00000000E+00  1.35333103E-05 c   Ufa  1.00E+00lm  3.88E+01  -8.00  0.00   -    5.00E+00
+ {   2} [   10|   1]  -1.13582411E-01  0.00000000E+00  3.29444585E-06 c   Ufa  1.00E+00lm  1.76E+01  -8.00  0.00   -    6.00E+00
+ {   2} [   11|   1]  -1.40885566E-01  0.00000000E+00  2.89587732E-04 o   Ufa  6.66E-01lm  5.73E+00  -8.00  0.00   -    6.00E+00
+ {   2} [   12|   1]  -1.51380238E-01  0.00000000E+00  1.21855907E-04 o   Ufa  8.15E-01lm  2.89E+00  -8.00  0.00   -    7.00E+00
+ {   2} [   13|   1]  -1.54020423E-01  0.00000000E+00  4.07940661E-08 c   Ufo  1.00E+00lm  8.00E-01  -8.00  0.00   -    7.00E+00
+ Objective function evaluations ....         14
+ Constraint function evaluations ...          0
+ Gradient evaluations ..............         14
+ Jacobian evaluations ..............          0
+ Hessian evaluations ...............         13
+ This threads id is ................          2
+ Time of this thread ...............  7
+
+ WORHP finished. Terminating remaining threads.
+ Terminated with status 0
+ 
+ Final values after iteration 13:
+ Final objective value ............. -1.5402042350E-01
+ Final constraint violation ........  0.0000000000E+00 (0.0000000000E+00)
+ Final complementarity .............  4.0794066110E-08 (4.0794066110E-08)
+ Final KKT conditions ..............  4.5238200122E-15 (4.5238200122E-15)
+ Successful termination: Optimal Solution Found.
+114.75user 18.93system 1:34.75elapsed 141%CPU (0avgtext+0avgdata 2318828maxresident)k
+0inputs+77968outputs (0major+684103minor)pagefaults 0swaps

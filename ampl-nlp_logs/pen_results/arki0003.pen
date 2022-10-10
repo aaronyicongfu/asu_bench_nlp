@@ -1,0 +1,88 @@
+PENNON 0.9: outlev=2
+
+Number of Variables                      1872
+   - bounded above                        597
+   - bounded below                       1511
+   - free                                 361
+Number of Matrix variables                  0
+   - degrees of freedom                     0
+   - bounded below                          0
+   - bounded above                          0
+Number of Nonlinear Equalities            360
+Number of Nonlinear Inequalities          737
+Number of Linear Equalities                87
+Number of Linear Inequalities             954
+
+********************************************* 
+PENNON 0.9
+---------------------------------------------
+*********************************************
+
+Max./Min. Box-Mult.: 1.000000 / 1.000000
+Max./Min. Lin-Mult.: 1.000000 / 0.000000
+Max./Min. Nl -Mult.: 0.001000 / 0.000000
+
+*******************************************************************************
+* it |     obj      | (U,G(x)) |  ||dF||  |   feas   |   pmin   | Nwt  | Fact |
+*******************************************************************************
+|   0| -0.00000e+00 |  6.7e+15 |  7.2e+08 |  1.2e+08 |  1.0e+00 |    0 |    0 |
+|   1|  7.75971e+06 |  2.1e+09 |  4.5e+04 |  4.6e+04 |  1.0e+00 |  100 |  364 |
+|   2|  7.76305e+06 |  5.6e+08 |  1.3e+07 |  1.6e+05 |  2.0e-01 |  100 |  366 |
+|   3|  7.76330e+06 |  2.0e+10 |  3.9e+08 |  4.4e+05 |  4.0e-02 |  100 |  412 |
+|   4|  7.76499e+06 |  5.6e+10 |  2.0e+05 |  7.5e+03 |  8.0e-03 |  100 |  436 |
+|   5|  7.76728e+06 |  5.6e+11 |  2.3e+07 |  7.5e+03 |  1.6e-03 |  100 |  439 |
+|   6|  7.76972e+06 |  5.6e+12 |  1.6e+08 |  7.5e+03 |  3.2e-04 |  100 |  434 |
+|   7|  7.78539e+06 |  5.4e+13 |  6.3e+10 |  1.3e+04 |  6.4e-05 |  100 |  498 |
+|   8|  7.85781e+06 |  4.6e+14 |  8.2e+12 |  1.2e+05 |  1.3e-05 |  100 |  473 |
+|   9|  7.86758e+06 |  4.5e+15 |  3.1e+10 |  6.7e+03 |  2.6e-06 |  100 |  494 |
+|  10|  7.89443e+06 |  4.2e+16 |  8.1e+11 |  8.7e+03 |  5.1e-07 |  100 |  493 |
+|  11|  7.90470e+06 |  4.0e+17 |  3.6e+13 |  5.1e+04 |  1.0e-07 |  100 |  458 |
+|  12|  7.98044e+06 |  6.6e+17 |  1.6e+11 |  1.2e+04 |  1.0e-07 |  100 |  633 |
+|  13|  8.32094e+06 |  1.8e+18 |  5.8e+13 |  1.6e+05 |  1.0e-07 |  100 |  527 |
+|  14|  8.38574e+06 |  1.3e+19 |  1.1e+15 |  1.2e+05 |  1.0e-07 |  100 |  493 |
+|  15|  8.69699e+06 |  2.0e+19 |  4.2e+16 |  4.1e+04 |  1.0e-07 |  100 |  476 |
+|  16|  9.30502e+06 |  3.0e+20 |  1.0e+19 |  2.0e+06 |  1.0e-07 |  100 |  455 |
+|  17|  9.30629e+06 |  2.8e+21 |  4.5e+18 |  1.4e+07 |  1.0e-07 |  100 |  452 |
+*******************************************************************************
+Objective                         9.3062859257378653e+06
+Relative Precision                1.9516505049931212E+15
+Gradient Augm. Lagrangian         4.5499318622864174E+18
+Complementary Slackness           2.8191893877908214E+21
+Feasibility                       1.4081397978710970E+07
+Outer Iterations                                      17
+Inner Iterations                                    1700
+Linesearch steps                                    4989
+Start time                      Fri Nov 16 15:03:49 2012
+End time                        Fri Nov 16 15:04:20 2012
+Process time                           0 h  0 min 31 sec
+Unconstrained minimization                   31.1979 sec
+      - feval                                4.00825 sec
+      - feval (sparse chol)                        0 sec
+      - geval                                1.28408 sec
+      - heval                                 3.1162 sec
+      - heval (sparse chol)                        0 sec
+      - dense chol                                 0 sec
+      - sparse chol                          22.3134 sec
+      - eigenvalue                                 0 sec
+Multiplier update                                  0 sec
+Penalty update                                     0 sec
+Feasibility check                                  0 sec
+      - dense chol                                 0 sec
+      - sparse chol                                0 sec
+CG                                                 0 sec
+CG (prec)                                          0 sec
+CG (H*v)                                           0 sec
+*******************************************************************************
+
+
+Aborted: No progress.
+
+PENNON VERSION 0.9 (November, 2007), ASL(20090429):
+aborted: no progress, 0/0 iterations.
+
+"option abs_boundtol 1.3385601960180793e-06;"
+or "option rel_boundtol 4.548284729928914e-10;"
+will change deduced dual values.
+
+31.26user 0.04system 0:31.41elapsed 99%CPU (0avgtext+0avgdata 151184maxresident)k
+0inputs+1208outputs (0major+14958minor)pagefaults 0swaps

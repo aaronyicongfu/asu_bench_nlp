@@ -1,0 +1,76 @@
+The license for this AMPL processor will expire in 12.1 days.
+LOQO 7.03: verbose=2
+timing=1
+variables: non-neg      0,  free        0,  bdd      50562,  total    50562
+constraints: eq     25281,  ineq        0,  ranged       0,  total    25281
+nonzeros:    A     151050,  Q       50562
+-----------------------------------------------------------------------------
+     |         Primal          |           Dual          | Sig               
+Iter |  Obj Value     Infeas   |   Obj Value     Infeas  | Fig  Status  P   M
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  1    0.000000e+00   8.9e-01    -5.162797e+05   0.0e+00           DF      
+nonzeros:    L    2633922,  arith_ops          581219493
+  2    2.459829e-01   1.9e-01    -1.372287e+05   0.0e+00           DF      
+  3    4.121586e-01   7.6e-02    -5.319633e+04   0.0e+00           DF      
+  4    7.093859e-01   3.8e-02    -3.047482e+04   0.0e+00           DF      
+  5    1.045529e+00   1.8e-02    -1.736135e+04   0.0e+00           DF      
+  6    1.237667e+00   8.4e-03    -8.857537e+03   0.0e+00           DF      
+  7    1.322847e+00   3.8e-03    -4.467675e+03   0.0e+00           DF      
+  8    1.252003e+00   1.8e-03    -2.306357e+03   0.0e+00           DF      
+  9    7.008996e-01   1.2e-03    -1.528680e+03   0.0e+00           DF      
+ 10    1.240216e-01   1.4e-04    -7.483267e+02   0.0e+00           DF      
+ 11    1.257816e-01   6.4e-05    -1.820632e+02   0.0e+00           DF      
+ 12    1.259114e-01   4.5e-05    -1.110899e+02   0.0e+00           DF      
+ 13    1.271765e-01   3.4e-05    -1.497496e+02   0.0e+00           DF      
+ 14    1.265728e-01   2.2e-06    -1.956959e+01   0.0e+00           DF      
+ 15    1.264964e-01   1.8e-07    -1.693483e+00   0.0e+00        PF DF      
+ 16    1.258831e-01   1.8e-08    -6.726652e-02   0.0e+00    1   PF DF      
+ 17    1.226352e-01   8.5e-09     3.566096e-02   0.0e+00    1   PF DF      
+ 18    1.186258e-01   2.4e-08     7.099051e-02   0.0e+00    1   PF DF      
+ 19    1.144913e-01   3.1e-08     8.949204e-02   0.0e+00    2   PF DF      
+ 20    1.121978e-01   2.4e-08     1.031770e-01   0.0e+00    2   PF DF      
+ 21    1.109313e-01   1.3e-08     1.082965e-01   0.0e+00    3   PF DF      
+ 22    1.104260e-01   4.1e-09     1.097874e-01   0.0e+00    3   PF DF      
+ 23    1.103252e-01   1.7e-09     1.100801e-01   0.0e+00    4   PF DF      
+ 24    1.103199e-01   1.5e-09     1.100956e-01   0.0e+00    4   PF DF      
+ 25    1.103193e-01   1.5e-09     1.100974e-01   0.0e+00    4   PF DF      
+ 26    1.103179e-01   1.1e-09     1.100419e-01   0.0e+00    4   PF DF      
+ 27    1.103139e-01   1.0e-09     1.100579e-01   0.0e+00    4   PF DF      
+ 28    1.103112e-01   9.8e-10     1.100702e-01   0.0e+00    4   PF DF      
+ 29    1.103132e-01   7.0e-10     1.100028e-01   0.0e+00    4   PF DF      
+ 30    1.103120e-01   6.8e-10     1.100099e-01   0.0e+00    4   PF DF      
+ 31    1.103134e-01   6.4e-10     1.099906e-01   0.0e+00    4   PF DF      
+ 32    1.103172e-01   5.7e-10     1.099485e-01   0.0e+00    3   PF DF      
+ 33    1.103120e-01   5.2e-10     1.099803e-01   0.0e+00    4   PF DF      
+ 34    1.103083e-01   4.7e-10     1.100044e-01   0.0e+00    4   PF DF      
+ 35    1.102918e-01   1.1e-10     1.100863e-01   0.0e+00    4   PF DF      
+ 36    1.102815e-01   6.1e-11     1.101660e-01   0.0e+00    4   PF DF      
+ 37    1.102726e-01   2.2e-11     1.102325e-01   0.0e+00    4   PF DF      
+ 38    1.102683e-01   3.0e-12     1.102627e-01   0.0e+00    5   PF DF      
+ 39    1.102676e-01   3.3e-13     1.102672e-01   0.0e+00    6   PF DF      
+ 40    1.102676e-01   1.3e-13     1.102675e-01   0.0e+00    8   PF DF      
+----------------------
+OPTIMAL SOLUTION FOUND
+
+Times (seconds):
+Input =  0.174205
+Solve =  9.65594
+Output = 0.000361
+
+nn nonlinear evaluations = t seconds:
+	  40   functions = 0.187065
+	  40   gradients = 0.174156
+	  40 constraints = 0.002815
+	  79   Jacobians = 0.108418
+	  40    Hessians = 0.224802
+Total nonlinear evaluation seconds = 0.697256
+LOQO 7.03: optimal solution (40 iterations, 40 evaluations)
+primal objective 0.1102675605
+  dual objective 0.1102675343
+
+"option abs_boundtol 1.6768350596940707e-11;"
+or "option rel_boundtol 1.5243955088127916e-10;"
+will change deduced dual values.
+
+47.18user 0.06system 0:47.25elapsed 99%CPU (0avgtext+0avgdata 133220maxresident)k
+8inputs+14296outputs (0major+58407minor)pagefaults 0swaps

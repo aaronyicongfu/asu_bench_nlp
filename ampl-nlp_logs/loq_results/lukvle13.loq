@@ -1,0 +1,45 @@
+The license for this AMPL processor will expire in 12.0 days.
+LOQO 7.03: verbose=2
+timing=1
+variables: non-neg      0,  free   249998,  bdd          0,  total   249998
+constraints: eq    166664,  ineq        0,  ranged       0,  total   166664
+nonzeros:    A     666656,  Q      583326
+-----------------------------------------------------------------------------
+     |         Primal          |           Dual          | Sig               
+Iter |  Obj Value     Infeas   |   Obj Value     Infeas  | Fig  Status  P   M
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  1    6.999888e+06   3.0e-03     6.999888e+06   2.9e-03   60              
+nonzeros:    L    1416645,  arith_ops            9916514
+  2    5.562997e+06   2.1e-03     5.562997e+06   2.7e-03   60              
+  3    4.750671e+06   1.7e-03     4.750671e+06   2.6e-03   60              
+  4    3.358008e+06   1.1e-03     3.358008e+06   2.4e-03   60              
+  5    2.324088e+06   5.1e-04     2.324088e+06   1.9e-03   60              
+  6    2.144346e+06   2.3e-04     2.144346e+06   1.2e-03   60              
+  7    2.075252e+06   7.3e-05     2.075252e+06   5.5e-04   60              
+  8    2.045473e+06   1.6e-05     2.045473e+06   2.5e-04   60              
+  9    2.024110e+06   2.0e-06     2.024110e+06   1.4e-04   60              
+ 10    2.016189e+06   2.6e-06     2.016189e+06   4.2e-05   60               1
+ 11    2.009676e+06   1.7e-07     2.009676e+06   1.0e-05   60   PF         
+ 12    2.009259e+06   1.6e-08     2.009259e+06   3.3e-06   60   PF         
+ 13    2.009236e+06   8.4e-10     2.009236e+06   1.1e-06   60   PF         
+ 14    2.009235e+06   4.3e-11     2.009235e+06   3.4e-07   60   PF DF      
+----------------------
+OPTIMAL SOLUTION FOUND
+
+Times (seconds):
+Input =  1.99113
+Solve =  5.03762
+Output = 0.00199
+
+nn nonlinear evaluations = t seconds:
+	  15   functions = 0.34719
+	  14   gradients = 0.3714
+	  15 constraints = 0.011223
+	  28   Jacobians = 0.187738
+	  14    Hessians = 0.819493
+Total nonlinear evaluation seconds = 1.73704
+LOQO 7.03: optimal solution (14 iterations, 15 evaluations)
+primal objective 2009235.001
+  dual objective 2009235.001
+7.60user 0.21system 0:07.82elapsed 99%CPU (0avgtext+0avgdata 487400maxresident)k
+8inputs+58936outputs (0major+163913minor)pagefaults 0swaps

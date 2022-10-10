@@ -1,0 +1,66 @@
+PENNON 0.9: outlev=2
+
+Number of Variables                     64000
+   - bounded above                          0
+   - bounded below                          5
+   - free                               63995
+Number of Matrix variables                  0
+   - degrees of freedom                     0
+   - bounded below                          0
+   - bounded above                          0
+Number of Nonlinear Equalities          48000
+Number of Nonlinear Inequalities            0
+Number of Linear Equalities             15995
+Number of Linear Inequalities               0
+
+********************************************* 
+PENNON 0.9
+---------------------------------------------
+*********************************************
+
+Max./Min. Box-Mult.: 0.000100 / 0.000100
+Max./Min. Lin-Mult.: 0.000000 / 0.000000
+Max./Min. Nl -Mult.: 0.000000 / 0.000000
+
+*******************************************************************************
+* it |     obj      | (U,G(x)) |  ||dF||  |   feas   |   pmin   | Nwt  | Fact |
+*******************************************************************************
+|   0|  1.97525e+02 |  5.0e+03 |  3.6e+01 |  2.4e+01 |  1.0e+00 |    0 |    0 |
+|   1|  1.98722e+01 |  2.7e-08 |  7.5e-09 |  1.4e-14 |  1.0e+00 |    7 |    7 |
+|   2|  1.98722e+01 |  2.7e-08 |  3.6e-09 |  1.4e-14 |  2.0e-01 |    1 |    1 |
+*******************************************************************************
+Objective                         1.9872166934244778e+01
+Relative Precision                2.1312557832263722E-09
+Gradient Augm. Lagrangian         3.6415287065944575E-09
+Complementary Slackness           2.7401603903684180E-08
+Feasibility                       1.4043097821677595E-14
+Outer Iterations                                       2
+Inner Iterations                                       8
+Linesearch steps                                       6
+Start time                      Sat Nov 17 05:38:09 2012
+End time                        Sat Nov 17 05:38:16 2012
+Process time                           0 h  0 min  7 sec
+Unconstrained minimization                   2.22814 sec
+      - feval                               0.152009 sec
+      - feval (sparse chol)                        0 sec
+      - geval                               0.220014 sec
+      - heval                               0.612037 sec
+      - heval (sparse chol)                        0 sec
+      - dense chol                                 0 sec
+      - sparse chol                          5.28833 sec
+      - eigenvalue                                 0 sec
+Multiplier update                                  0 sec
+Penalty update                                     0 sec
+Feasibility check                                  0 sec
+      - dense chol                                 0 sec
+      - sparse chol                                0 sec
+CG                                                 0 sec
+CG (prec)                                          0 sec
+CG (H*v)                                           0 sec
+*******************************************************************************
+
+PENNON VERSION 0.9 (November, 2007), ASL(20090429):
+converged: optimal solution, 2/8 iterations.
+primal objective 19.87216693
+7.35user 0.09system 0:07.48elapsed 99%CPU (0avgtext+0avgdata 973504maxresident)k
+0inputs+26664outputs (0major+116827minor)pagefaults 0swaps

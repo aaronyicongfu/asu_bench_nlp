@@ -1,0 +1,93 @@
+SNOPT 7.7.0 : superbasics_limit=2500
+meminc=24000000
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints     161     Linear constraints       1
+ Nonlinear variables     21600     Linear variables         1
+ Jacobian  variables     21600     Objective variables      0
+ Total constraints         162     Total variables      21601
+ 
+
+ 
+ The user has defined   64800   out of   64800   constraint gradients.
+ 
+
+        Minor NonOpt  QP mult  QP step   rgNorm   QP objective     nS
+          100   3415  5.6E-01  1.0E+00  7.6E-15  1.4138003E+03     83
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     0    116               1 (0.0E+00) 9.6E-01  1.4579938E+03     99           r  T
+
+        Minor NonOpt  QP mult  QP step   rgNorm   QP objective     nS
+          100  20320  1.5E-01  8.8E-01  5.9E-16  3.1138756E+02    122
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     1    185  1.4E-02      2  1.0E-06  1.9E-01  1.4569938E+03    203           rl T
+
+        Minor NonOpt  QP mult  QP step   rgNorm   QP objective     nS
+          100  21284           1.0E+00  2.7E-16 -8.5083184E+01    232
+          200  21232 -3.9E-02  1.0E+00  1.4E-13 -1.7852850E+02    288
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     2    267  6.8E-04      3  2.1E-06  4.4E-01  1.4559938E+03    335         s  l T
+
+        Minor NonOpt  QP mult  QP step   rgNorm   QP objective     nS
+          100  17875  4.4E-02  1.0E+00  1.7E-16 -2.2323930E+02    386
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     3    169  3.9E-04      7  3.0E-06  4.9E-01  1.4552511E+03    443            d T
+
+        Minor NonOpt  QP mult  QP step   rgNorm   QP objective     nS
+          100  19058           1.0E+00  3.4E-14 -1.8214438E+02    469
+          200      8           1.0E+00  1.6E-13 -2.7527952E+02    550
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     4    214  2.7E-04     11  3.3E-06  6.0E-01  1.4546785E+03    560            d T
+
+        Minor NonOpt  QP mult  QP step   rgNorm   QP objective     nS
+          100  18546           1.0E+00  4.3E-15 -1.0725547E+02    587
+          200      9 -3.4E-03  1.0E+00  1.1E-13 -1.4270143E+02    666
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     5    210  2.4E-04     15  3.7E-06  8.6E-01  1.4541902E+03    676            d T
+
+        Minor NonOpt  QP mult  QP step   rgNorm   QP objective     nS
+          100  18270  1.0E-02  1.0E+00  3.5E-14 -7.8126476E+01    719
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     6    156  2.5E-04     19  4.2E-06  9.7E-01  1.4537524E+03    774            d T
+
+        Minor NonOpt  QP mult  QP step   rgNorm   QP objective     nS
+          100  19603  7.7E-03  8.9E-01  8.8E-04 -8.6534334E+01    831
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     7    160  3.7E-04     23  6.0E-06  9.6E-01  1.4531537E+03    875            d T
+
+        Minor NonOpt  QP mult  QP step   rgNorm   QP objective     nS
+          100  20315  7.0E-03  1.0E+00  1.0E-12 -6.9862511E+01    921
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     8    176  3.5E-04     27  7.5E-06  9.7E-01  1.4525721E+03    973            d T
+
+        Minor NonOpt  QP mult  QP step   rgNorm   QP objective     nS
+          100  20376  5.4E-03  1.0E+00  4.6E-14 -7.9791150E+01   1055
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     9    144  4.1E-04     31  8.4E-06  9.8E-01  1.4519093E+03   1094            d T
+
+        Minor NonOpt  QP mult  QP step   rgNorm   QP objective     nS
+          100  20438           1.0E+00  9.7E-15 -1.1794191E+02   1048
+          200  20386  9.0E-02  1.0E+00  3.4E-13 -6.7567736E+02   1102
+          300  20316           1.0E+00  5.8E-14 -9.6141750E+02   1169
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+    10    342  2.4E-02     34  5.4E-02  1.5E+00  1.4138471E+03   1201              T
+error running snopt:
+	termination code 9
+<BREAK>
+7212.31user 0.17system 2:00:12elapsed 99%CPU (0avgtext+0avgdata 309120maxresident)k
+96inputs+27712outputs (0major+111021minor)pagefaults 0swaps

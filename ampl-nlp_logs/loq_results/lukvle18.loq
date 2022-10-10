@@ -1,0 +1,42 @@
+The license for this AMPL processor will expire in 12.0 days.
+LOQO 7.03: verbose=2
+timing=1
+variables: non-neg      0,  free   249997,  bdd          0,  total   249997
+constraints: eq    187497,  ineq        0,  ranged       0,  total   187497
+nonzeros:    A     437493,  Q      499993
+-----------------------------------------------------------------------------
+     |         Primal          |           Dual          | Sig               
+Iter |  Obj Value     Infeas   |   Obj Value     Infeas  | Fig  Status  P   M
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  1    3.749940e+05   5.8e-03     3.749940e+05   2.5e-03   60              
+nonzeros:    L     936616,  arith_ops            5307202
+  2    8.085976e+04   3.5e-03     8.085976e+04   3.6e-03   60              
+  3    1.831641e+04   2.1e-03     1.831641e+04   6.3e-03   60              
+  4    4.522114e+04   1.5e-03     4.522114e+04   5.0e-03   60              
+  5    2.986411e+05   9.3e-04     2.986411e+05   3.4e-03   60              
+  6    3.976848e+05   1.9e-04     3.976848e+05   3.1e-03   60              
+  7    3.260309e+05   5.9e-05     3.260309e+05   1.1e-03   60              
+  8    3.044802e+05   1.4e-05     3.044802e+05   2.7e-04   60              
+  9    3.002117e+05   4.3e-06     3.002117e+05   2.3e-05   60              
+ 10    2.999437e+05   3.4e-07     2.999437e+05   1.6e-06   60   PF         
+ 11    2.999300e+05   1.8e-08     2.999300e+05   8.1e-08   60   PF DF      
+----------------------
+OPTIMAL SOLUTION FOUND
+
+Times (seconds):
+Input =  2.60165
+Solve =  4.03645
+Output = 0.003928
+
+nn nonlinear evaluations = t seconds:
+	  11   functions = 0.243677
+	  11   gradients = 0.276525
+	  11 constraints = 0.011647
+	  21   Jacobians = 0.139663
+	  11    Hessians = 0.559701
+Total nonlinear evaluation seconds = 1.23121
+LOQO 7.03: optimal solution (11 iterations, 11 evaluations)
+primal objective 299929.9651
+  dual objective 299929.9651
+7.20user 0.19system 0:07.40elapsed 99%CPU (0avgtext+0avgdata 498484maxresident)k
+8inputs+56168outputs (0major+168016minor)pagefaults 0swaps

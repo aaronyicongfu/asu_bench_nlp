@@ -1,0 +1,57 @@
+SNOPT 7.7.0 : superbasics_limit=2500
+meminc=24000000
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       0     Linear constraints   40201
+ Nonlinear variables       401     Linear variables     39999
+ Jacobian  variables         0     Objective variables    401
+ Total constraints       40201     Total variables      40400
+ 
+
+ Itn     78: Feasible linear constraints
+
+    Itn  QP mult  NonOpt   QP objective    nS    rgNorm
+    100 -3.4E+00     264  6.6666667E-02
+
+ Itn    119: Feasible linear constraints
+
+    Itn  QP mult  NonOpt   QP objective    nS    rgNorm
+    200 -4.6E-02     243  6.6666666E-02
+    300 -6.3E-02     297  6.6666664E-02
+    400 -3.1E+00     184  6.6666393E-02
+    500 -4.4E-03     307  6.6666286E-02
+    600  4.0E-03     181  1.1852529E-02     1   9.6E-17
+    700 -9.1E-04     166  2.7287513E-03     1   3.2E-17
+    800 -8.9E-05     111  8.2002850E-04     5   2.7E-14
+    900 -4.5E-04      33  7.3884319E-04    10   1.0E-17
+   1000  3.5E-05      35  6.7850068E-04    78   2.0E-16
+ 
+ SQOPT  EXIT   0 -- finished successfully
+ SQOPT  INFO   1 -- optimality conditions satisfied
+
+ Problem name                 at7553
+ No. of iterations                1066   Objective            6.5373914101E-04
+ No. of Hessian products          2112   Linear    objective -6.4620517817E-02
+                                         Quadratic objective  6.5274256958E-02
+ No. of superbasics                121   No. of basic nonlinears           240
+ No. of degenerate steps           475   Percentage                      44.56
+ Max x       (scaled)    32761 2.0E+00   Max pi      (scaled)    39999 2.9E-02
+ Max x                     303 1.0E+00   Max pi                  40201 1.0E+00
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)    12883 4.5E-14
+ Max Primal infeas           0 0.0E+00   Max Dual infeas         12883 4.5E-14
+
+ Solution not printed
+ 
+ Time for MPS input                             0.00 seconds
+ Time for solving problem                     181.48 seconds
+ Time for solution output                       0.00 seconds
+ Time for constraint functions                  0.00 seconds
+ Time for objective function                    0.00 seconds
+SNOPT 7.7.0 : Optimal solution found.
+1066 iterations, objective 0.000653739141
+181.60user 0.10system 3:01.72elapsed 99%CPU (0avgtext+0avgdata 288208maxresident)k
+8inputs+11888outputs (0major+84990minor)pagefaults 0swaps

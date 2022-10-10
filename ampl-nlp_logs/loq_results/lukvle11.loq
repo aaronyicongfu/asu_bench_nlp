@@ -1,0 +1,42 @@
+The license for this AMPL processor will expire in 12.0 days.
+LOQO 7.03: verbose=2
+timing=1
+variables: non-neg      0,  free   249998,  bdd          0,  total   249998
+constraints: eq    166664,  ineq        0,  ranged       0,  total   166664
+nonzeros:    A     499992,  Q      749992
+-----------------------------------------------------------------------------
+     |         Primal          |           Dual          | Sig               
+Iter |  Obj Value     Infeas   |   Obj Value     Infeas  | Fig  Status  P   M
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  1    1.263001e+05   1.5e-03     1.263001e+05   3.4e-03   60              
+nonzeros:    L     999985,  arith_ops            5916578
+  2    1.978849e+04   6.3e-04     1.978849e+04   7.8e-03   60              
+  3    4.128411e+03   1.8e-04     4.128411e+03   9.0e-03   60              
+  4    7.039466e+02   4.4e-05     7.039466e+02   5.2e-03   60              
+  5    2.045988e+01   7.3e-06     2.045988e+01   5.3e-03   60              
+  6    1.633692e-01   8.4e-07     1.633692e-01   1.2e-02   60   PF         
+  7    2.498096e-03   6.4e-07     2.498096e-03   1.0e-02   60   PF         
+  8    3.786276e-05   6.7e-07     3.786276e-05   2.1e-03   60   PF         
+  9    9.890872e-08   4.8e-08     9.890872e-08   1.2e-04   60   PF         
+ 10    2.466633e-10   2.4e-09     2.466633e-10   6.0e-06   60   PF         
+ 11    6.198150e-13   1.2e-10     6.198150e-13   3.0e-07   60   PF DF      
+----------------------
+OPTIMAL SOLUTION FOUND
+
+Times (seconds):
+Input =  2.33675
+Solve =  4.25192
+Output = 0.001965
+
+nn nonlinear evaluations = t seconds:
+	  11   functions = 0.371677
+	  11   gradients = 0.328342
+	  11 constraints = 0.025505
+	  21   Jacobians = 0.232901
+	  11    Hessians = 0.680813
+Total nonlinear evaluation seconds = 1.63924
+LOQO 7.03: optimal solution (11 iterations, 11 evaluations)
+primal objective 6.198150085e-13
+  dual objective 6.198150085e-13
+7.26user 0.23system 0:07.50elapsed 99%CPU (0avgtext+0avgdata 606664maxresident)k
+8inputs+66744outputs (0major+210309minor)pagefaults 0swaps

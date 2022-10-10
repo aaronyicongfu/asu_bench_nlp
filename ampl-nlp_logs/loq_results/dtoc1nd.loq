@@ -1,0 +1,43 @@
+The license for this AMPL processor will expire in 12.1 days.
+LOQO 7.03: verbose=2
+timing=1
+variables: non-neg      0,  free     5960,  bdd          0,  total     5960
+constraints: eq      3725,  ineq        0,  ranged       0,  total     3725
+nonzeros:    A     152085,  Q      116960
+-----------------------------------------------------------------------------
+     |         Primal          |           Dual          | Sig               
+Iter |  Obj Value     Infeas   |   Obj Value     Infeas  | Fig  Status  P   M
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  1    1.543359e+02  -0.0e+00     1.543359e+02   2.0e-02   60   PF         
+nonzeros:    L     416004,  arith_ops           19986815
+  2    1.253655e+02   3.9e-01     1.253655e+02   1.8e-02   60              
+  3    1.387066e+02   1.4e-01     1.387066e+02   1.5e-02   60              
+  4    1.392858e+02   2.3e-01     1.392858e+02   1.8e-02   60               1
+  5    1.392127e+02   1.3e-01     1.392127e+02   1.2e-02   60               1
+  6    1.388124e+02   2.0e-01     1.388124e+02   1.6e-02   60              
+  7    1.365284e+02   5.1e-02     1.365284e+02   3.3e-03   60              
+  8    1.365159e+02   2.0e-03     1.365159e+02   3.7e-04   60              
+  9    1.364622e+02   2.6e-04     1.364622e+02   8.6e-05   60              
+ 10    1.364563e+02   2.5e-05     1.364563e+02   8.2e-06   60              
+ 11    1.364558e+02   1.4e-06     1.364558e+02   4.5e-07   60      DF      
+ 12    1.364558e+02   6.9e-08     1.364558e+02   2.3e-08   60   PF DF      
+----------------------
+OPTIMAL SOLUTION FOUND
+
+Times (seconds):
+Input =  2.01023
+Solve =  6.7001
+Output = 0.000138
+
+nn nonlinear evaluations = t seconds:
+	  14   functions = 0.624784
+	  12   gradients = 0.004203
+	  14 constraints = 0.043637
+	  25   Jacobians = 0.57321
+	  12    Hessians = 4.20359
+Total nonlinear evaluation seconds = 5.44943
+LOQO 7.03: optimal solution (12 iterations, 14 evaluations)
+primal objective 136.4558035
+  dual objective 136.4558035
+9.77user 0.31system 0:10.10elapsed 99%CPU (0avgtext+0avgdata 681920maxresident)k
+8inputs+82960outputs (0major+310971minor)pagefaults 0swaps

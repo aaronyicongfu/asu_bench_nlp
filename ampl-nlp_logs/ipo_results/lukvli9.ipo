@@ -1,0 +1,99 @@
+Ipopt 3.13.0: max_cpu_time=7200
+linear_solver=ma57
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+This is Ipopt version 3.13.0, running with linear solver ma57.
+
+Number of nonzeros in equality constraint Jacobian...:        0
+Number of nonzeros in inequality constraint Jacobian.:       30
+Number of nonzeros in Lagrangian Hessian.............:   375002
+
+Total number of variables............................:   250000
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:        0
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:        0
+Total number of inequality constraints...............:        6
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:        6
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  1.2520000e+05 0.00e+00 2.47e+01  -1.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  5.4533452e+04 0.00e+00 7.29e+00  -1.0 3.07e-01   0.0 9.83e-01 1.00e+00f  1
+   2  3.1851306e+04 0.00e+00 2.33e+00  -1.0 3.92e-01  -0.5 1.00e+00 1.00e+00f  1
+   3  2.6052750e+04 0.00e+00 1.14e+00  -1.0 4.08e-01  -1.0 1.00e+00 1.00e+00f  1
+   4  2.5212328e+04 0.00e+00 4.84e-01  -1.0 4.75e-01  -1.4 1.00e+00 1.00e+00f  1
+   5  2.5176020e+04 0.00e+00 1.54e-01  -1.7 3.41e-01  -1.9 1.00e+00 1.00e+00f  1
+   6  2.5166442e+04 0.00e+00 2.33e-02  -2.5 1.61e-01  -2.4 1.00e+00 1.00e+00f  1
+   7  2.5141092e+04 0.00e+00 6.18e-04  -3.8 2.78e-01  -2.9 1.00e+00 1.00e+00f  1
+   8  2.5086285e+04 0.00e+00 3.27e-04  -3.8 6.97e-01  -3.3 1.00e+00 1.00e+00f  1
+   9  2.5014516e+04 0.00e+00 2.57e-04  -3.8 1.80e+00  -3.8 1.00e+00 1.00e+00f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10  2.4978007e+04 0.00e+00 1.15e-04  -3.8 2.26e+00  -4.3 1.00e+00 1.00e+00f  1
+  11  2.4973431e+04 0.00e+00 1.08e-04  -3.8 2.57e+00  -4.8 1.00e+00 1.00e+00f  1
+  12  2.4973342e+04 0.00e+00 9.70e-04  -3.8 4.05e+00  -4.3 1.00e+00 1.00e+00h  1
+  13  2.4973332e+04 0.00e+00 5.82e-04  -3.8 1.03e+00  -4.8 1.00e+00 1.00e+00h  1
+  14  2.4973331e+04 0.00e+00 5.50e-04  -3.8 3.23e+00  -4.4 1.00e+00 1.00e+00h  1
+  15  2.4973331e+04 0.00e+00 8.18e-04  -3.8 1.03e+00  -3.1 1.00e+00 1.00e+00h  1
+  16  2.4973331e+04 0.00e+00 7.56e-04  -3.8 4.80e-01  -3.5 1.00e+00 1.00e+00h  1
+  17  2.4973331e+04 0.00e+00 1.28e-04  -3.8 1.21e+00  -4.0 1.00e+00 1.00e+00h  1
+  18  2.4973331e+04 0.00e+00 3.23e-04  -3.8 8.45e-01  -4.5 1.00e+00 1.00e+00h  1
+  19  2.4973331e+04 0.00e+00 9.42e-05  -3.8 1.67e+00  -5.0 1.00e+00 1.00e+00h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  20  2.4973331e+04 0.00e+00 2.55e-05  -3.8 5.55e+00  -5.5 1.00e+00 1.00e+00h  1
+  21  2.4973331e+04 0.00e+00 8.46e-05  -3.8 1.89e+03  -5.9 2.30e-02 4.16e-03h  2
+  22  2.4973330e+04 0.00e+00 7.76e-05  -3.8 1.99e+00  -4.6 1.00e+00 1.00e+00h  1
+  23  2.4973330e+04 2.18e+00 2.02e-03  -3.8 6.17e+00  -5.1 1.00e+00 1.00e+00h  1
+  24  2.4973330e+04 0.00e+00 7.40e-04  -3.8 1.70e+01    -  1.00e+00 1.00e+00H  1
+  25  2.4973330e+04 0.00e+00 2.17e-05  -3.8 5.62e+00    -  1.00e+00 1.00e+00h  1
+  26  2.4973330e+04 0.00e+00 2.06e-07  -3.8 8.31e-01    -  1.00e+00 1.00e+00h  1
+  27  2.4973330e+04 0.00e+00 1.50e-09  -3.8 1.84e-02    -  1.00e+00 1.00e+00h  1
+  28  2.4973329e+04 0.00e+00 6.62e-05  -5.7 6.79e+01    -  1.00e+00 5.65e-01h  1
+  29  2.4973329e+04 0.00e+00 1.11e-04  -5.7 7.33e+00    -  1.00e+00 7.54e-01h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  30  2.4973329e+04 0.00e+00 1.51e-04  -5.7 2.84e+00    -  1.00e+00 1.00e+00h  1
+  31  2.4973329e+04 0.00e+00 9.37e-04  -5.7 1.92e+01    -  1.00e+00 1.40e-02h  1
+  32  2.4973329e+04 5.18e-01 3.41e-03  -5.7 2.10e+00    -  1.00e+00 1.00e+00h  1
+  33  2.4973328e+04 7.30e-01 2.20e-03  -5.7 1.10e+00    -  7.63e-01 1.00e+00h  1
+  34  2.4973328e+04 7.64e-02 3.31e-04  -5.7 2.54e-01    -  1.00e+00 1.00e+00h  1
+  35  2.4973328e+04 9.43e-02 3.17e-05  -5.7 2.59e-01    -  1.00e+00 1.00e+00h  1
+  36  2.4973328e+04 0.00e+00 3.19e-07  -5.7 8.16e-02    -  1.00e+00 1.00e+00h  1
+  37  2.4973328e+04 0.00e+00 1.78e-10  -5.7 2.13e-03    -  1.00e+00 1.00e+00h  1
+  38  2.4973328e+04 0.00e+00 4.99e-08  -8.6 3.06e-01    -  9.95e-01 1.00e+00h  1
+  39  2.4973328e+04 0.00e+00 3.46e-12  -8.6 4.25e-03    -  1.00e+00 1.00e+00h  1
+
+Number of Iterations....: 39
+
+                                   (scaled)                 (unscaled)
+Objective...............:   2.4973328412496165e+04    2.4973328412496165e+04
+Dual infeasibility......:   3.4627185016913864e-12    3.4627185016913864e-12
+Constraint violation....:   0.0000000000000000e+00    0.0000000000000000e+00
+Complementarity.........:   2.5105239541730780e-09    2.5105239541730780e-09
+Overall NLP error.......:   2.5105239541730780e-09    2.5105239541730780e-09
+
+
+Number of objective function evaluations             = 43
+Number of objective gradient evaluations             = 40
+Number of equality constraint evaluations            = 0
+Number of inequality constraint evaluations          = 43
+Number of equality constraint Jacobian evaluations   = 0
+Number of inequality constraint Jacobian evaluations = 40
+Number of Lagrangian Hessian evaluations             = 39
+Total CPU secs in IPOPT (w/o function evaluations)   =      6.463
+Total CPU secs in NLP function evaluations           =      8.505
+
+EXIT: Optimal Solution Found.
+ 
+Ipopt 3.13.0: Optimal Solution Found
+
+suffix ipopt_zU_out OUT;
+suffix ipopt_zL_out OUT;
+15.93user 14.30system 0:05.97elapsed 506%CPU (0avgtext+0avgdata 329748maxresident)k
+8inputs+33480outputs (0major+213563minor)pagefaults 0swaps

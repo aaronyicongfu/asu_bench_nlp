@@ -1,0 +1,109 @@
+lim = 4
+
+CONOPT 3.17A: outlev=2
+
+    The model has 1681 variables and 2268 constraints
+    with 154151 Jacobian elements, 148680 of which are nonlinear.
+    The Hessian of the Lagrangian has 630 elements on the diagonal,
+    420 elements below the diagonal, and 840 nonlinear variables.
+
+ ** Function or derivative evaluation error or overflow while evaluating
+    definitional constraints. Initial point restored and Lmusdf changed to 0.
+
+
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  421
+                   Definitional equations:     2
+
+variable _svar[1441]: Free variable becomes too large
+
+ ** Infeasible solution. A free variable exceeds the allowable range.
+    Current value is -1.18E+10 and current upper bound (Rtmaxv) is 1.00E+10
+
+    The allowable range can be changed with option:
+
+    Rtmaxv=x.xxe+xx
+
+
+ CONOPT time Total                            2.609 seconds
+   of which: Function evaluations             1.594 = 61.1%
+             1st Derivative evaluations       0.223 =  8.5%
+
+CONOPT 3.17A: Locally infeasible; objective 0
+167 iterations; evals: nf = 3, ng = 0, nc = 143, nJ = 18, nH = 0, nHv = 0
+lim = 5
+
+CONOPT 3.17A: outlev=2
+
+ ** Warning ** 167 variables were initialized close to the internal
+               infinity = 1.000000E+10. Were moved to 9.900000E+09.
+
+
+    The model has 1681 variables and 2348 constraints
+    with 186071 Jacobian elements, 180600 of which are nonlinear.
+    The Hessian of the Lagrangian has 630 elements on the diagonal,
+    420 elements below the diagonal, and 840 nonlinear variables.
+
+ ** Function or derivative evaluation error or overflow while evaluating
+    definitional constraints. Initial point restored and Lmusdf changed to 0.
+
+
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  421
+                   Definitional equations:     2
+
+variable _svar[1448]: Free variable becomes too large
+
+ ** Infeasible solution. A free variable exceeds the allowable range.
+    Current value is 1.18E+10 and current upper bound (Rtmaxv) is 1.00E+10
+
+    The allowable range can be changed with option:
+
+    Rtmaxv=x.xxe+xx
+
+
+ CONOPT time Total                            4.760 seconds
+   of which: Function evaluations             2.845 = 59.8%
+             1st Derivative evaluations       0.383 =  8.0%
+
+CONOPT 3.17A: Locally infeasible; objective 0
+247 iterations; evals: nf = 3, ng = 0, nc = 213, nJ = 31, nH = 0, nHv = 0
+lim = 6
+
+CONOPT 3.17A: outlev=2
+
+ ** Warning ** 177 variables were initialized close to the internal
+               infinity = 1.000000E+10. Were moved to 9.900000E+09.
+
+
+    The model has 1681 variables and 2444 constraints
+    with 224711 Jacobian elements, 219240 of which are nonlinear.
+    The Hessian of the Lagrangian has 630 elements on the diagonal,
+    420 elements below the diagonal, and 840 nonlinear variables.
+
+ ** Function or derivative evaluation error or overflow while evaluating
+    definitional constraints. Initial point restored and Lmusdf changed to 0.
+
+
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  421
+                   Definitional equations:     2
+
+variable _svar[1468]: Free variable becomes too large
+
+ ** Infeasible solution. A free variable exceeds the allowable range.
+    Current value is 1.12E+10 and current upper bound (Rtmaxv) is 1.00E+10
+
+    The allowable range can be changed with option:
+
+    Rtmaxv=x.xxe+xx
+
+
+ CONOPT time Total                            4.869 seconds
+   of which: Function evaluations             2.724 = 55.9%
+             1st Derivative evaluations       0.435 =  8.9%
+
+CONOPT 3.17A: Locally infeasible; objective 0
+229 iterations; evals: nf = 3, ng = 0, nc = 170, nJ = 31, nH = 0, nHv = 0
+13.08user 0.16system 0:13.25elapsed 99%CPU (0avgtext+0avgdata 152476maxresident)k
+0inputs+43728outputs (0major+118450minor)pagefaults 0swaps

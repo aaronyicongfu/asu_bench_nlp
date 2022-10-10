@@ -1,0 +1,7 @@
+CONOPT 3.17A: workfactor=8
+outlev=2
+error running conopt:
+	termination code 9
+<BREAK>
+7215.05user 0.65system 2:00:17elapsed 99%CPU (0avgtext+0avgdata 1204144maxresident)k
+0inputs+66400outputs (0major+369951minor)pagefaults 0swaps

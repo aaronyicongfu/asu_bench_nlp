@@ -1,0 +1,83 @@
+Artelys Knitro 13.0.0: 
+=======================================
+          Commercial License
+         Artelys Knitro 13.0.0
+=======================================
+
+Knitro presolve eliminated 0 variables and 0 constraints.
+
+concurrent_evals:        0
+datacheck:               0
+hessian_no_f:            1
+
+Problem Characteristics                                 (   Presolved)
+-----------------------
+Objective goal:  Minimize
+Objective type:  general
+Number of variables:                                600 (         600)
+    bounded below only:                               0 (           0)
+    bounded above only:                               0 (           0)
+    bounded below and above:                          0 (           0)
+    fixed:                                            0 (           0)
+    free:                                           600 (         600)
+Number of constraints:                              200 (         200)
+    linear equalities:                                0 (           0)
+    quadratic equalities:                           200 (         200)
+    gen. nonlinear equalities:                        0 (           0)
+    linear one-sided inequalities:                    0 (           0)
+    quadratic one-sided inequalities:                 0 (           0)
+    gen. nonlinear one-sided inequalities:            0 (           0)
+    linear two-sided inequalities:                    0 (           0)
+    quadratic two-sided inequalities:                 0 (           0)
+    gen. nonlinear two-sided inequalities:            0 (           0)
+Number of nonzeros in Jacobian:                     600 (         600)
+Number of nonzeros in Hessian:                   180300 (      180300)
+
+Knitro using the Interior-Point/Barrier Direct algorithm.
+
+  Iter      Objective      FeasError   OptError    ||Step||    CGits 
+--------  --------------  ----------  ----------  ----------  -------
+       0    2.248867e+04   3.331e-16
+      10    2.016067e+04   1.023e-04   3.750e-01   5.898e-02        1
+      20    1.962640e+04   2.257e-04   1.997e-01   9.621e-02        1
+      30    1.929777e+04   5.645e-09   1.604e-01   7.109e-02        1
+      40    1.848137e+04   8.143e-07   2.426e-02   6.626e-03        1
+      50    1.844389e+04   1.306e-07   3.471e-03   2.054e-04        0
+      60    1.844090e+04   1.085e-08   1.487e-03   6.278e-02        1
+      70    1.843964e+04   8.887e-10   3.153e-04   3.108e-02        1
+      80    1.843947e+04   1.270e-09   2.107e-04   2.574e-02        1
+      90    1.843930e+04   9.073e-08   6.894e-04   6.947e-02        1
+     100    1.843922e+04   5.701e-10   1.242e-04   2.334e-02        1
+     110    1.843918e+04   2.734e-11   4.123e-05   1.444e-02        1
+     120    1.843917e+04   1.828e-07   1.105e-05   1.091e-03        0
+     130    1.843917e+04   6.326e-13   8.941e-06   4.238e-03        1
+     140    1.843915e+04   1.365e-09   3.863e-04   2.292e-02        1
+     147    1.843914e+04   8.527e-14   8.510e-07   2.935e-03        1
+
+EXIT: Locally optimal solution found.
+
+Final Statistics
+----------------
+Final objective value               =   1.84391352907487e+04
+Final feasibility error (abs / rel) =   8.53e-14 / 8.53e-14
+Final optimality error  (abs / rel) =   8.51e-07 / 8.51e-07
+# of iterations                     =        147 
+# of CG iterations                  =        224 
+# of function evaluations           =       1316
+# of gradient evaluations           =        148
+# of Hessian evaluations            =        147
+Total program time (secs)           =      12.89999 (    12.880 CPU time)
+Time spent in evaluations (secs)    =       5.84079
+
+===============================================================================
+
+Knitro 13.0.0: Locally optimal or satisfactory solution.
+objective 18439.13529; feasibility error 8.53e-14
+147 iterations; 1316 function evaluations
+
+suffix feaserror OUT;
+suffix opterror OUT;
+suffix numfcevals OUT;
+suffix numiters OUT;
+12.97user 0.05system 0:13.05elapsed 99%CPU (0avgtext+0avgdata 91452maxresident)k
+8inputs+3640outputs (0major+29605minor)pagefaults 0swaps

@@ -1,0 +1,72 @@
+CONOPT 3.17A: workfactor=8
+outlev=2
+
+    The model has 1001 variables and 52014 constraints
+    with 197782 Jacobian elements, 181644 of which are nonlinear.
+    The Hessian of the Lagrangian has 1001 elements on the diagonal,
+    2997 elements below the diagonal, and 1001 nonlinear variables.
+
+ ** 144 linear coefficients less than Rtmina = 1.00E-20
+    have been set to zero.
+
+
+ ** Warning **  The variance of the derivatives in the initial
+                point is large (= 10. ). A better initial
+                point, a better scaling, or better bounds on the
+                variables will probably help the optimization.
+
+
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  1
+
+
+ ** Overflow or Nan (Not A Number) has been encountered indicating
+    numerical difficulties. Trying to repair by increasing the
+    absolute and relative pivot tolerances (Rtpiva and Rvpivr)
+    and allowing small values to be scaled up by decreasing
+    the minimum scale factor, Rtmins.
+
+
+ ** Overflow or Nan (Not A Number) continues to be encountered
+    after multiple attempt to repair by changed tolerances.
+    CONOPT will give up.
+
+
+ ** A derivative is too large (larger than 1.0E+30).
+    Scale the variables and/or equations or add bounds.
+
+variable _svar[319], constraint _scon[9277], Jacobian position 62721:
+	Jacobian element too large = 1.3E+36
+variable _svar[320], constraint _scon[9277], Jacobian position 62913:
+	Jacobian element too large = 8.3E+35
+variable _svar[321], constraint _scon[9277], Jacobian position 63105:
+	Jacobian element too large = 2.5E+35
+variable _svar[322], constraint _scon[9277], Jacobian position 63298:
+	Jacobian element too large = 4.9E+34
+variable _svar[319], constraint _scon[9278], Jacobian position 62722:
+	Jacobian element too large = 1.9E+32
+variable _svar[320], constraint _scon[9278], Jacobian position 62914:
+	Jacobian element too large = 3.4E+32
+variable _svar[321], constraint _scon[9278], Jacobian position 63106:
+	Jacobian element too large = 4.6E+31
+variable _svar[322], constraint _scon[9278], Jacobian position 63299:
+	Jacobian element too large = 1.5E+30
+variable _svar[319], constraint _scon[9280], Jacobian position 62724:
+	Jacobian element too large = 4.0E+31
+variable _svar[320], constraint _scon[9280], Jacobian position 62916:
+	Jacobian element too large = 3.5E+32
+    (Messages beyond 10=Lfemsg are skipped.)
+
+
+ ** Feasible solution. The solution process has been terminated
+    because intermediate results have become NaN (Not A Number).
+
+
+ CONOPT time Total                            0.514 seconds
+   of which: Function evaluations             0.043 =  8.4%
+             1st Derivative evaluations       0.137 = 26.7%
+
+CONOPT 3.17A: Bogus "Termination by solver" (CONOPT bug); objective 1e+10
+2 iterations; evals: nf = 1, ng = 0, nc = 2, nJ = 2, nH = 0, nHv = 0
+4.02user 0.16system 0:04.19elapsed 99%CPU (0avgtext+0avgdata 445656maxresident)k
+0inputs+18016outputs (0major+99994minor)pagefaults 0swaps

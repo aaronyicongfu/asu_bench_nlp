@@ -1,0 +1,72 @@
+
+=======================================
+          Commercial License
+         Artelys Knitro 13.0.0
+=======================================
+
+No start point provided -- Knitro computing one.
+
+Knitro presolve eliminated 0 variables and 0 constraints.
+
+concurrent_evals:        0
+datacheck:               0
+hessian_no_f:            1
+The problem is identified as a convex QCQP.
+
+Problem Characteristics                                 (   Presolved)
+-----------------------
+Objective goal:  Minimize
+Objective type:  quadratic
+Number of variables:                                750 (         750)
+    bounded below only:                               0 (           0)
+    bounded above only:                               0 (           0)
+    bounded below and above:                          0 (           0)
+    fixed:                                            0 (           0)
+    free:                                           750 (         750)
+Number of constraints:                              138 (         138)
+    linear equalities:                               25 (          25)
+    quadratic equalities:                             0 (           0)
+    gen. nonlinear equalities:                        0 (           0)
+    linear one-sided inequalities:                  100 (         100)
+    quadratic one-sided inequalities:                13 (          13)
+    gen. nonlinear one-sided inequalities:            0 (           0)
+    linear two-sided inequalities:                    0 (           0)
+    quadratic two-sided inequalities:                 0 (           0)
+    gen. nonlinear two-sided inequalities:            0 (           0)
+Number of nonzeros in Jacobian:                   10793 (       10793)
+Number of nonzeros in Hessian:                   281514 (      281514)
+
+Knitro using the Interior-Point/Barrier Direct algorithm.
+
+  Iter      Objective      FeasError   OptError    ||Step||    CGits 
+--------  --------------  ----------  ----------  ----------  -------
+       0    7.017033e-01   1.007e+01
+      10   -1.593829e+07   3.320e+03   1.150e-01   6.871e+00        0
+      15   -1.593333e+07   5.965e-11   3.955e-10   1.153e-06        0
+
+EXIT: Optimal solution found.
+
+HINT: Knitro spent  24.5% of solution time (0.389019 secs) checking model
+      convexity. To skip the automatic convexity checker for QPs and QCQPs,
+      explicity set the user option convex=0 or convex=1.
+
+Final Statistics
+----------------
+Final objective value               =  -1.59333255824985e+07
+Final feasibility error (abs / rel) =   5.97e-11 / 5.92e-12
+Final optimality error  (abs / rel) =   3.96e-10 / 3.97e-12
+# of iterations                     =         15 
+# of CG iterations                  =          0 
+# of function evaluations           =          0
+# of gradient evaluations           =          0
+# of Hessian evaluations            =          0
+Total program time (secs)           =       1.58463 (     1.566 CPU time)
+Time spent in evaluations (secs)    =       0.00000
+
+===============================================================================
+
+Knitro 13.0.0: Locally optimal or satisfactory solution.
+objective -15933325.582498528; feasibility error 5.97e-11
+15 iterations; 0 function evaluations
+13.32user 1.15system 0:14.69elapsed 98%CPU (0avgtext+0avgdata 3637348maxresident)k
+584648inputs+8outputs (0major+966936minor)pagefaults 0swaps

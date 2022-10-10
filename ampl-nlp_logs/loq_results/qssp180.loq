@@ -1,0 +1,5 @@
+timing=1
+outlev=2
+Command terminated by signal 9
+7196.63user 1.67system 2:00:00elapsed 99%CPU (0avgtext+0avgdata 3793428maxresident)k
+49096inputs+8outputs (0major+410882minor)pagefaults 0swaps

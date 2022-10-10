@@ -1,0 +1,77 @@
+PENNON 0.9: outlev=2
+
+Number of Variables                      7510
+   - bounded above                       7510
+   - bounded below                       7510
+   - free                                   0
+Number of Matrix variables                  0
+   - degrees of freedom                     0
+   - bounded below                          0
+   - bounded above                          0
+Number of Nonlinear Equalities              0
+Number of Nonlinear Inequalities         1875
+Number of Linear Equalities                 0
+Number of Linear Inequalities              68
+
+********************************************* 
+PENNON 0.9
+---------------------------------------------
+*********************************************
+
+Max./Min. Box-Mult.: 1.000000 / 1.000000
+Max./Min. Lin-Mult.: 1.000000 / 1.000000
+Max./Min. Nl -Mult.: 1.000000 / 1.000000
+
+*******************************************************************************
+* it |     obj      | (U,G(x)) |  ||dF||  |   feas   |   pmin   | Nwt  | Fact |
+*******************************************************************************
+|   0| -1.16996e+03 |  6.3e+05 |  9.1e+05 |  3.0e+01 |  1.0e+00 |    0 |    0 |
+|   1| -2.01088e+03 |  2.1e+01 |  4.9e-05 |  4.1e+00 |  1.0e+00 |   14 |   14 |
+|   2| -1.38883e+03 |  2.6e+01 |  8.3e-04 |  1.5e+00 |  2.0e-01 |   14 |   22 |
+|   3| -8.20308e+02 |  2.9e+01 |  7.2e-03 |  1.1e+00 |  4.0e-02 |   40 |   40 |
+|   4| -5.89887e+02 |  7.0e+00 |  6.2e-03 |  1.8e-01 |  8.0e-03 |   49 |  120 |
+|   5| -5.53838e+02 |  3.3e-01 |  6.0e-03 |  9.3e-03 |  1.6e-03 |   37 |   54 |
+|   6| -5.52680e+02 |  7.9e-03 |  4.2e-03 |  3.4e-04 |  3.2e-04 |   10 |   10 |
+|   7| -5.52666e+02 |  1.6e-05 |  1.1e-03 |  1.0e-05 |  6.4e-05 |    7 |    7 |
+|   8| -5.52666e+02 |  9.6e-07 |  9.4e-04 |  1.5e-07 |  1.3e-05 |    6 |    6 |
+|   9| -5.52666e+02 |  5.8e-08 |  9.4e-04 |  1.5e-09 |  2.6e-06 |    6 |    6 |
+|  10| -5.52666e+02 |  3.5e-09 |  2.0e-05 |  1.8e-11 |  5.1e-07 |    6 |    6 |
+|  11| -5.52666e+02 |  2.1e-10 |  8.5e-05 |  8.7e-13 |  1.0e-07 |    8 |    8 |
+|  12| -5.52666e+02 |  6.1e-11 |  7.7e-05 |  3.9e-14 |  1.0e-07 |    4 |    4 |
+|  13| -5.52666e+02 |  6.1e-12 |  9.2e-06 |  1.1e-13 |  1.0e-07 |    8 |    8 |
+*******************************************************************************
+Objective                        -5.5266625961778038e+02
+Relative Precision                2.2542963051819243E-09
+Gradient Augm. Lagrangian         9.1531133432085153E-06
+Complementary Slackness           6.0750000000000007E-12
+Feasibility                       1.1368683772161603E-13
+Outer Iterations                                      13
+Inner Iterations                                     209
+Linesearch steps                                     955
+Start time                      Sat Nov 17 00:58:36 2012
+End time                        Sat Nov 17 00:58:39 2012
+Process time                           0 h  0 min  3 sec
+Unconstrained minimization                   2.56416 sec
+      - feval                                 1.4721 sec
+      - feval (sparse chol)                        0 sec
+      - geval                               0.224014 sec
+      - heval                               0.900053 sec
+      - heval (sparse chol)                        0 sec
+      - dense chol                                 0 sec
+      - sparse chol                         0.240015 sec
+      - eigenvalue                                 0 sec
+Multiplier update                           0.004001 sec
+Penalty update                                     0 sec
+Feasibility check                                  0 sec
+      - dense chol                                 0 sec
+      - sparse chol                                0 sec
+CG                                                 0 sec
+CG (prec)                                          0 sec
+CG (H*v)                                           0 sec
+*******************************************************************************
+
+PENNON VERSION 0.9 (November, 2007), ASL(20090429):
+converged: optimal solution, 13/209 iterations.
+primal objective -552.6662596
+3.02user 0.04system 0:03.08elapsed 99%CPU (0avgtext+0avgdata 143536maxresident)k
+0inputs+1808outputs (0major+16885minor)pagefaults 0swaps

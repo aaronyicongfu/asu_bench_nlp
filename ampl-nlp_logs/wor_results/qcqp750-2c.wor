@@ -1,0 +1,40 @@
+ ReadParams: Used parameter file worhp.xml
+ * Read 286/286 parameters.
+ WORHP: Using data file qcqp_c/qcqp750-2.
+ Opened license file worhp.lic
+ This module 'worhp' is licensed for versions <= 2.0 to:
+    Hans Mittelmann
+    Arizona State University
+    on host 'square3' until 22.05.2018
+ 
+ LICENSED FOR NON-PROFIT, ACADEMIC OR INSTRUCTIONAL USE.
+ YOU ARE NOT PERMITTED TO EXPLOIT THIS LICENSE COMMERCIALLY.
+
+ WORHP: Running in stand-alone mode
+#########################################################################
+# This is the WORHP multi core interface in First-Across-The-Line mode. #
+#########################################################################
+
+ ------------------------------------------------------
+   This code is using WORHP 1.11-4484360 the European NLP-solver.
+    Use of WORHP is subject to terms and conditions.
+     Visit http://www.worhp.de for more information.
+ ------------------------------------------------------
+
+ Total number of variables ........................     750
+                    variables with lower bound only       0
+               variables with lower and upper bound       0
+                    variables with upper bound only       0
+ Total number of box constraints ..................       0
+ Total number of other constraints ................     138
+ Total number of other constraints ................     138
+                              equality constraints       25
+       inequality constraints with lower bound only       0
+  inequality constraints with lower and upper bound       0
+       inequality constraints with upper bound only     113
+
+ THREAD      ITER           OBJ             CON           OPTI/COMPL     FLAGS   ALPHA       |DX|   BAR/REL PEN   REG     TIME
+ {   3} [    0|  12]  +0.00000000E+00  1.00697571E+01  1.32467846E+05 so  Uin  0.000E+00   0.00E+00    -     -     -    6.00E+00
+Command terminated by signal 9
+316.89user 7.78system 6:49.03elapsed 79%CPU (0avgtext+0avgdata 16044960maxresident)k
+1307976inputs+24outputs (28012major+4361674minor)pagefaults 0swaps

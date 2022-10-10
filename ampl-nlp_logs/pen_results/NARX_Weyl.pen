@@ -1,0 +1,90 @@
+lim = 2
+
+CONOPT 3.15C: outlev=2
+
+    The model has 44477 variables and 46793 constraints
+    with 509647 Jacobian elements, 364916 of which are nonlinear.
+    The Hessian of the Lagrangian has 3398 elements on the diagonal,
+    16960 elements below the diagonal, and 3776 nonlinear variables.
+
+ ** Warning **  The number of nonlinear derivatives equal to zero
+                in the initial point is large (= 33 percent).
+                A better initial point will probably help the
+                optimization.
+
+
+ ** Infeasible solution. Reduced gradient less than tolerance.
+
+
+ ** Warning **  The variance of the derivatives in the final
+                point is large (= 4.4 ). A better scaling or
+                better bounds on the variables will probably
+                help the optimization.
+
+
+ ** Warning **  All Jacobian elements in the rows marked below are
+                less than the absolute pivot tolerance 1.0E-10 (Rtpiva)
+                in the final point. Only slacks or artificials can
+                be basic in these rows.
+                A better scaling or better bounds on the variables
+                may help the optimization.
+
+constraint _scon[8]: Infeasible row with only small Jacobian elements.
+constraint _scon[17]: Infeasible row with only small Jacobian elements.
+
+ CONOPT time Total                         2343.695 seconds
+   of which: Function evaluations           194.172 =  8.3%
+             1st Derivative evaluations    1372.487 = 58.6%
+             2nd Derivative evaluations      24.978 =  1.1%
+             Directional 2nd Derivative      51.261 =  2.2%
+
+CONOPT 3.15C: Locally infeasible; objective = find a feasible point.
+1102 iterations; evals: nf = 2045, ng = 0, nc = 11290, nJ = 1714, nH = 226, nHv = 1816
+
+"option abs_boundtol 6.539907504432563e-16;"
+or "option rel_boundtol 7.694008828744191e-14;"
+will change deduced dual values.
+
+lim = 6
+
+CONOPT 3.15C: outlev=2
+
+    The model has 44477 variables and 47081 constraints
+    with 714735 Jacobian elements, 570004 of which are nonlinear.
+    The Hessian of the Lagrangian has 3398 elements on the diagonal,
+    16960 elements below the diagonal, and 3776 nonlinear variables.
+
+ ** Warning **  The variance of the derivatives in the initial
+                point is large (= 5.3 ). A better initial
+                point, a better scaling, or better bounds on the
+                variables will probably help the optimization.
+
+
+ ** Infeasible solution. Reduced gradient less than tolerance.
+
+
+ ** Warning **  The variance of the derivatives in the final
+                point is large (= 4.9 ). A better scaling or
+                better bounds on the variables will probably
+                help the optimization.
+
+
+ CONOPT time Total                          160.574 seconds
+   of which: Function evaluations            20.508 = 12.8%
+             1st Derivative evaluations      76.834 = 47.8%
+             2nd Derivative evaluations       1.220 =  0.8%
+             Directional 2nd Derivative       0.501 =  0.3%
+
+CONOPT 3.15C: Locally infeasible; objective = find a feasible point.
+182 iterations; evals: nf = 25, ng = 0, nc = 579, nJ = 94, nH = 9, nHv = 13
+
+"option abs_boundtol 9.593020822151743e-16;"
+or "option rel_boundtol 1.1285906849590286e-13;"
+will change deduced dual values.
+
+PENNON 0.9: outlev=2
+error running pennon:
+	termination code 139; core file written
+<BREAK>
+5312.84user 1.92system 1:28:52elapsed 99%CPU (0avgtext+0avgdata 22662048maxresident)k
+0inputs+176584outputs (0major+1905800minor)pagefaults 0swaps

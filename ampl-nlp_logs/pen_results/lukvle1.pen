@@ -1,0 +1,63 @@
+PENNON 0.9: outlev=2
+
+Number of Variables                    150000
+   - bounded above                          0
+   - bounded below                          0
+   - free                              150000
+Number of Matrix variables                  0
+   - degrees of freedom                     0
+   - bounded below                          0
+   - bounded above                          0
+Number of Nonlinear Equalities         149998
+Number of Nonlinear Inequalities            0
+Number of Linear Equalities                 0
+Number of Linear Inequalities               0
+
+********************************************* 
+PENNON 0.9
+---------------------------------------------
+*********************************************
+
+Max./Min. Nl -Mult.: 0.000000 / 0.000000
+
+*******************************************************************************
+* it |     obj      | (U,G(x)) |  ||dF||  |   feas   |   pmin   | Nwt  | Fact |
+*******************************************************************************
+|   0|  3.81145e+07 |  2.4e+07 |  2.8e+05 | -3.4e+00 |  1.0e+00 |    0 |    0 |
+|   1|  6.23246e+00 |  5.8e-17 |  7.3e-12 |  5.7e-14 |  1.0e+00 |    6 |    6 |
+*******************************************************************************
+Objective                         6.2324586324379867e+00
+Relative Precision                0.0000000000000000E+00
+Gradient Augm. Lagrangian         7.3248385053015040E-12
+Complementary Slackness           5.8231937952616446E-17
+Feasibility                       5.6843418860808015E-14
+Outer Iterations                                       1
+Inner Iterations                                       6
+Linesearch steps                                       6
+Start time                      Sat Nov 17 01:11:48 2012
+End time                        Sat Nov 17 01:12:05 2012
+Process time                           0 h  0 min 17 sec
+Unconstrained minimization                   15.1649 sec
+      - feval                                12.9528 sec
+      - feval (sparse chol)                        0 sec
+      - geval                               0.748048 sec
+      - heval                                1.06407 sec
+      - heval (sparse chol)                        0 sec
+      - dense chol                                 0 sec
+      - sparse chol                          0.48003 sec
+      - eigenvalue                                 0 sec
+Multiplier update                                  0 sec
+Penalty update                                     0 sec
+Feasibility check                                  0 sec
+      - dense chol                                 0 sec
+      - sparse chol                                0 sec
+CG                                                 0 sec
+CG (prec)                                          0 sec
+CG (H*v)                                           0 sec
+*******************************************************************************
+
+PENNON VERSION 0.9 (November, 2007), ASL(20090429):
+converged: optimal solution, 1/6 iterations.
+primal objective 6.232458632
+31.56user 0.36system 0:32.06elapsed 99%CPU (0avgtext+0avgdata 3395200maxresident)k
+0inputs+80288outputs (0major+350788minor)pagefaults 0swaps

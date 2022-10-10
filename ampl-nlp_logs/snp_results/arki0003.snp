@@ -1,0 +1,104 @@
+SNOPT 7.7.0 : superbasics_limit=2500
+meminc=24000000
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints    1097     Linear constraints    1041
+ Nonlinear variables       894     Linear variables       977
+ Jacobian  variables       894     Objective variables      0
+ Total constraints        2138     Total variables       1871
+ 
+
+        Minor NumInf  FP mult  FP Step                  SumInf
+          100     10  3.1E+01  3.1E-06           1.7728883E+01
+
+ 
+ The user has defined    2588   out of    2588   constraint gradients.
+ 
+
+        Minor NumInf  FP mult  FP step   rgNorm         SumInf     nS
+          100     81  7.8E-02  1.7E+01           1.6157392E+04
+          200     81  7.8E-02  1.7E+01           1.6024065E+04
+          300     81  7.8E-02  1.7E+01           1.5890738E+04
+          400     58 -1.1E-02  5.0E+04           1.5386610E+04
+          500     58 -1.6E-01  8.5E+02           1.4633172E+04
+
+        Minor NonOpt  QP mult  QP step   rgNorm   QP objective     nS
+          600    405 -1.7E+02  1.0E+00  0.0E+00 -1.2195699E+08     12
+          700    395 -5.7E+01  6.9E-12  5.5E-14 -5.4650111E+07     24
+          800    156 -3.7E+02  6.9E-13  5.6E-17 -3.3161530E+07     12
+          900    195 -1.8E+02  4.6E-13  1.7E-12 -2.3719851E+07     26
+         1000    239 -1.8E+02  4.0E-13  3.1E-13 -1.4083987E+07     31
+         1100     28 -2.9E+01  1.8E-12  7.2E-13 -8.5705307E+06     36
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     0   1149               1  1.0E+00  1.3E-01 -1.1650486E+08     46           r  t
+
+        Minor NonOpt  QP mult  QP step   rgNorm   QP objective     nS
+          100    206  5.8E+01  4.9E-14  0.0E+00 -8.4603844E+06     11
+          200    194  3.4E+01  8.2E-14  0.0E+00 -8.4449381E+06     11
+          300    204 -4.8E+02  2.1E-13  0.0E+00 -4.0666504E+06     11
+          400    229           6.1E-15  1.2E+01 -2.8097433E+06      7
+          500    138  1.5E+01  1.7E-12          -5.6372059E+05
+          600    167  2.3E-01  1.4E-12  3.2E-14 -5.6298596E+05      1
+          700     77  2.2E-03  9.7E-11  3.4E-14 -5.6292615E+05      5
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     1    785  2.0E-06      2  1.0E+00  3.6E-02 -1.1650465E+08      5           rl t
+
+        Minor NonOpt  QP mult  QP step   rgNorm   QP objective     nS
+          100    138  4.9E+00  6.4E-12  0.0E+00 -5.4945668E+05      3
+          200    152 -2.6E+00  5.0E-13  0.0E+00 -5.4101643E+05      3
+          300    135  2.5E+00  9.5E-12  1.2E-13 -5.3312877E+04      5
+          400    113 -1.5E-01  1.0E+00  5.8E-15 -5.2247562E+04      5
+          500     22  2.2E-03  2.4E-10  1.4E-13 -5.2247562E+04      5
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     2    525  2.0E-06      4  1.0E+00  3.7E-02 -1.1650443E+08      5           rl
+
+        Minor NonOpt  QP mult  QP step   rgNorm   QP objective     nS
+          100    211 -5.0E-01  3.4E-18  8.5E-14 -3.3269719E+04      1
+          200      4 -3.2E-03  3.3E-01  2.2E-10 -3.3258912E+04      2
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     3    208  1.0E+00      5  1.0E-02  9.7E-02 -3.5050741E+04      2         s
+
+        Minor NonOpt  QP mult  QP step   rgNorm   QP objective     nS
+          100    182 -3.6E+00  9.8E-10  1.7E-15 -3.8179565E+03      1
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     4    141  1.0E+00      7  1.8E-05  1.0E-02 -3.1848165E+04     14          m
+     5     25  1.0E+00      8  2.8E-05 (1.5E-07)-3.7952061E+03     14         s
+     6      0  1.0E+00     10  5.8E-06 (2.2E-12)-3.7952061E+03     14 3.4E-08  m
+ 
+ SNOPTB EXIT   0 -- finished successfully
+ SNOPTB INFO   3 -- requested accuracy could not be achieved
+
+ Problem name                 at5861
+ No. of iterations                3030   Objective           -3.7952060678E+03
+ No. of major iterations             6   Linear    obj. term -3.7952060678E+03
+ Penalty parameter           3.383E-08   Nonlinear obj. term  0.0000000000E+00
+ No. of calls to funobj              0   No. of calls to funcon             39
+ No. of superbasics                 14   No. of basic nonlinears           468
+ No. of degenerate steps          1344   Percentage                      44.36
+ Max x       (scaled)     1694 1.4E+04   Max pi      (scaled)     1475 1.9E+03
+ Max x                    1694 1.4E+04   Max pi                   1475 1.9E+03
+ Max Prim inf(scaled)     1282 3.5E-09   Max Dual inf(scaled)      735 1.1E-10
+ Max Primal infeas        1282 2.1E-10   Max Dual infeas           735 1.1E-10
+ Nonlinear constraint violn    8.3E-02
+
+ Solution not printed
+ 
+ Time for MPS input                             0.00 seconds
+ Time for solving problem                       0.47 seconds
+ Time for solution output                       0.00 seconds
+ Time for constraint functions                  0.05 seconds
+ Time for objective function                    0.00 seconds
+SNOPT 7.7.0 : Requested accuracy could not be achieved.
+3030 iterations, objective -3795.206068
+Nonlin evals: constrs = 39, Jac = 38.
+0.54user 0.02system 0:00.60elapsed 95%CPU (0avgtext+0avgdata 40256maxresident)k
+1480inputs+1272outputs (1major+12655minor)pagefaults 0swaps

@@ -1,0 +1,203 @@
+The license for this AMPL processor will expire in 12.1 days.
+LOQO 7.03: verbose=2
+timing=1
+variables: non-neg      0,  free        0,  bdd      51198,  total    51198
+constraints: eq     25917,  ineq        0,  ranged       0,  total    25917
+nonzeros:    A     152958,  Q      101124
+-----------------------------------------------------------------------------
+     |         Primal          |           Dual          | Sig               
+Iter |  Obj Value     Infeas   |   Obj Value     Infeas  | Fig  Status  P   M
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  1    3.950156e+00   9.0e-04    -1.915922e+05   0.0e+00           DF      
+nonzeros:    L    2820717,  arith_ops          698880381
+  2    3.407898e+00   8.9e-04    -1.590587e+04   0.0e+00           DF      
+  3    3.381783e+00   8.7e-04    -2.484016e+03   0.0e+00           DF      
+  4    3.381405e+00   8.2e-04    -2.048471e+03   0.0e+00           DF       2
+  5    3.380168e+00   6.2e-04    -6.459123e+02   0.0e+00           DF      
+  6    3.380520e+00   3.0e-04    -3.726729e+02   0.0e+00           DF      
+  7    3.384197e+00   1.9e-04    -2.522062e+02   0.0e+00           DF      
+  8    3.398435e+00   6.4e-05    -1.664953e+02   0.0e+00           DF      
+  9    3.409548e+00   4.4e-05    -1.100545e+02   0.0e+00           DF  -15 
+ 10    3.488717e+00   5.0e-05    -1.434160e+02   0.0e+00           DF    4 
+ 11    3.556015e+00   1.6e-05    -4.671045e+01   0.0e+00           DF    4 
+ 12    3.610450e+00   1.0e-05    -2.903780e+01   0.0e+00           DF   -1 
+ 13    3.624584e+00   9.1e-06    -2.591806e+01   0.0e+00           DF   -1 
+ 14    3.627694e+00   8.9e-06    -2.619944e+01   0.0e+00           DF   -1 
+ 15    3.645375e+00   7.9e-06    -2.781754e+01   0.0e+00           DF   -1 
+ 16    3.669022e+00   6.5e-06    -3.058477e+01   0.0e+00           DF   -1 
+ 17    3.696406e+00   3.9e-06    -1.890566e+01   0.0e+00           DF    2 
+ 18    3.705418e+00   3.3e-06    -2.042581e+01   0.0e+00           DF   -2 
+ 19    3.716276e+00   2.7e-06    -2.280461e+01   0.0e+00           DF   -1 
+ 20    3.736880e+00   6.2e-07    -7.736363e+00   0.0e+00        PF DF   -1 
+ 21    3.737230e+00   5.9e-07    -8.092570e+00   0.0e+00        PF DF   -1 
+ 22    3.738130e+00   5.2e-07    -8.931352e+00   0.0e+00        PF DF   -1 
+ 23    3.740107e+00   4.5e-07    -1.027084e+01   0.0e+00        PF DF   -1 
+ 24    3.738252e+00   2.4e-07    -4.195081e-01   0.0e+00        PF DF   -1 
+ 25    3.729047e+00   5.0e-08     2.950205e+00   0.0e+00    1   PF DF   -3 
+ 26    3.716207e+00   3.4e-08     3.188782e+00   0.0e+00    1   PF DF   -3 
+ 27    3.712158e+00   3.1e-08     3.231862e+00   0.0e+00    1   PF DF   -1 
+     dep rows:    2, more info: verbose=3, loqo_auxfiles=rc
+ 28    3.712186e+00   2.1e-08     3.190978e+00   0.0e+00    1   PF DF   -1 
+ 29    3.712600e+00   1.6e-08     3.148407e+00   0.0e+00    1   PF DF   -1 
+ 30    3.707241e+00   5.4e-09     3.054153e+00   0.0e+00    1   PF DF   -1 
+ 31    3.698923e+00   6.0e-09     3.215014e+00   0.0e+00    1   PF DF   -1 
+     dep rows:    3, more info: verbose=3, loqo_auxfiles=rc
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 32    3.700307e+00   5.4e-09     3.182341e+00   0.0e+00    1   PF DF   -1 
+     dep rows:    5, more info: verbose=3, loqo_auxfiles=rc
+ 33    3.692136e+00   5.4e-09     3.280013e+00   0.0e+00    1   PF DF   -1 
+     dep rows:    2, more info: verbose=3, loqo_auxfiles=rc
+ 34    3.690707e+00   5.2e-09     3.299802e+00   0.0e+00    1   PF DF   -1 
+     dep rows:    2, more info: verbose=3, loqo_auxfiles=rc
+ 35    3.691104e+00   5.2e-09     3.292402e+00   0.0e+00    1   PF DF   -1 
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 36    3.691974e+00   5.0e-09     3.276522e+00   0.0e+00    1   PF DF   -1 
+     dep rows:    2, more info: verbose=3, loqo_auxfiles=rc
+ 37    3.693189e+00   4.9e-09     3.253990e+00   0.0e+00    1   PF DF   -1 
+     dep rows:    2, more info: verbose=3, loqo_auxfiles=rc
+ 38    3.690391e+00   4.6e-09     3.293794e+00   0.0e+00    1   PF DF   -1 
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 39    3.691139e+00   4.5e-09     3.280657e+00   0.0e+00    1   PF DF   -1 
+     dep rows:    2, more info: verbose=3, loqo_auxfiles=rc
+ 40    3.692197e+00   4.4e-09     3.261662e+00   0.0e+00    1   PF DF   -1 
+     dep rows:    2, more info: verbose=3, loqo_auxfiles=rc
+ 41    3.689476e+00   4.1e-09     3.299095e+00   0.0e+00    1   PF DF   -1 
+     dep rows:    2, more info: verbose=3, loqo_auxfiles=rc
+ 42    3.690309e+00   4.0e-09     3.284896e+00   0.0e+00    1   PF DF   -1 
+     dep rows:    2, more info: verbose=3, loqo_auxfiles=rc
+ 43    3.691390e+00   3.9e-09     3.266129e+00   0.0e+00    1   PF DF   -1 
+     dep rows:    2, more info: verbose=3, loqo_auxfiles=rc
+ 44    3.688343e+00   3.5e-09     3.307068e+00   0.0e+00    1   PF DF   -1 
+     dep rows:    2, more info: verbose=3, loqo_auxfiles=rc
+ 45    3.689438e+00   3.4e-09     3.289054e+00   0.0e+00    1   PF DF   -1 
+     dep rows:    3, more info: verbose=3, loqo_auxfiles=rc
+ 46    3.690655e+00   3.3e-09     3.268625e+00   0.0e+00    1   PF DF   -1 
+     dep rows:    3, more info: verbose=3, loqo_auxfiles=rc
+ 47    3.686326e+00   2.7e-09     3.324498e+00   0.0e+00    1   PF DF   -1 
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 48    3.683744e+00   6.0e-10     3.340246e+00   0.0e+00    1   PF DF   -1 
+ 49    3.677291e+00   2.7e-09     3.429781e+00   0.0e+00    1   PF DF   -1 
+     dep rows:    2, more info: verbose=3, loqo_auxfiles=rc
+ 50    3.671478e+00   4.1e-09     3.492436e+00   0.0e+00    1   PF DF   -1 
+     dep rows:    2, more info: verbose=3, loqo_auxfiles=rc
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 51    3.663957e+00   6.8e-09     3.557717e+00   0.0e+00    2   PF DF   -1 
+     dep rows:    2, more info: verbose=3, loqo_auxfiles=rc
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 52    3.657405e+00   7.2e-09     3.592122e+00   0.0e+00    2   PF DF   -1 
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 53    3.656983e+00   6.9e-09     3.594650e+00   0.0e+00    2   PF DF   -1 
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 54    3.657794e+00   5.8e-09     3.587732e+00   0.0e+00    2   PF DF   -1 
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 55    3.657384e+00   5.5e-09     3.590253e+00   0.0e+00    2   PF DF   -1 
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 56    3.658538e+00   4.9e-09     3.581505e+00   0.0e+00    2   PF DF   -1 
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 57    3.661061e+00   4.5e-09     3.562612e+00   0.0e+00    2   PF DF   -1  2
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 58    3.657183e+00   4.9e-09     3.591369e+00   0.0e+00    2   PF DF   -1 
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 59    3.656533e+00   4.6e-09     3.595520e+00   0.0e+00    2   PF DF   -1 
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 60    3.658125e+00   2.3e-09     3.581464e+00   0.0e+00    2   PF DF   -1 
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 61    3.657344e+00   2.1e-09     3.586930e+00   0.0e+00    2   PF DF   -1 
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 62    3.657586e+00   2.1e-09     3.585134e+00   0.0e+00    2   PF DF   -1 
+ 63    3.657972e+00   2.0e-09     3.582231e+00   0.0e+00    2   PF DF   -1 
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 64    3.658313e+00   1.9e-09     3.579566e+00   0.0e+00    2   PF DF   -1 
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 65    3.657656e+00   1.6e-09     3.584089e+00   0.0e+00    2   PF DF   -1 
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 66    3.657830e+00   1.6e-09     3.582781e+00   0.0e+00    2   PF DF   -1 
+ 67    3.658077e+00   1.6e-09     3.580927e+00   0.0e+00    2   PF DF   -1 
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 68    3.658393e+00   1.6e-09     3.578584e+00   0.0e+00    2   PF DF   -1 
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 69    3.659129e+00   1.5e-09     3.573196e+00   0.0e+00    2   PF DF   -1 
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 70    3.661335e+00   1.4e-09     3.556492e+00   0.0e+00    2   PF DF   -1  1
+     dep rows:    2, more info: verbose=3, loqo_auxfiles=rc
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 71    3.657534e+00   2.6e-09     3.586605e+00   0.0e+00    2   PF DF   -1 
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 72    3.656935e+00   2.5e-09     3.590678e+00   0.0e+00    2   PF DF   -1 
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 73    3.657084e+00   2.4e-09     3.589585e+00   0.0e+00    2   PF DF   -1 
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 74    3.657398e+00   2.4e-09     3.587267e+00   0.0e+00    2   PF DF   -1 
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 75    3.657874e+00   2.3e-09     3.583709e+00   0.0e+00    2   PF DF   -1 
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 76    3.657248e+00   1.4e-09     3.587042e+00   0.0e+00    2   PF DF   -1 
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 77    3.656442e+00   1.3e-09     3.592489e+00   0.0e+00    2   PF DF   -1 
+ 78    3.657312e+00   1.3e-09     3.586389e+00   0.0e+00    2   PF DF   -1  1
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 79    3.656507e+00   1.3e-09     3.591878e+00   0.0e+00    2   PF DF   -1 
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 80    3.656933e+00   1.3e-09     3.588887e+00   0.0e+00    2   PF DF   -1  2
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 81    3.655878e+00   1.3e-09     3.595980e+00   0.0e+00    2   PF DF   -1 
+ 82    3.656445e+00   1.3e-09     3.592068e+00   0.0e+00    2   PF DF   -1  2
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 83    3.655103e+00   1.4e-09     3.600943e+00   0.0e+00    2   PF DF   -1 
+ 84    3.655837e+00   1.4e-09     3.595989e+00   0.0e+00    2   PF DF   -1  2
+ 85    3.654196e+00   1.6e-09     3.606611e+00   0.0e+00    2   PF DF   -1 
+     dep rows:    1, more info: verbose=3, loqo_auxfiles=rc
+ 86    3.655115e+00   1.6e-09     3.600553e+00   0.0e+00    2   PF DF   -1  2
+ 87    3.653200e+00   1.9e-09     3.612639e+00   0.0e+00    2   PF DF   -1 
+ 88    3.653521e+00   9.9e-11     3.608079e+00   0.0e+00    2   PF DF   -1 
+ 89    3.651043e+00   1.5e-09     3.623795e+00   0.0e+00    2   PF DF   -1 
+ 90    3.648812e+00   2.7e-09     3.635742e+00   0.0e+00    3   PF DF   -1 
+ 91    3.647327e+00   1.9e-09     3.642039e+00   0.0e+00    3   PF DF    2 
+ 92    3.646635e+00   1.4e-09     3.644636e+00   0.0e+00    3   PF DF   -1 
+ 93    3.646329e+00   9.3e-10     3.645509e+00   0.0e+00    4   PF DF   -1 
+ 94    3.646195e+00   5.7e-10     3.645820e+00   0.0e+00    4   PF DF   -1 
+ 95    3.646132e+00   3.5e-10     3.645949e+00   0.0e+00    4   PF DF   -1 
+ 96    3.646098e+00   2.0e-10     3.646011e+00   0.0e+00    5   PF DF   -1 
+ 97    3.646084e+00   1.1e-10     3.646041e+00   0.0e+00    5   PF DF    2 
+ 98    3.646076e+00   5.7e-11     3.646055e+00   0.0e+00    5   PF DF   -1 
+ 99    3.646071e+00   3.2e-11     3.646061e+00   0.0e+00    6   PF DF   -1 
+100    3.646069e+00   1.9e-11     3.646064e+00   0.0e+00    6   PF DF   -1 
+101    3.646068e+00   1.3e-11     3.646065e+00   0.0e+00    6   PF DF   -1 
+102    3.646067e+00   8.9e-12     3.646065e+00   0.0e+00    6   PF DF   -1 
+103    3.646067e+00   6.5e-12     3.646065e+00   0.0e+00    6   PF DF   -1 
+104    3.646066e+00   5.0e-12     3.646065e+00   0.0e+00    7   PF DF   -1 
+----------------------
+OPTIMAL SOLUTION FOUND
+
+Times (seconds):
+Input =  0.24194
+Solve =  105.023
+Output = 0.00036
+
+nn nonlinear evaluations = t seconds:
+	 118   functions = 0.574203
+	 104   gradients = 0.664204
+	 118 constraints = 0.004385
+	 221   Jacobians = 0.415473
+	 104    Hessians = 0.996693
+Total nonlinear evaluation seconds = 2.65496
+LOQO 7.03: optimal solution (104 iterations, 118 evaluations)
+primal objective 3.646066409
+  dual objective 3.64606528
+
+"option abs_boundtol 2.6716406864579767e-12;"
+or "option rel_boundtol 3.7628742062788405e-13;"
+will change deduced dual values.
+
+105.37user 0.06system 1:45.43elapsed 100%CPU (0avgtext+0avgdata 138248maxresident)k
+8inputs+13952outputs (0major+50254minor)pagefaults 0swaps

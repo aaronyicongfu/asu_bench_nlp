@@ -1,0 +1,6 @@
+PENNON 0.9: outlev=2
+error running pennon:
+	termination code 9
+<BREAK>
+7174.26user 1.00system 2:00:00elapsed 99%CPU (0avgtext+0avgdata 8880624maxresident)k
+0inputs+63800outputs (0major+635393minor)pagefaults 0swaps

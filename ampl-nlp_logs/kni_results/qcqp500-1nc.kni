@@ -1,0 +1,68 @@
+
+=======================================
+          Commercial License
+         Artelys Knitro 13.0.0
+=======================================
+
+No start point provided -- Knitro computing one.
+
+Knitro presolve eliminated 0 variables and 0 constraints.
+
+concurrent_evals:        0
+datacheck:               0
+hessian_no_f:            1
+The problem is identified as a QCQP.
+
+Problem Characteristics                                 (   Presolved)
+-----------------------
+Objective goal:  Minimize
+Objective type:  quadratic
+Number of variables:                                500 (         500)
+    bounded below only:                               0 (           0)
+    bounded above only:                               0 (           0)
+    bounded below and above:                          0 (           0)
+    fixed:                                            0 (           0)
+    free:                                           500 (         500)
+Number of constraints:                              130 (         130)
+    linear equalities:                               20 (          20)
+    quadratic equalities:                             5 (           5)
+    gen. nonlinear equalities:                        0 (           0)
+    linear one-sided inequalities:                  100 (         100)
+    quadratic one-sided inequalities:                 5 (           5)
+    gen. nonlinear one-sided inequalities:            0 (           0)
+    linear two-sided inequalities:                    0 (           0)
+    quadratic two-sided inequalities:                 0 (           0)
+    gen. nonlinear two-sided inequalities:            0 (           0)
+Number of nonzeros in Jacobian:                    5738 (        5738)
+Number of nonzeros in Hessian:                   123625 (      123625)
+
+Knitro using the Interior-Point/Barrier Direct algorithm.
+
+  Iter      Objective      FeasError   OptError    ||Step||    CGits 
+--------  --------------  ----------  ----------  ----------  -------
+       0    6.406304e+02   1.703e+05
+      10   -2.661800e+06   2.800e+01   5.083e-02   2.108e+00        0
+      14   -2.661821e+06   1.385e-06   2.548e-09   5.078e-05        0
+
+EXIT: Locally optimal solution found.
+
+Final Statistics
+----------------
+Final objective value               =  -2.66182068976752e+06
+Final feasibility error (abs / rel) =   1.38e-06 / 8.13e-12
+Final optimality error  (abs / rel) =   2.55e-09 / 2.55e-11
+# of iterations                     =         14 
+# of CG iterations                  =          1 
+# of function evaluations           =          0
+# of gradient evaluations           =          0
+# of Hessian evaluations            =          0
+Total program time (secs)           =       0.34918 (     0.331 CPU time)
+Time spent in evaluations (secs)    =       0.00000
+
+===============================================================================
+
+Knitro 13.0.0: Locally optimal or satisfactory solution.
+objective -2661820.689767517; feasibility error 1.38e-06
+14 iterations; 0 function evaluations
+3.03user 0.31system 0:03.42elapsed 97%CPU (0avgtext+0avgdata 957856maxresident)k
+150512inputs+8outputs (0major+252670minor)pagefaults 0swaps

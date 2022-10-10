@@ -1,0 +1,81 @@
+outlev=2
+
+Number of Variables                       500
+   - bounded above                          0
+   - bounded below                          0
+   - free                                 500
+Number of Matrix variables                  0
+   - degrees of freedom                     0
+   - bounded below                          0
+   - bounded above                          0
+Number of Nonlinear Equalities              0
+Number of Nonlinear Inequalities           10
+Number of Linear Equalities                20
+Number of Linear Inequalities             100
+
+********************************************* 
+PENNON 0.9
+---------------------------------------------
+*********************************************
+
+Max./Min. Lin-Mult.: 1.000000 / 0.000000
+Max./Min. Nl -Mult.: 0.001000 / 0.001000
+
+*******************************************************************************
+* it |     obj      | (U,G(x)) |  ||dF||  |   feas   |   pmin   | Nwt  | Fact |
+*******************************************************************************
+|   0|  0.00000e+00 |  7.4e+02 |  4.0e+05 |  1.3e+01 |  1.0e+00 |    0 |    0 |
+|   1| -6.53278e+06 |  6.4e+04 |  7.6e-02 |  8.0e+03 |  1.0e+00 |   71 |   71 |
+|   2| -6.44000e+06 |  7.1e+03 |  5.2e-04 |  8.1e+02 |  2.0e-01 |   13 |   13 |
+|   3| -6.39546e+06 |  3.6e+04 |  3.7e-04 |  8.0e+01 |  4.0e-02 |   38 |   38 |
+|   4| -6.19297e+06 |  3.5e+04 |  3.0e+01 |  7.5e+00 |  8.0e-03 |   61 |   61 |
+|   5| -5.97204e+06 |  1.3e+04 |  1.7e+01 |  2.5e+00 |  1.6e-03 |   62 |   62 |
+|   6| -5.91367e+06 |  1.7e+03 |  2.0e-02 |  1.1e+00 |  3.2e-04 |   22 |   22 |
+|   7| -5.90535e+06 |  1.3e+03 |  3.6e-01 |  5.8e-01 |  6.4e-05 |   15 |   15 |
+|   8| -5.90305e+06 |  3.7e+02 |  1.3e+00 |  9.7e-02 |  1.3e-05 |   29 |   29 |
+|   9| -5.90262e+06 |  4.2e+01 |  9.4e+00 |  1.0e-02 |  2.6e-06 |   15 |   15 |
+|  10| -5.90257e+06 |  4.3e+00 |  1.2e+02 |  1.0e-03 |  5.1e-07 |   13 |   13 |
+|  11| -5.90257e+06 |  4.3e-01 |  6.5e+02 |  1.0e-04 |  1.0e-07 |    5 |    5 |
+|  12| -5.90257e+06 |  2.1e-01 |  9.9e+03 |  5.1e-05 |  1.0e-07 |    3 |    3 |
+|  13| -5.90257e+06 |  2.1e-02 |  2.6e+03 |  5.0e-06 |  1.0e-07 |    4 |    4 |
+|  14| -5.90257e+06 |  1.7e-03 |  5.5e+03 |  4.1e-07 |  1.0e-07 |    2 |    2 |
+|  15| -5.90257e+06 |  5.5e-09 |  3.5e+03 |  9.4e-09 |  1.0e-07 |    2 |    2 |
+|  16| -5.90257e+06 |  2.1e-08 |  3.8e+03 |  3.8e-09 |  1.0e-07 |    1 |    1 |
+|  17| -5.90257e+06 |  2.5e-08 |  5.0e+03 |  3.6e-09 |  1.0e-07 |    1 |    1 |
+|  18| -5.90257e+06 |  1.5e-08 |  1.2e+03 |  6.7e-10 |  1.0e-07 |    1 |    1 |
+*******************************************************************************
+Objective                        -5.9025685507272156e+06
+Relative Precision                2.1420419216156006E-08
+Gradient Augm. Lagrangian         1.1557984250823845E+03
+Complementary Slackness           1.4796189620267548E-08
+Feasibility                       6.6938810050487518E-10
+Outer Iterations                                      18
+Inner Iterations                                     358
+Linesearch steps                                     443
+Start time                      Tue Mar 12 07:21:41 2013
+End time                        Tue Mar 12 07:32:25 2013
+Process time                           0 h 10 min 44 sec
+Unconstrained minimization                   636.764 sec
+      - feval                                136.925 sec
+      - feval (sparse chol)                        0 sec
+      - geval                                55.5515 sec
+      - heval                                437.615 sec
+      - heval (sparse chol)                        0 sec
+      - dense chol                                 0 sec
+      - sparse chol                          8.39252 sec
+      - eigenvalue                                 0 sec
+Multiplier update                                  0 sec
+Penalty update                                     0 sec
+Feasibility check                                  0 sec
+      - dense chol                                 0 sec
+      - sparse chol                                0 sec
+CG                                                 0 sec
+CG (prec)                                          0 sec
+CG (H*v)                                           0 sec
+*******************************************************************************
+
+PENNON VERSION 0.9 (November, 2007), ASL(20090429):
+converged: suboptimal solution, 18/358 iterations.
+primal objective -5902568.550727216
+650.26user 0.34system 10:53.14elapsed 99%CPU (0avgtext+0avgdata 1204020maxresident)k
+0inputs+24outputs (0major+301825minor)pagefaults 0swaps

@@ -1,0 +1,79 @@
+PENNON 0.9: outlev=2
+
+Number of Variables                    204798
+   - bounded above                     204798
+   - bounded below                     204798
+   - free                                   0
+Number of Matrix variables                  0
+   - degrees of freedom                     0
+   - bounded below                          0
+   - bounded above                          0
+Number of Nonlinear Equalities         101761
+Number of Nonlinear Inequalities            0
+Number of Linear Equalities              1276
+Number of Linear Inequalities               0
+
+********************************************* 
+PENNON 0.9
+---------------------------------------------
+*********************************************
+
+Max./Min. Box-Mult.: 0.000100 / 0.000100
+Max./Min. Lin-Mult.: 0.000000 / 0.000000
+Max./Min. Nl -Mult.: 0.000000 / 0.000000
+
+*******************************************************************************
+* it |     obj      | (U,G(x)) |  ||dF||  |   feas   |   pmin   | Nwt  | Fact |
+*******************************************************************************
+|   0|  1.25000e-01 |  3.7e+01 |  2.0e-02 |  0.0e+00 |  1.0e+00 |    0 |    0 |
+|   1|  2.54860e-01 |  2.5e-05 |  5.0e-03 |  0.0e+00 |  1.0e+00 |    1 |    1 |
+|   2|  1.57451e-01 |  2.5e-06 |  2.1e-05 |  1.1e-16 |  2.0e-01 |    1 |    1 |
+|   3|  1.09320e-01 |  2.5e-07 |  5.0e-04 |  1.1e-16 |  4.0e-02 |    1 |    1 |
+|   4|  8.70928e-02 |  2.5e-08 |  3.2e-04 |  1.1e-16 |  8.0e-03 |    1 |    1 |
+|   5|  7.85799e-02 |  2.5e-09 |  2.4e-04 |  5.6e-17 |  1.6e-03 |    2 |    2 |
+|   6|  7.85689e-02 |  2.5e-10 |  5.3e-05 |  2.8e-12 |  3.2e-04 |    2 |    2 |
+|   7|  7.85658e-02 |  2.5e-11 |  4.9e-05 |  1.0e-12 |  6.4e-05 |    2 |    2 |
+|   8|  7.85656e-02 |  2.5e-12 |  1.9e-05 |  2.7e-12 |  1.3e-05 |    2 |    2 |
+|   9|  7.85656e-02 |  2.5e-13 |  1.1e-05 |  7.0e-13 |  2.6e-06 |    2 |    2 |
+|  10|  7.85656e-02 |  2.5e-14 |  5.1e-06 |  5.7e-14 |  5.1e-07 |    2 |    2 |
+*******************************************************************************
+Objective                         7.8565560213940927e-02
+Relative Precision                1.7097499098450708E-07
+Gradient Augm. Lagrangian         5.1367159255507005E-06
+Complementary Slackness           2.5000000000000020E-14
+Feasibility                       5.6616590213796891E-14
+Outer Iterations                                      10
+Inner Iterations                                      16
+Linesearch steps                                      19
+Start time                      Fri Nov 16 21:09:17 2012
+End time                        Fri Nov 16 21:10:21 2012
+Process time                           0 h  1 min  4 sec
+Unconstrained minimization                    63.584 sec
+      - feval                                1.54009 sec
+      - feval (sparse chol)                        0 sec
+      - geval                                0.82005 sec
+      - heval                               0.928059 sec
+      - heval (sparse chol)                        0 sec
+      - dense chol                                 0 sec
+      - sparse chol                          60.3598 sec
+      - eigenvalue                                 0 sec
+Multiplier update                              0.016 sec
+Penalty update                              0.024004 sec
+Feasibility check                                  0 sec
+      - dense chol                                 0 sec
+      - sparse chol                                0 sec
+CG                                                 0 sec
+CG (prec)                                          0 sec
+CG (H*v)                                           0 sec
+*******************************************************************************
+
+PENNON VERSION 0.9 (November, 2007), ASL(20090429):
+converged: optimal solution, 10/16 iterations.
+primal objective 0.07856556021
+
+"option abs_boundtol 3.7478326042617027e-07;"
+or "option rel_boundtol 4.6847907553271284e-08;"
+will change deduced dual values.
+
+67.45user 0.27system 1:07.95elapsed 99%CPU (0avgtext+0avgdata 2640976maxresident)k
+0inputs+55296outputs (0major+276088minor)pagefaults 0swaps

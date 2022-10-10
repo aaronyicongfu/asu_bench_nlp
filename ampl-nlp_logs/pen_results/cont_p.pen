@@ -1,0 +1,6 @@
+PENNON 0.9: outlev=2
+error running pennon:
+	termination code 139; core file written
+<BREAK>
+16.51user 1.18system 0:17.89elapsed 98%CPU (0avgtext+0avgdata 15462944maxresident)k
+0inputs+3864outputs (0major+1287209minor)pagefaults 0swaps

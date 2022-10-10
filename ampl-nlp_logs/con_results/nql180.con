@@ -1,0 +1,5 @@
+workfactor=8
+outlev=2
+Command terminated by signal 9
+7198.44user 0.09system 2:00:00elapsed 99%CPU (0avgtext+0avgdata 555812maxresident)k
+25576inputs+8outputs (0major+72541minor)pagefaults 0swaps

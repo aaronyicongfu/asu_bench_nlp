@@ -1,0 +1,80 @@
+Ipopt 3.13.0: max_cpu_time=7200
+linear_solver=ma57
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+This is Ipopt version 3.13.0, running with linear solver ma57.
+
+Number of nonzeros in equality constraint Jacobian...:   499992
+Number of nonzeros in inequality constraint Jacobian.:        0
+Number of nonzeros in Lagrangian Hessian.............:   333330
+
+Total number of variables............................:   249998
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:        0
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:   166664
+Total number of inequality constraints...............:        0
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:        0
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  4.4367623e+09 1.37e+02 1.00e+02  -1.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  1.0341200e+09 3.33e+01 3.28e+01  -1.0 6.17e+00    -  1.00e+00 1.00e+00f  1
+   2  2.6779786e+08 6.49e+00 1.08e+01  -1.0 3.56e+00    -  1.00e+00 1.00e+00f  1
+   3  7.1087967e+07 1.84e+00 3.56e+00  -1.0 1.41e+00    -  1.00e+00 1.00e+00f  1
+   4  2.0036835e+07 3.61e-02 1.15e+00  -1.0 6.16e-01    -  1.00e+00 1.00e+00f  1
+   5  6.6438351e+06 5.22e-02 3.78e-01  -1.0 4.93e-01    -  1.00e+00 1.00e+00f  1
+   6  3.1200895e+06 1.51e-02 1.24e-01  -1.7 3.96e-01    -  1.00e+00 1.00e+00f  1
+   7  2.1972055e+06 2.25e-02 4.06e-02  -2.5 3.21e-01    -  1.00e+00 1.00e+00f  1
+   8  1.9627131e+06 4.37e-03 1.34e-02  -2.5 2.61e-01    -  1.00e+00 1.00e+00f  1
+   9  1.9103049e+06 6.59e-03 4.36e-03  -3.8 2.11e-01    -  1.00e+00 1.00e+00f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10  1.9026639e+06 4.97e-03 1.43e-03  -3.8 1.61e-01    -  1.00e+00 1.00e+00f  1
+  11  1.9022908e+06 1.08e-03 4.68e-04  -3.8 1.29e-01    -  1.00e+00 1.00e+00h  1
+  12  1.9022872e+06 2.69e-05 1.53e-04  -5.7 1.03e-01    -  1.00e+00 1.00e+00h  1
+  13  1.9022872e+06 1.24e-08 5.02e-05  -5.7 8.25e-02    -  1.00e+00 1.00e+00h  1
+  14  1.9022872e+06 3.55e-15 1.65e-05  -5.7 6.60e-02    -  1.00e+00 1.00e+00h  1
+  15  1.9022872e+06 3.55e-15 5.39e-06  -8.6 5.28e-02    -  1.00e+00 1.00e+00h  1
+  16  1.9022872e+06 3.55e-15 1.77e-06  -8.6 4.22e-02    -  1.00e+00 1.00e+00h  1
+  17  1.9022872e+06 1.78e-15 5.79e-07  -8.6 3.38e-02    -  1.00e+00 1.00e+00h  1
+  18  1.9022872e+06 1.78e-15 1.90e-07  -8.6 2.70e-02    -  1.00e+00 1.00e+00h  1
+  19  1.9022872e+06 2.66e-15 6.22e-08  -8.6 2.16e-02    -  1.00e+00 1.00e+00h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  20  1.9022872e+06 1.78e-15 2.04e-08  -8.6 1.73e-02    -  1.00e+00 1.00e+00h  1
+  21  1.9022872e+06 3.55e-15 6.67e-09  -9.0 1.38e-02    -  1.00e+00 1.00e+00h  1
+
+Number of Iterations....: 21
+
+                                   (scaled)                 (unscaled)
+Objective...............:   4.0772616786488547e+03    1.9022872087904096e+06
+Dual infeasibility......:   6.6749594872528801e-09    3.1142690983727037e-06
+Constraint violation....:   3.5527136788005009e-15    3.5527136788005009e-15
+Complementarity.........:   0.0000000000000000e+00    0.0000000000000000e+00
+Overall NLP error.......:   6.6749594872528801e-09    3.1142690983727037e-06
+
+
+Number of objective function evaluations             = 22
+Number of objective gradient evaluations             = 22
+Number of equality constraint evaluations            = 22
+Number of inequality constraint evaluations          = 0
+Number of equality constraint Jacobian evaluations   = 22
+Number of inequality constraint Jacobian evaluations = 0
+Number of Lagrangian Hessian evaluations             = 21
+Total CPU secs in IPOPT (w/o function evaluations)   =      7.363
+Total CPU secs in NLP function evaluations           =      7.695
+
+EXIT: Optimal Solution Found.
+ 
+Ipopt 3.13.0: Optimal Solution Found
+
+suffix ipopt_zU_out OUT;
+suffix ipopt_zL_out OUT;
+16.41user 11.96system 0:08.42elapsed 336%CPU (0avgtext+0avgdata 549784maxresident)k
+8inputs+58128outputs (0major+250278minor)pagefaults 0swaps

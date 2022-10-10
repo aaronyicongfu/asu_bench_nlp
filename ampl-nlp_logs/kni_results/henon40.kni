@@ -1,0 +1,84 @@
+Artelys Knitro 13.0.0: 
+=======================================
+          Commercial License
+         Artelys Knitro 13.0.0
+=======================================
+
+Knitro presolve eliminated 0 variables and 0 constraints.
+
+concurrent_evals:        0
+datacheck:               0
+hessian_no_f:            1
+
+Problem Characteristics                                 (   Presolved)
+-----------------------
+Objective goal:  Minimize
+Objective type:  linear
+Number of variables:                              10801 (       10801)
+    bounded below only:                               0 (           0)
+    bounded above only:                               0 (           0)
+    bounded below and above:                          0 (           0)
+    fixed:                                            0 (           0)
+    free:                                         10801 (       10801)
+Number of constraints:                               81 (          81)
+    linear equalities:                                0 (           0)
+    quadratic equalities:                             0 (           0)
+    gen. nonlinear equalities:                        0 (           0)
+    linear one-sided inequalities:                    0 (           0)
+    quadratic one-sided inequalities:                41 (          41)
+    gen. nonlinear one-sided inequalities:           40 (          40)
+    linear two-sided inequalities:                    0 (           0)
+    quadratic two-sided inequalities:                 0 (           0)
+    gen. nonlinear two-sided inequalities:            0 (           0)
+Number of nonzeros in Jacobian:                   32440 (       32440)
+Number of nonzeros in Hessian:                    48930 (       48930)
+
+Knitro using the Interior-Point/Barrier Direct algorithm.
+
+  Iter      Objective      FeasError   OptError    ||Step||    CGits 
+--------  --------------  ----------  ----------  ----------  -------
+       0    1.458128e+03   0.000e+00
+      10    1.334895e+03   8.776e-01   9.757e-01   2.376e+01        0
+      20    1.143235e+03   5.388e-01   9.757e-01   1.421e+01        0
+      30    9.754358e+02   3.270e-01   9.757e-01   1.065e+01        0
+      40    8.661514e+02   9.383e-01   9.757e-01   1.144e+01        0
+      50    7.666864e+02   1.064e-01   9.670e-01   8.254e+00        1
+      60    6.882450e+02   2.461e-01   9.457e-01   8.777e+00        0
+      70    5.995329e+02   6.103e-01   9.112e-01   2.636e+00        0
+      80    4.800792e+02   7.437e-01   8.666e-01   3.382e+01        1
+      90    3.969981e+02   0.000e+00   9.180e-01   1.456e+01        1
+     100    3.155684e+02   7.517e-02   9.053e-01   3.334e+00        0
+     110    2.452078e+02   3.142e-03   8.573e-01   9.195e-01        0
+     120    2.064381e+02   4.920e-01   7.862e-01   3.080e+00        0
+     130    1.779254e+02   5.219e-01   7.849e-01   2.272e+00        1
+     140    1.466068e+02   6.212e-01   5.998e-01   3.172e+00        0
+     150    1.299966e+02   2.791e-01   3.474e-01   7.338e-01        1
+     160    1.255258e+02   1.106e-10   7.767e-11   7.281e-05        0
+
+EXIT: Locally optimal solution found.
+
+Final Statistics
+----------------
+Final objective value               =   1.25525764705912e+02
+Final feasibility error (abs / rel) =   1.11e-10 / 1.11e-10
+Final optimality error  (abs / rel) =   7.77e-11 / 7.77e-11
+# of iterations                     =        160 
+# of CG iterations                  =         46 
+# of function evaluations           =        604
+# of gradient evaluations           =        161
+# of Hessian evaluations            =        160
+Total program time (secs)           =      24.10975 (    24.091 CPU time)
+Time spent in evaluations (secs)    =      10.53434
+
+===============================================================================
+
+Knitro 13.0.0: Locally optimal or satisfactory solution.
+objective 125.5257647; feasibility error 1.11e-10
+160 iterations; 604 function evaluations
+
+suffix feaserror OUT;
+suffix opterror OUT;
+suffix numfcevals OUT;
+suffix numiters OUT;
+30.73user 0.15system 0:30.94elapsed 99%CPU (0avgtext+0avgdata 248472maxresident)k
+112inputs+14032outputs (0major+104909minor)pagefaults 0swaps

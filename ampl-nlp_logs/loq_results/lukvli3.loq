@@ -1,0 +1,44 @@
+The license for this AMPL processor will expire in 12.0 days.
+LOQO 7.03: verbose=2
+timing=1
+variables: non-neg      0,  free   250000,  bdd          0,  total   250000
+constraints: eq         0,  ineq        2,  ranged       0,  total        2
+nonzeros:    A          4,  Q      999996
+-----------------------------------------------------------------------------
+     |         Primal          |           Dual          | Sig               
+Iter |  Obj Value     Infeas   |   Obj Value     Infeas  | Fig  Status  P   M
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  1    6.437429e+07   6.0e-03     6.437421e+07   3.6e-03    6              
+nonzeros:    L     500001,  arith_ops            2750006
+  2    3.027137e+07   0.0e+00     3.027133e+07   3.6e-03    6   PF         
+  3    1.192951e+07   0.0e+00     1.192949e+07   3.6e-03    6   PF         
+  4    4.689261e+06   0.0e+00     4.689249e+06   3.5e-03    6   PF         
+  5    1.526139e+06   0.0e+00     1.526134e+06   3.5e-03    5   PF         
+  6    3.877469e+05   0.0e+00     3.877459e+05   3.4e-03    6   PF         
+  7    9.673629e+04   0.0e+00     9.673620e+04   3.4e-03    6   PF         
+  8    2.363141e+04   0.0e+00     2.363140e+04   3.5e-03    6   PF         
+  9    3.910725e+03   0.0e+00     3.910725e+03   3.6e-03    7   PF         
+ 10    1.620514e+02   0.0e+00     1.620514e+02   2.9e-03    7   PF         
+ 11    1.209892e+01   0.0e+00     1.209892e+01   3.6e-04    7   PF         
+ 12    1.157887e+01   0.0e+00     1.157887e+01   1.9e-05    8   PF         
+ 13    1.157755e+01   0.0e+00     1.157755e+01   9.3e-07    9   PF DF      
+----------------------
+OPTIMAL SOLUTION FOUND
+
+Times (seconds):
+Input =  0.392107
+Solve =  2.7929
+Output = 0.000885
+
+nn nonlinear evaluations = t seconds:
+	  13   functions = 0.387641
+	  13   gradients = 0.63762
+	  13 constraints = 0.002452
+	  25   Jacobians = 0.015416
+	  13    Hessians = 0.272362
+Total nonlinear evaluation seconds = 1.31549
+LOQO 7.03: optimal solution (13 iterations, 13 evaluations)
+primal objective 11.57754503
+  dual objective 11.57754502
+3.92user 0.17system 0:04.09elapsed 100%CPU (0avgtext+0avgdata 534800maxresident)k
+8inputs+48360outputs (0major+200007minor)pagefaults 0swaps

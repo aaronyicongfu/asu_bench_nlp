@@ -1,0 +1,78 @@
+PENNON 0.9: outlev=2
+
+Number of Variables                     40400
+   - bounded above                      40400
+   - bounded below                      40400
+   - free                                   0
+Number of Matrix variables                  0
+   - degrees of freedom                     0
+   - bounded below                          0
+   - bounded above                          0
+Number of Nonlinear Equalities              0
+Number of Nonlinear Inequalities            0
+Number of Linear Equalities             40200
+Number of Linear Inequalities               0
+
+********************************************* 
+PENNON 0.9
+---------------------------------------------
+*********************************************
+
+Max./Min. Box-Mult.: 0.000100 / 0.000100
+Max./Min. Lin-Mult.: 0.000000 / 0.000000
+*******************************************************************************
+* it |     obj      | (U,G(x)) |  ||dF||  |   feas   |   pmin   | Nwt  | Fact |
+*******************************************************************************
+|   0|  6.33834e-02 |  1.6e+02 |  3.0e-02 |  1.3e+00 |  1.0e+00 |    0 |    0 |
+Warning: precision of KKT-system:       1.853258486541E+03
+Warning: precision of KKT-system:       1.993041640922E-01
+|   1|  3.21112e-03 |  5.7e-03 |  1.7e-03 |  7.0e+00 |  1.0e+00 |    9 |   25 |
+|   2|  1.06889e-03 |  1.2e-03 |  2.1e-03 |  9.8e-01 |  2.0e-01 |    1 |    1 |
+Warning: precision of KKT-system:       9.769975528288E+02
+|   3|  6.81779e-04 |  2.6e-04 |  2.3e-03 |  6.2e-01 |  4.0e-02 |    1 |    1 |
+|   4|  6.79358e-04 |  6.6e-05 |  3.3e-04 |  2.0e-01 |  8.0e-03 |    2 |    2 |
+|   5|  6.58806e-04 |  6.8e-08 |  1.1e-05 |  2.1e-04 |  1.6e-03 |    2 |    2 |
+|   6|  6.54597e-04 |  3.7e-07 |  1.0e-04 |  6.0e-03 |  3.2e-04 |    3 |    3 |
+|   7|  6.53768e-04 |  1.3e-09 |  2.2e-06 |  4.9e-07 |  6.4e-05 |    2 |    2 |
+|   8|  6.53740e-04 |  2.7e-10 |  5.9e-07 |  1.6e-07 |  1.3e-05 |    2 |    2 |
+*******************************************************************************
+Objective                         6.5374009218501742e-04
+Relative Precision                2.9706426299418078E-06
+Gradient Augm. Lagrangian         5.9123047614046619E-07
+Complementary Slackness           2.7478360031945169E-10
+Feasibility                       1.5535008879297152E-07
+Outer Iterations                                       8
+Inner Iterations                                      22
+Linesearch steps                                      27
+Start time                      Fri Nov 16 17:13:26 2012
+End time                        Fri Nov 16 17:14:45 2012
+Process time                           0 h  1 min 19 sec
+Unconstrained minimization                    79.245 sec
+      - feval                               0.236023 sec
+      - feval (sparse chol)                        0 sec
+      - geval                               0.136005 sec
+      - heval                               0.168011 sec
+      - heval (sparse chol)                        0 sec
+      - dense chol                                 0 sec
+      - sparse chol                          78.6849 sec
+      - eigenvalue                                 0 sec
+Multiplier update                              0.008 sec
+Penalty update                                 0.008 sec
+Feasibility check                                  0 sec
+      - dense chol                                 0 sec
+      - sparse chol                                0 sec
+CG                                                 0 sec
+CG (prec)                                          0 sec
+CG (H*v)                                           0 sec
+*******************************************************************************
+
+PENNON VERSION 0.9 (November, 2007), ASL(20090429):
+converged: optimal solution, 8/22 iterations.
+primal objective 0.0006537400922
+
+"option abs_boundtol 8.341620283329332e-09;"
+or "option rel_boundtol 4.8301978083920005e-08;"
+will change deduced dual values.
+
+79.55user 0.06system 1:19.87elapsed 99%CPU (0avgtext+0avgdata 1125408maxresident)k
+0inputs+10632outputs (0major+88089minor)pagefaults 0swaps

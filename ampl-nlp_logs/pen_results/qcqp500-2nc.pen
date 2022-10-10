@@ -1,0 +1,5 @@
+PENNON VERSION 0.9 (November, 2007), ASL(20090429):
+converged: suboptimal solution, 19/157 iterations.
+primal objective -729442.8302513629
+369.03user 0.27system 6:10.65elapsed 99%CPU (0avgtext+0avgdata 4133520maxresident)k
+0inputs+8outputs (0major+259233minor)pagefaults 0swaps
